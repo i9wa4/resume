@@ -19,8 +19,8 @@ format:
     theme: cosmo
     toc: true
     toc-depth: 2
-    toc-title: 目次
-    toc-location: body
+    toc-title: TOC
+    toc-location: right
 
 date: last-modified
 date-format: iso
