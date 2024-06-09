@@ -22,4 +22,5 @@ format:
     toc-title: 目次
     toc-location: body
 
+date: last-modified
 date-format: iso
