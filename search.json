@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "職務経歴書",
+    "section": "",
+    "text": "北海道大学卒業後、オークマ株式会社で約2年Windowsアプリエンジニアを経験し、新光商事LSIデザインセンター株式会社で組込エンジニアとして約3年勤務しました。その後株式会社シイエヌエス北海道にデータエンジニアとして転職しデータマート整備・機械学習ワークフロー構築・機械学習モデル運用業務に従事し、サブリーダーやリーダーを任されました。2024年4月にデータエンジニアとして株式会社hacomonoへ転職し一人データエンジニアとして従事し現在に至ります。\n\n\n\n職歴を通して要件定義・開発・テスト・運用・保守のいずれの工程も経験を積んでおります。データエンジニアとしては Snowflake でのデータマート整備、Airflow や dbt を用いたデータパイプライン構築業務を行ったのち、自身で運用・保守まで行っております。機械学習ワークフロー構築・運用も経験済みです。また、前職シイエヌエス北海道ではプロジェクトのリーダーやサブリーダーを任されており、現職hacomonoでは一人データエンジニアとしてデータ基盤に対する責任を負っています。\n\n\n\n新しい順に記載しております。\n\n\n\n在籍期間\n所属\n業務概要\n業務詳細\n\n\n\n\n2024年4月 - 現在\n株式会社hacomono\nデータエンジニアのメンバーとして以下に従事- 自社環境・顧客環境のDWH構築・運用- 自社データ基盤の運用改善・機能追加 (データパイプライン構築)\nGist\n\n\n2022年4月 - 2024年3月\n株式会社シイエヌエス北海道\nデータエンジニアのサブリーダーやリーダーとして以下に従事- データマート整備- 機械学習基盤上でのワークフロー構築\nGist\n\n\n2018年8月 - 2022年3月\n新光商事LSIデザインセンター株式会社\n組込エンジニアのメンバーとして以下に従事- 車載マイコンの機能開発業務- インバータやモータの制御開発業務\nGist\n\n\n2016年4月 - 2018年7月\nオークマ株式会社\nアプリエンジニアのメンバーとして以下に従事- Windows7向け対話形式3D-CAD/CAM・2D-CAD/CAMアプリケーション開発の要件定義・テスト業務\nGist\n\n\n\n\n\n\n★：業務経験あり\n\n\n\n\n\n\n\n\n\n項目\n種類\n使用期間\nレベル\n\n\n\n\nOS\nLinux (Ubuntu, WSL2 Ubuntu, Amazon Linux)\n3年★\n要件に応じた環境構築、開発環境利用が可能\n\n\n\nWindows\n9年★\n要件に応じた環境構築、開発環境利用が可能\n\n\n\nMac\n0.25年★\n要件に応じた環境構築、開発環境利用が可能\n\n\n言語\nPython\n3年★\n一人称で作業可能\n\n\n\nSQL\n2年★\n一人称で作業可能\n\n\n\nShell Script (Bash)\n3年★\n一人称で作業可能\n\n\n\nC\n3.5年★\n一人称で作業可能\n\n\nDB\nMySQL\n1年★\n調べながらであれば作業可能\n\n\n\nPostgreSQL\n1年★\n調べながらであれば作業可能\n\n\nModern Data Stack\nSnowflake\n2年★\nデータマート作成・SQLパフォーマンス改善・Snowpark ML 利用ができる\n\n\n\nBigQuery\n0.25年★\n調べながらであれば作業可能\n\n\n\ndbt\n0.5年★\n調べながらであれば作業可能\n\n\nその他\nAirflow (AWS)\n1.5年★\n要件に応じたジョブの記述ができる\n\n\n\nTerraform\n0.25年★\n調べながらであれば作業可能\n\n\n\nDocker\n2年★\nDockerfileやDocker Composeの記述・実行ができる\n\n\n\nGit / GitHub / CodeCommit\n3年★\nGit flow や GitHub flow に則った開発利用やレビューが可能\n\n\n\nGitHub Actions\n0.25年★\nTerraform 向けに fmt, validate, plan, apply 処理を記述・実行可能\n\n\n\n\n\n\n\nTOEIC スコア 805 (2015年3月)\n統計検定2級 (2023年4月)\n\n\n\n\n\n\n\nGoogle Compute Engine (Ubuntu) にてゲームサーバーを構築しました。Cloud Functions と GAS により Slack 経由でサーバーを起動・停止できる仕組みを導入しました。\n上記サーバーを構築後、コスト節約のために自宅マシンに Ubuntu をインストールし、Docker コンテナでゲームサーバーを構築しました。systemd により S3 を用いた自動バックアップ機能や、サーバーの自動アップデート機能を実装しました。\n\nRepository: https://github.com/i9wa4/minecraft-bedrock-server-setup\n\n\n\n\n\n\nVim の環境構築を通して各言語の環境構築の知見を得ることができ、社内へ還元した経験があります。\nVim コミュニティのオンライン・オフラインのイベントに複数参加し Vim に関する技術情報収集や交流を行っています。\n\n参加イベント: https://connpass.com/user/19wa4/\n\nMarkdown 向けの簡易的な Formatter を Vim プラグインとして作成しました。TypeScript で作成しており Deno 環境にて動作します。\n\nRepository: https://github.com/i9wa4/markdown-number-header.vim"
+  },
+  {
+    "objectID": "index.html#職務要約",
+    "href": "index.html#職務要約",
+    "title": "職務経歴書",
+    "section": "",
+    "text": "北海道大学卒業後、オークマ株式会社で約2年Windowsアプリエンジニアを経験し、新光商事LSIデザインセンター株式会社で組込エンジニアとして約3年勤務しました。その後株式会社シイエヌエス北海道にデータエンジニアとして転職しデータマート整備・機械学習ワークフロー構築・機械学習モデル運用業務に従事し、サブリーダーやリーダーを任されました。2024年4月にデータエンジニアとして株式会社hacomonoへ転職し一人データエンジニアとして従事し現在に至ります。"
+  },
+  {
+    "objectID": "index.html#活かせる経験スキル",
+    "href": "index.html#活かせる経験スキル",
+    "title": "職務経歴書",
+    "section": "",
+    "text": "職歴を通して要件定義・開発・テスト・運用・保守のいずれの工程も経験を積んでおります。データエンジニアとしては Snowflake でのデータマート整備、Airflow や dbt を用いたデータパイプライン構築業務を行ったのち、自身で運用・保守まで行っております。機械学習ワークフロー構築・運用も経験済みです。また、前職シイエヌエス北海道ではプロジェクトのリーダーやサブリーダーを任されており、現職hacomonoでは一人データエンジニアとしてデータ基盤に対する責任を負っています。"
+  },
+  {
+    "objectID": "index.html#職務経歴",
+    "href": "index.html#職務経歴",
+    "title": "職務経歴書",
+    "section": "",
+    "text": "新しい順に記載しております。\n\n\n\n在籍期間\n所属\n業務概要\n業務詳細\n\n\n\n\n2024年4月 - 現在\n株式会社hacomono\nデータエンジニアのメンバーとして以下に従事- 自社環境・顧客環境のDWH構築・運用- 自社データ基盤の運用改善・機能追加 (データパイプライン構築)\nGist\n\n\n2022年4月 - 2024年3月\n株式会社シイエヌエス北海道\nデータエンジニアのサブリーダーやリーダーとして以下に従事- データマート整備- 機械学習基盤上でのワークフロー構築\nGist\n\n\n2018年8月 - 2022年3月\n新光商事LSIデザインセンター株式会社\n組込エンジニアのメンバーとして以下に従事- 車載マイコンの機能開発業務- インバータやモータの制御開発業務\nGist\n\n\n2016年4月 - 2018年7月\nオークマ株式会社\nアプリエンジニアのメンバーとして以下に従事- Windows7向け対話形式3D-CAD/CAM・2D-CAD/CAMアプリケーション開発の要件定義・テスト業務\nGist"
+  },
+  {
+    "objectID": "index.html#スキルレベル",
+    "href": "index.html#スキルレベル",
+    "title": "職務経歴書",
+    "section": "",
+    "text": "★：業務経験あり\n\n\n\n\n\n\n\n\n\n項目\n種類\n使用期間\nレベル\n\n\n\n\nOS\nLinux (Ubuntu, WSL2 Ubuntu, Amazon Linux)\n3年★\n要件に応じた環境構築、開発環境利用が可能\n\n\n\nWindows\n9年★\n要件に応じた環境構築、開発環境利用が可能\n\n\n\nMac\n0.25年★\n要件に応じた環境構築、開発環境利用が可能\n\n\n言語\nPython\n3年★\n一人称で作業可能\n\n\n\nSQL\n2年★\n一人称で作業可能\n\n\n\nShell Script (Bash)\n3年★\n一人称で作業可能\n\n\n\nC\n3.5年★\n一人称で作業可能\n\n\nDB\nMySQL\n1年★\n調べながらであれば作業可能\n\n\n\nPostgreSQL\n1年★\n調べながらであれば作業可能\n\n\nModern Data Stack\nSnowflake\n2年★\nデータマート作成・SQLパフォーマンス改善・Snowpark ML 利用ができる\n\n\n\nBigQuery\n0.25年★\n調べながらであれば作業可能\n\n\n\ndbt\n0.5年★\n調べながらであれば作業可能\n\n\nその他\nAirflow (AWS)\n1.5年★\n要件に応じたジョブの記述ができる\n\n\n\nTerraform\n0.25年★\n調べながらであれば作業可能\n\n\n\nDocker\n2年★\nDockerfileやDocker Composeの記述・実行ができる\n\n\n\nGit / GitHub / CodeCommit\n3年★\nGit flow や GitHub flow に則った開発利用やレビューが可能\n\n\n\nGitHub Actions\n0.25年★\nTerraform 向けに fmt, validate, plan, apply 処理を記述・実行可能"
+  },
+  {
+    "objectID": "index.html#資格",
+    "href": "index.html#資格",
+    "title": "職務経歴書",
+    "section": "",
+    "text": "TOEIC スコア 805 (2015年3月)\n統計検定2級 (2023年4月)"
+  },
+  {
+    "objectID": "index.html#通常業務以外の活動",
+    "href": "index.html#通常業務以外の活動",
+    "title": "職務経歴書",
+    "section": "",
+    "text": "Google Compute Engine (Ubuntu) にてゲームサーバーを構築しました。Cloud Functions と GAS により Slack 経由でサーバーを起動・停止できる仕組みを導入しました。\n上記サーバーを構築後、コスト節約のために自宅マシンに Ubuntu をインストールし、Docker コンテナでゲームサーバーを構築しました。systemd により S3 を用いた自動バックアップ機能や、サーバーの自動アップデート機能を実装しました。\n\nRepository: https://github.com/i9wa4/minecraft-bedrock-server-setup\n\n\n\n\n\n\nVim の環境構築を通して各言語の環境構築の知見を得ることができ、社内へ還元した経験があります。\nVim コミュニティのオンライン・オフラインのイベントに複数参加し Vim に関する技術情報収集や交流を行っています。\n\n参加イベント: https://connpass.com/user/19wa4/\n\nMarkdown 向けの簡易的な Formatter を Vim プラグインとして作成しました。TypeScript で作成しており Deno 環境にて動作します。\n\nRepository: https://github.com/i9wa4/markdown-number-header.vim"
+  }
+]
