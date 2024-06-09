@@ -19,9 +19,9 @@ format:
     theme: cosmo
     toc: true
     toc-depth: 2
-    toc-title: TOC
+    toc-title: 目次
     toc-location: right
 
 lang: ja
 date: last-modified
-date-format: "YYYY-MM-DD"
+date-format: iso
