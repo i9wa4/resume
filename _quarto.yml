@@ -23,4 +23,4 @@ format:
     toc-location: right
 
 date: 2024-06-10 05:12:54 +0900
-date-format: "YYYY-MM-DD z"
+date-format: "YYYY-MM-DD HH:mm:ss ZZ"
