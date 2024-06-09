@@ -22,5 +22,5 @@ format:
     toc-title: TOC
     toc-location: right
 
-date: last-modified
-date-format: "YYYY-MM-DD zzz"
+date: 2024-06-10 05:12:54 +0900
+date-format: iso
