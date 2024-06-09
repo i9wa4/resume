@@ -22,5 +22,6 @@ format:
     toc-title: TOC
     toc-location: right
 
+lang: ja
 date: last-modified
 date-format: "YYYY-MM-DD"
