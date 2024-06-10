@@ -16,7 +16,6 @@ website:
 
 format:
   html:
-    theme: cosmo
     toc: true
     toc-depth: 3
     toc-expand: 3
@@ -26,3 +25,4 @@ format:
 lang: ja
 date: last-modified
 date-format: iso
+theme: flatly
