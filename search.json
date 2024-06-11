@@ -88,21 +88,21 @@
     "href": "index.html#今後やりたいこと",
     "title": "職務経歴書",
     "section": "3. 今後やりたいこと",
-    "text": "3. 今後やりたいこと\n\n\n\nTable 1: 今後やりたいこと\n\n\n\n\n\n\n\n\n\n技術\n- Snowflake / BigQuery / dbt の知見を深める- データガバナンスに関する経験を積む- データ基盤のパフォーマンス改善を行う\n\n\n役割\n- データエンジニアとしてリーダー経験・マネジメント経験を積む\n\n\n役割 (3-5年後)\n- データ関連業務で PM や PdM になる- データ関連業務で直接的に会社の売上に貢献する"
+    "text": "3. 今後やりたいこと\n\n\n\n\n\n\n\n技術\n- Snowflake / BigQuery / dbt の知見を深める- データガバナンスに関する経験を積む- データ基盤のパフォーマンス改善を行う\n\n\n役割\n- データエンジニアとしてリーダー経験・マネジメント経験を積む\n\n\n役割 (3-5年後)\n- データ関連業務で PM や PdM になる- データ関連業務で直接的に会社の売上に貢献する"
   },
   {
     "objectID": "index.html#職務経歴",
     "href": "index.html#職務経歴",
     "title": "職務経歴書",
     "section": "4. 職務経歴",
-    "text": "4. 職務経歴\n新しい順に記載しております。\n\n\n\nTable 2: 職務経歴一覧\n\n\n\n\n\n\n\n\n\n\n\n在籍期間\n所属\n概要\n詳細\n\n\n\n\n2024/04 - 現在\n株式会社hacomonoプロダクト 基盤本部 データ基盤部\nデータエンジニアのメンバーとして以下に従事- 自社環境・顧客環境の DWH 構築・運用- 自社データ基盤の運用改善・機能追加 (データパイプライン構築)\nLink\n\n\n2022/04 - 2024/03\n株式会社シイエヌエス北海道デジタルビジネス推進部\nデータエンジニアのサブリーダーやリーダーとして以下に従事- データマート整備- 機械学習ワークフロー構築\nLink\n\n\n2018/08 - 2022/03\n新光商事LSIデザインセンター株式会社ソフト開発一部 開発二課\n組込エンジニアのメンバーとして以下に従事- 車載マイコンの機能開発- インバータやモータの制御開発\nLink\n\n\n2016/04 - 2018/07\nオークマ株式会社FAシステム本部 FA開発部 ITプラザ開発課\nアプリエンジニアのメンバーとして以下に従事- Windows 用 CAD/CAM アプリ開発の要件定義・テスト\nLink\n\n\n\n\n\n\nこれまで最も苦労したプロジェクトは前職シイエヌエス北海道における下記です。課題や成果の詳細は下記リンク先をご参照ください。\n情報通信企業向け 機械学習ワークフローと AI プラットフォーム移管"
+    "text": "4. 職務経歴\n新しい順に記載しております。\n\n\n\n\n\n\n\n\n\n在籍期間\n所属\n概要\n詳細\n\n\n\n\n2024/04 - 現在\n株式会社hacomonoプロダクト 基盤本部 データ基盤部\nデータエンジニアのメンバーとして以下に従事- 自社環境・顧客環境の DWH 構築・運用- 自社データ基盤の運用改善・機能追加 (データパイプライン構築)\nLink\n\n\n2022/04 - 2024/03\n株式会社シイエヌエス北海道デジタルビジネス推進部\nデータエンジニアのサブリーダーやリーダーとして以下に従事- データマート整備- 機械学習ワークフロー構築\nLink\n\n\n2018/08 - 2022/03\n新光商事LSIデザインセンター株式会社ソフト開発一部 開発二課\n組込エンジニアのメンバーとして以下に従事- 車載マイコンの機能開発- インバータやモータの制御開発\nLink\n\n\n2016/04 - 2018/07\nオークマ株式会社FAシステム本部 FA開発部 ITプラザ開発課\nアプリエンジニアのメンバーとして以下に従事- Windows 用 CAD/CAM アプリ開発の要件定義・テスト\nLink\n\n\n\nこれまで最も苦労したプロジェクトは前職シイエヌエス北海道における下記です。課題や成果の詳細は下記リンク先をご参照ください。\n情報通信企業向け 機械学習ワークフローと AI プラットフォーム移管"
   },
   {
     "objectID": "index.html#スキルレベル",
     "href": "index.html#スキルレベル",
     "title": "職務経歴書",
     "section": "5. スキルレベル",
-    "text": "5. スキルレベル\n★：業務経験あり\n\n\n\nTable 3: スキルレベル一覧\n\n\n\n\n\n\n\n\n\n\n\n項目\n種類\n使用期間\nレベル\n\n\n\n\nOS\nAmazon Linux / Ubuntu\n★3年\n要件に応じた環境構築や開発環境利用が可能\n\n\n言語\nPython\n★3年\n一人称で作業可能\n\n\n〃\nSQL\n★2年\n一人称で作業可能\n\n\n〃\nShell Script\n★3年\n一人称で作業可能\n\n\n〃\nC\n★4年\n一人称で作業可能\n\n\nDB\nMySQL\n★1年\n調べながらであれば作業可能\n\n\n〃\nPostgreSQL\n★1年\n調べながらであれば作業可能\n\n\nクラウドサービス\nAWS\n★2年\nEC2 / ECS / StepFunctions / SageMaker / Cloud9 / Airflow (MWAA) 等を利用した環境構築や作業が可能\n\n\n〃\nGoogle Cloud\n★0.5年\nCompute Engine / Cloud Functions / BigQuery (後述) 等を利用した環境構築や作業が可能\n\n\n〃\nSnowflake\n★2年\nデータマート作成 / SQL パフォーマンス改善 / Snowpark ML 利用 / パラメータ管理が可能\n\n\n〃\nBigQuery\n★0.3年\n調べながらであれば作業可能\n\n\n〃\nTROCCO\n★0.1年\n簡単な操作が可能\n\n\nIaC\nDocker\n★2年\nDockerfile や Docker Compose の記述・実行が可能\n\n\n〃\nTerraform\n★0.3年\n調べながらであれば作業可能\n\n\n〃\nGitHub Actions\n★0.3年\n調べながらであれば作業可能\n\n\nその他\nGit / GitHub / CodeCommit\n★3年\nGit flow や GitHub flow に則った開発利用やレビューが可能\n\n\n〃\ndbt Core\n★0.5年\n調べながらであれば作業可能\n\n\n〃\nEmbulk\n★0.3年\n調べながらであれば作業可能"
+    "text": "5. スキルレベル\n★：業務経験あり\n\n\n\n\n\n\n\n\n\n項目\n種類\n使用期間\nレベル\n\n\n\n\nOS\nAmazon Linux / Ubuntu\n★3年\n要件に応じた環境構築や開発環境利用が可能\n\n\n言語\nPython\n★3年\n一人称で作業可能\n\n\n〃\nSQL\n★2年\n一人称で作業可能\n\n\n〃\nShell Script\n★3年\n一人称で作業可能\n\n\n〃\nC\n★4年\n一人称で作業可能\n\n\nDB\nMySQL\n★1年\n調べながらであれば作業可能\n\n\n〃\nPostgreSQL\n★1年\n調べながらであれば作業可能\n\n\nクラウドサービス\nAWS\n★2年\nEC2 / ECS / StepFunctions / SageMaker / Cloud9 / Airflow (MWAA) 等を利用した環境構築や作業が可能\n\n\n〃\nGoogle Cloud\n★0.5年\nCompute Engine / Cloud Functions / BigQuery (後述) 等を利用した環境構築や作業が可能\n\n\n〃\nSnowflake\n★2年\nデータマート作成 / SQL パフォーマンス改善 / Snowpark ML 利用 / パラメータ管理が可能\n\n\n〃\nBigQuery\n★0.3年\n調べながらであれば作業可能\n\n\n〃\nTROCCO\n★0.1年\n簡単な操作が可能\n\n\nIaC\nDocker\n★2年\nDockerfile や Docker Compose の記述・実行が可能\n\n\n〃\nTerraform\n★0.3年\n調べながらであれば作業可能\n\n\n〃\nGitHub Actions\n★0.3年\n調べながらであれば作業可能\n\n\nその他\nGit / GitHub / CodeCommit\n★3年\nGit flow や GitHub flow に則った開発利用やレビューが可能\n\n\n〃\ndbt Core\n★0.5年\n調べながらであれば作業可能\n\n\n〃\nEmbulk\n★0.3年\n調べながらであれば作業可能"
   },
   {
     "objectID": "index.html#資格",
