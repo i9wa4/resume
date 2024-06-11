@@ -1,8 +1,10 @@
 ---
-title: "職務経歴 株式会社hacomono (作成中)"
+title: "職務経歴 株式会社hacomono"
 ---
 
-:会社概要・雇用形態 (2024年時点) {#tbl-letters} {tbl-colwidths="[20,80]"}
+**作成中**
+
+:会社概要・雇用形態 (2024年時点) {#tbl-company tbl-colwidths="[20,80]"}
 
 |              |                                                                                    |
 | ---          | ---                                                                                |

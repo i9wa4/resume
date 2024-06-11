@@ -20,7 +20,7 @@ title: "職務経歴書"
 
 ## 3. 今後やりたいこと
 
-:今後やりたいこと {#tbl-letters} {tbl-colwidths="[20,80]"}
+:今後やりたいこと {#tbl-future tbl-colwidths="[20,80]"}
 
 |                |                                                                                                                               |
 | ---            | ---                                                                                                                           |
@@ -28,12 +28,11 @@ title: "職務経歴書"
 | 役割           | - データエンジニアとしてリーダー経験・マネジメント経験を積む                                                                  |
 | 役割 (3-5年後) | - データ関連業務で PM や PdM になる<br>- データ関連業務で直接的に会社の売上に貢献する                                         |
 
-
 ## 4. 職務経歴
 
 新しい順に記載しております。
 
-:職務経歴一覧 {#tbl-letters} {tbl-colwidths="[12,22,58,8]"}
+:職務経歴一覧 {#tbl-history tbl-colwidths="[12,22,58,8]"}
 
 | 在籍期間          | 所属                                | 概要                                                                                                                                                 | 詳細                             |
 | ---               | ---                                 | ---                                                                                                                                                  | ---                              |
@@ -50,7 +49,7 @@ title: "職務経歴書"
 
 ★：業務経験あり
 
-:スキルレベル一覧 {#tbl-letters} {tbl-colwidths="[15,20,15,50]"}
+:スキルレベル一覧 {#tbl-skill tbl-colwidths="[15,20,15,50]"}
 
 | 項目             | 種類                      | 使用期間 | レベル                                                                                           |
 | ---              | ---                       | ---      | ---                                                                                              |
@@ -93,3 +92,9 @@ title: "職務経歴書"
     - 参加イベント: <https://connpass.com/user/19wa4/>
 - Markdown 向けの簡易的な Formatter を Vim プラグインとして作成しました。TypeScript で作成しており Deno 環境にて動作します。
     - Repository: <https://github.com/i9wa4/markdown-number-header.vim>
+
+### 7.3. 個人アカウント・ブログ
+
+下記ページに集約しております。
+
+<https://i9wa4.github.io/>
