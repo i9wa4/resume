@@ -20,8 +20,9 @@ title: "職務経歴 株式会社hacomono"
 
 ## 1. プロジェクト以外の社内業務
 
-- 社内テックブログ執筆
-    - 2024-07-02 公開予定
+### 1.1. 社内テックブログ執筆
+
+- [2024/07/02]
 
 ## 2. 顧客 BigQuery 環境へのストリーム転送機能開発・運用
 
@@ -29,7 +30,7 @@ title: "職務経歴 株式会社hacomono"
 
 ### 2.2. 期間
 
-2024/04 - 現在
+- 2024/04 - 現在
 
 ### 2.3. 規模・役割
 
@@ -69,7 +70,7 @@ title: "職務経歴 株式会社hacomono"
 - GitHub
 - Terraform
 - AWS
-    - RDS
+    - RDS (MySQL)
     - VPC
 - Google Cloud
     - BigQuery
@@ -83,7 +84,7 @@ title: "職務経歴 株式会社hacomono"
 
 ### 3.2. 期間
 
-2024/04 - 現在
+- 2024/04 - 現在
 
 ### 3.3. 規模・役割
 
@@ -120,9 +121,9 @@ title: "職務経歴 株式会社hacomono"
 - Terraform
 - Embulk
 - AWS
-    - Aurora
     - ECS
-    - RDS
+    - RDS (MySQL)
+    - Aurora (MySQL)
     - VPC
 - Google Cloud
     - BigQuery
@@ -135,7 +136,7 @@ title: "職務経歴 株式会社hacomono"
 
 ### 4.2. 期間
 
-2024/04 - 現在
+- 2024/04 - 現在
 
 ### 4.3. 規模・役割
 
@@ -172,9 +173,9 @@ title: "職務経歴 株式会社hacomono"
 - Terraform
 - Embulk
 - AWS
-    - Aurora
     - ECS
-    - RDS
+    - RDS (MySQL)
+    - Aurora (MySQL)
     - VPC
 - Google Cloud
     - BigQuery

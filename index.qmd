@@ -31,7 +31,7 @@ title: "職務経歴書"
 
 |                |                                                                                                                                                        |
 | ---            | ---                                                                                                                                                    |
-| 技術           | * Snowflake / BigQuery / dbt の知見を深める<br>* データガバナンスに関する経験を積む<br>* MLOps の実践<br>* LLM の下支え (ベクトルデータベース構築など) |
+| 技術           | * Snowflake / BigQuery / dbt の知見を深める<br>* データガバナンスに関する経験を積む<br>* LLM の下支え (ベクトルデータベース構築など)<br>* MLOps の実践 |
 | 役割           | * データエンジニアとしてリーダー経験・マネジメント経験を積む                                                                                           |
 | 役割 (3-5年後) | * データ関連業務の PjM や PdM として直接的に会社の売上に貢献する                                                                                       |
 
@@ -68,9 +68,9 @@ title: "職務経歴書"
 | DB               | MySQL                     | ★1年    | 調べながらであれば作業可能                                                                       |
 | 〃               | PostgreSQL                | ★1年    | 調べながらであれば作業可能                                                                       |
 | クラウドサービス | AWS                       | ★2年    | EC2 / ECS / StepFunctions / SageMaker / Cloud9 / Airflow (MWAA) 等を利用した環境構築や作業が可能 |
-| 〃               | Google Cloud              | ★0.5年  | Compute Engine / Cloud Functions / BigQuery (後述) 等を利用した環境構築や作業が可能              |
+| 〃               | Google Cloud              | ★0.5年  | Compute Engine / Cloud Functions / Datastream / BigQuery (後述) 等を利用した環境構築や作業が可能 |
 | 〃               | Snowflake                 | ★2年    | データマート作成 / SQL パフォーマンス改善 / Snowpark ML 利用 / パラメータ管理が可能              |
-| 〃               | BigQuery                  | ★0.3年  | 調べながらであれば作業可能                                                                       |
+| 〃               | BigQuery                  | ★0.3年  | BigQuery 関連の権限やデータセット・テーブル作成を Terraform 管理に移行することが可能             |
 | 〃               | TROCCO                    | ★0.1年  | 簡単な操作が可能                                                                                 |
 | IaC              | Docker                    | ★2年    | Dockerfile や Docker Compose の記述・実行が可能                                                  |
 | 〃               | Terraform                 | ★0.3年  | 調べながらであれば作業可能                                                                       |
