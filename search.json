@@ -46,7 +46,7 @@
     "href": "detail/01-okuma.html",
     "title": "職務経歴 オークマ株式会社",
     "section": "",
-    "text": "Table 1: 会社概要・雇用形態 (2018年時点)\n\n\n\n\n\n\n\n\n\n事業内容\nCNC工作機械、CNC装置・サーボモータ・位置検出器・ソフトウェアの開発・製造、販売\n\n\n資本金\n180億円\n\n\n売上高\n1600億円\n\n\n従業員数\n3407名\n\n\n上場／非上場\n上場\n\n\n雇用形態\n正社員\n\n\n勤務地\n愛知県\n以下、新しい順にプロジェクトを記載しております。"
+    "text": "Table 1: 会社概要・雇用形態 (2018年時点)\n\n\n\n\n\n\n\n\n\n事業内容\nCNC工作機械、CNC装置・サーボモータ・位置検出器・ソフトウェアの開発・製造、販売\n\n\n資本金\n180億円\n\n\n売上高\n1600億円\n\n\n従業員数\n3407名\n\n\n上場／非上場\n上場\n\n\n雇用形態\n正社員\n\n\n勤務地\n愛知県\n入社動機\n退職動機\n以下、新しい順にプロジェクトを記載しております。"
   },
   {
     "objectID": "detail/01-okuma.html#windows7向け対話形式3d-cadcamアプリケーション開発",
@@ -88,7 +88,7 @@
     "href": "index.html#興味関心",
     "title": "職務経歴書",
     "section": "3. 興味・関心",
-    "text": "3. 興味・関心\n\n\n\n\n\n\n\n技術\n* Snowflake / BigQuery / dbt の知見を深める* データガバナンスに関する経験を積む* データ基盤のパフォーマンス改善を行う* MLOps の実践* LLM の下支え (ベクトルデータベース構築など)\n\n\n役割\n* データエンジニアとしてリーダー経験・マネジメント経験を積む\n\n\n役割 (3-5年後)\n* データ関連業務で PjM や PdM になる* データ関連業務で直接的に会社の売上に貢献する"
+    "text": "3. 興味・関心\n\n\n\n\n\n\n\n技術\n* Snowflake / BigQuery / dbt の知見を深める* データガバナンスに関する経験を積む* LLM の下支え (ベクトルデータベース構築など)* MLOps の実践\n\n\n役割\n* データエンジニアとしてリーダー経験・マネジメント経験を積む\n\n\n役割 (3-5年後)\n* データ関連業務の PjM や PdM として直接的に会社の売上に貢献する"
   },
   {
     "objectID": "index.html#職務経歴",
@@ -102,7 +102,7 @@
     "href": "index.html#スキルレベル",
     "title": "職務経歴書",
     "section": "5. スキルレベル",
-    "text": "5. スキルレベル\n★：業務経験あり\n\n\n\n\n\n\n\n\n\n項目\n種類\n使用期間\nレベル\n\n\n\n\nOS\nAmazon Linux / Ubuntu\n★3年\n要件に応じた環境構築や開発環境利用が可能\n\n\n言語\nPython\n★3年\n一人称で作業可能\n\n\n〃\nSQL\n★2年\n一人称で作業可能\n\n\n〃\nShell Script\n★3年\n一人称で作業可能\n\n\n〃\nC\n★4年\n一人称で作業可能\n\n\nDB\nMySQL\n★1年\n調べながらであれば作業可能\n\n\n〃\nPostgreSQL\n★1年\n調べながらであれば作業可能\n\n\nクラウドサービス\nAWS\n★2年\nEC2 / ECS / StepFunctions / SageMaker / Cloud9 / Airflow (MWAA) 等を利用した環境構築や作業が可能\n\n\n〃\nGoogle Cloud\n★0.5年\nCompute Engine / Cloud Functions / BigQuery (後述) 等を利用した環境構築や作業が可能\n\n\n〃\nSnowflake\n★2年\nデータマート作成 / SQL パフォーマンス改善 / Snowpark ML 利用 / パラメータ管理が可能\n\n\n〃\nBigQuery\n★0.3年\n調べながらであれば作業可能\n\n\n〃\nTROCCO\n★0.1年\n簡単な操作が可能\n\n\nIaC\nDocker\n★2年\nDockerfile や Docker Compose の記述・実行が可能\n\n\n〃\nTerraform\n★0.3年\n調べながらであれば作業可能\n\n\n〃\nGitHub Actions\n★0.3年\n調べながらであれば作業可能\n\n\nその他\nGit / GitHub / CodeCommit\n★3年\nGit flow や GitHub flow に則った開発利用やレビューが可能\n\n\n〃\ndbt Core\n★0.5年\n調べながらであれば作業可能\n\n\n〃\nEmbulk\n★0.3年\n調べながらであれば作業可能"
+    "text": "5. スキルレベル\n★：業務経験あり\n\n\n\n\n\n\n\n\n\n項目\n種類\n使用期間\nレベル\n\n\n\n\nOS\nAmazon Linux / Ubuntu\n★3年\n要件に応じた環境構築や開発環境利用が可能\n\n\n言語\nPython\n★3年\n一人称で作業可能\n\n\n〃\nSQL\n★2年\n一人称で作業可能\n\n\n〃\nShell Script\n★3年\n一人称で作業可能\n\n\n〃\nC\n★4年\n一人称で作業可能\n\n\nDB\nMySQL\n★1年\n調べながらであれば作業可能\n\n\n〃\nPostgreSQL\n★1年\n調べながらであれば作業可能\n\n\nクラウドサービス\nAWS\n★2年\nEC2 / ECS / StepFunctions / SageMaker / Cloud9 / Airflow (MWAA) 等を利用した環境構築や作業が可能\n\n\n〃\nGoogle Cloud\n★0.5年\nCompute Engine / Cloud Functions / Datastream / BigQuery (後述) 等を利用した環境構築や作業が可能\n\n\n〃\nSnowflake\n★2年\nデータマート作成 / SQL パフォーマンス改善 / Snowpark ML 利用 / パラメータ管理が可能\n\n\n〃\nBigQuery\n★0.3年\nBigQuery 関連の権限やデータセット・テーブル作成を Terraform 管理に移行することが可能\n\n\n〃\nTROCCO\n★0.1年\n簡単な操作が可能\n\n\nIaC\nDocker\n★2年\nDockerfile や Docker Compose の記述・実行が可能\n\n\n〃\nTerraform\n★0.3年\n調べながらであれば作業可能\n\n\n〃\nGitHub Actions\n★0.3年\n調べながらであれば作業可能\n\n\nその他\nGit / GitHub / CodeCommit\n★3年\nGit flow や GitHub flow に則った開発利用やレビューが可能\n\n\n〃\ndbt Core\n★0.5年\n調べながらであれば作業可能\n\n\n〃\nEmbulk\n★0.3年\n調べながらであれば作業可能"
   },
   {
     "objectID": "index.html#資格",
@@ -126,39 +126,39 @@
     "text": "作成中\n以下、新しい順にプロジェクトを記載しております。"
   },
   {
-    "objectID": "detail/04-hacomono.html#社内データ基盤上のデータパイプライン構築",
-    "href": "detail/04-hacomono.html#社内データ基盤上のデータパイプライン構築",
+    "objectID": "detail/04-hacomono.html#プロジェクト以外の社内業務",
+    "href": "detail/04-hacomono.html#プロジェクト以外の社内業務",
     "title": "職務経歴 株式会社hacomono",
-    "section": "1. 社内データ基盤上のデータパイプライン構築",
-    "text": "1. 社内データ基盤上のデータパイプライン構築\n\n1.1. 概要\n\n\n1.2. 期間\n2024/06 - 現在\n\n\n1.3. 規模・役割\n\n役割：メンバー\n規模：5名\n\n\n\n1.4. 担当業務\n\n\n1.5. 機能開発・実装詳細\n\n\n1.6. 目的・背景\n\n\n1.7. 課題\n\n\n1.8. 工夫した点\n\n\n1.9. 成果\n\n\n1.10. 担当フェーズ\n\n\n1.11. 開発環境"
+    "section": "1. プロジェクト以外の社内業務",
+    "text": "1. プロジェクト以外の社内業務\n\n1.1. 社内テックブログ執筆\n\n[2024/07/02]"
   },
   {
-    "objectID": "detail/04-hacomono.html#顧客-bigquery-構築運用-ストリーム転送",
-    "href": "detail/04-hacomono.html#顧客-bigquery-構築運用-ストリーム転送",
+    "objectID": "detail/04-hacomono.html#顧客-bigquery-環境へのストリーム転送機能開発運用",
+    "href": "detail/04-hacomono.html#顧客-bigquery-環境へのストリーム転送機能開発運用",
     "title": "職務経歴 株式会社hacomono",
-    "section": "2. 顧客 BigQuery 構築・運用 (ストリーム転送)",
-    "text": "2. 顧客 BigQuery 構築・運用 (ストリーム転送)\n\n2.1. 概要\n\nバッチ処理\n\n\n\n2.2. 期間\n2024年4月-現在\n\n\n2.3. 規模・役割\n\n2024年4-5月体制\n\n役割：メンバー\n規模：2名\n\n2024年6月以降体制\n\n役割：リーダー\n規模：1名\n\n\n\n\n2.4. 担当業務\n\n[2024/04 - 2024/05] (2名) 定常運用業務・業務引き継ぎ\n[2024/06 - 現在] (私1名) 上記に加えて運用改善業務\n\n\n\n2.5. 機能開発・実装詳細\n\n\n2.6. 目的・背景\n\n\n2.7. 課題\n\n\n2.8. 工夫した点\n\n\n2.9. 成果\n\n\n2.10. 担当フェーズ\n\n\n2.11. 開発環境"
+    "section": "2. 顧客 BigQuery 環境へのストリーム転送機能開発・運用",
+    "text": "2. 顧客 BigQuery 環境へのストリーム転送機能開発・運用\n\n2.1. 概要\n\n\n2.2. 期間\n\n2024/04 - 現在\n\n\n\n2.3. 規模・役割\n\n[2024/04 - 2024/05]\n\n役割：メンバー\n規模：2名\n\n[2024/06 - 現在]\n\n役割：リーダー\n規模：1名\n\n\n\n\n2.4. 担当業務\n\n[2024/04 - 2024/05] (2名) 定常運用業務・業務引き継ぎ\n[2024/06 - 現在] (私1名) 上記に加えて運用改善業務\n\n\n\n2.5. 機能開発・実装詳細\n\n\n2.6. 目的・背景\n\n\n2.7. 課題\n\n\n2.8. 工夫した点\n\n\n2.9. 成果\n\n\n2.10. 担当フェーズ\n\n基本設計\n詳細設計\n開発\nテスト\n運用\n保守\n\n\n\n2.11. 開発環境\n\nGitHub\nTerraform\nAWS\n\nRDS (MySQL)\nVPC\n\nGoogle Cloud\n\nBigQuery\nDatastream"
   },
   {
     "objectID": "detail/04-hacomono.html#顧客-bigquery-環境構築運用-バッチ転送",
     "href": "detail/04-hacomono.html#顧客-bigquery-環境構築運用-バッチ転送",
     "title": "職務経歴 株式会社hacomono",
     "section": "3. 顧客 BigQuery 環境構築・運用 (バッチ転送)",
-    "text": "3. 顧客 BigQuery 環境構築・運用 (バッチ転送)\n\n3.1. 概要\n\nバッチ処理\n\n\n\n3.2. 期間\n2024/04 - 現在\n\n\n3.3. 規模・役割\n\n[2024/04 - 2024/05]\n\n役割：メンバー\n規模：2名\n\n[2024/06 - 現在]\n\n役割：リーダー\n規模：1名\n\n\n\n\n3.4. 担当業務\n\n[2024/04 - 2024/05] (2名) 定常運用業務・業務引き継ぎ\n[2024/06 - 現在] (私1名) 上記に加えて運用改善業務\n\n\n\n3.5. 機能開発・実装詳細\n\n\n3.6. 目的・背景\n\n\n3.7. 課題\n\n\n3.8. 工夫した点\n\n\n3.9. 成果\n\n\n3.10. 担当フェーズ\n\n\n3.11. 開発環境"
+    "text": "3. 顧客 BigQuery 環境構築・運用 (バッチ転送)\n\n3.1. 概要\n\nバッチ処理\n\n\n\n3.2. 期間\n\n2024/04 - 現在\n\n\n\n3.3. 規模・役割\n\n[2024/04 - 2024/05]\n\n役割：メンバー\n規模：2名\n\n[2024/06 - 現在]\n\n役割：リーダー\n規模：1名\n\n\n\n\n3.4. 担当業務\n\n[2024/04 - 2024/05] (2名) 定常運用業務・業務引き継ぎ\n[2024/06 - 現在] (私1名) 上記に加えて運用改善業務\n\n\n\n3.5. 機能開発・実装詳細\n\n\n3.6. 目的・背景\n\n\n3.7. 課題\n\n\n3.8. 工夫した点\n\n\n3.9. 成果\n\n\n3.10. 担当フェーズ\n\n運用\n保守\n\n\n\n3.11. 開発環境\n\nGitHub\nTerraform\nEmbulk\nAWS\n\nECS\nRDS (MySQL)\nAurora (MySQL)\nVPC\n\nGoogle Cloud\n\nBigQuery"
   },
   {
-    "objectID": "detail/04-hacomono.html#社内-bigquery-環境運用",
-    "href": "detail/04-hacomono.html#社内-bigquery-環境運用",
+    "objectID": "detail/04-hacomono.html#社内-bigquery-環境構築運用",
+    "href": "detail/04-hacomono.html#社内-bigquery-環境構築運用",
     "title": "職務経歴 株式会社hacomono",
-    "section": "4. 社内 BigQuery 環境運用",
-    "text": "4. 社内 BigQuery 環境運用\n\n4.1. 概要\n\n自社サービスのシングルテナント・マルチテナント環境 RDB から BigQuery へデータを転送し DWH を作成するシステムの運用・保守\n\n\n\n4.2. 期間\n2024/04 - 現在\n\n\n4.3. 規模・役割\n\n[2024/04 - 2024/05]\n\n役割：メンバー\n規模：2名\n\n[2024/06 - 現在]\n\n役割：リーダー\n規模：1名\n\n\n\n\n4.4. 担当業務\n\n[2024/04 - 2024/05] (2名) 定常運用業務・業務引き継ぎ\n[2024/06 - 現在] (私1名) 上記に加えて運用改善業務\n\n\n\n4.5. 機能開発・実装詳細\n\n\n4.6. 目的・背景\n\n\n4.7. 課題\n\n\n4.8. 工夫した点\n\n\n4.9. 成果\n\n\n4.10. 担当フェーズ\n\n\n4.11. 開発環境\n\nTerraform\nEmbulk\nAWS\n\nVPC\nECS\nRDS\nAurora\n\nGoogle Cloud\n\nBigQuery"
+    "section": "4. 社内 BigQuery 環境構築・運用",
+    "text": "4. 社内 BigQuery 環境構築・運用\n\n4.1. 概要\n\n自社サービスのシングルテナント・マルチテナント環境 RDB から BigQuery へデータを転送し DWH を作成するシステムの運用・保守\n\n\n\n4.2. 期間\n\n2024/04 - 現在\n\n\n\n4.3. 規模・役割\n\n[2024/04 - 2024/05]\n\n役割：メンバー\n規模：2名\n\n[2024/06 - 現在]\n\n役割：リーダー\n規模：1名\n\n\n\n\n4.4. 担当業務\n\n[2024/04 - 2024/05] (2名) 定常運用業務・業務引き継ぎ\n[2024/06 - 現在] (私1名) 上記に加えて運用改善業務\n\n\n\n4.5. 機能開発・実装詳細\n\n\n4.6. 目的・背景\n\n\n4.7. 課題\n\n\n4.8. 工夫した点\n\n\n4.9. 成果\n\n\n4.10. 担当フェーズ\n\n運用\n保守\n\n\n\n4.11. 開発環境\n\nGitHub\nTerraform\nEmbulk\nAWS\n\nECS\nRDS (MySQL)\nAurora (MySQL)\nVPC\n\nGoogle Cloud\n\nBigQuery"
   },
   {
     "objectID": "detail/02-sld.html",
     "href": "detail/02-sld.html",
     "title": "職務経歴 新光商事LSIデザインセンター株式会社",
     "section": "",
-    "text": "Table 1: 会社概要・雇用形態 (2022年時点)\n\n\n\n\n\n\n\n\n\n事業内容\n組込ソフトウェア開発、ASIC/FPGA 開発\n\n\n資本金\n8000万円\n\n\n売上高\n16.7億円\n\n\n従業員数\n83名\n\n\n上場／非上場\n非上場\n\n\n雇用形態\n正社員\n\n\n勤務地\n北海道札幌市2020年3月以降は週に約3回リモートワーク実施\n以下、新しい順にプロジェクトを記載しております。"
+    "text": "Table 1: 会社概要・雇用形態 (2022年時点)\n\n\n\n\n\n\n\n\n\n事業内容\n組込ソフトウェア開発、ASIC/FPGA 開発\n\n\n資本金\n8000万円\n\n\n売上高\n16.7億円\n\n\n従業員数\n83名\n\n\n上場／非上場\n非上場\n\n\n雇用形態\n正社員\n\n\n勤務地\n北海道札幌市2020年3月以降は週に約3回リモートワーク実施\n入社動機\n退職動機\n以下、新しい順にプロジェクトを記載しております。"
   },
   {
     "objectID": "detail/02-sld.html#親会社向け車両通信プロトコル解説講義",
