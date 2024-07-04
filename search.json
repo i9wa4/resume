@@ -49,25 +49,25 @@
     "text": "Table 1: 会社概要・雇用形態 (2018年時点)\n\n\n\n\n\n\n\n\n\n事業内容\nCNC工作機械、CNC装置・サーボモータ・位置検出器・ソフトウェアの開発・製造、販売\n\n\n資本金\n180億円\n\n\n売上高\n1600億円\n\n\n従業員数\n3407名\n\n\n上場／非上場\n上場\n\n\n雇用形態\n正社員\n\n\n勤務地\n愛知県\n以下、新しい順にプロジェクトを記載しております。"
   },
   {
-    "objectID": "detail/01-okuma.html#windows7向け対話形式3d-cadcamアプリケーション開発",
-    "href": "detail/01-okuma.html#windows7向け対話形式3d-cadcamアプリケーション開発",
+    "objectID": "detail/01-okuma.html#windows7-向け対話形式-3d-cadcam-アプリケーション開発",
+    "href": "detail/01-okuma.html#windows7-向け対話形式-3d-cadcam-アプリケーション開発",
     "title": "職務経歴 オークマ株式会社",
-    "section": "1. Windows7向け対話形式3D-CAD/CAMアプリケーション開発",
-    "text": "1. Windows7向け対話形式3D-CAD/CAMアプリケーション開発\n\n1.1. 期間\n\n2017/04 - 2018/07\n\n\n\n1.2. 担当業務\n\n大型アップデート用UI要件定義\nテスト仕様書作成\n結合テスト・システムテスト実施\nユーザ問い合わせ対応\n不具合対応\n\n\n\n1.3. 担当フェーズ\n\n要件定義\nテスト\n保守\n\n\n\n1.4. 開発環境\n\nWindows7\nC++\n\n\n\n1.5. 規模・役割\n\n10名\nメンバー"
+    "section": "1. Windows7 向け対話形式 3D-CAD/CAM アプリケーション開発",
+    "text": "1. Windows7 向け対話形式 3D-CAD/CAM アプリケーション開発\n\n1.1. 期間\n\n2017/04 - 2018/07\n\n\n\n1.2. 担当業務\n\n大型アップデート用UI要件定義\nテスト仕様書作成\n結合テスト・システムテスト実施\nユーザ問い合わせ対応\n不具合対応\n\n\n\n1.3. 担当フェーズ\n\n要件定義\nテスト\n保守\n\n\n\n1.4. 開発環境\n\nWindows7\nC++\n\n\n\n1.5. 規模・役割\n\n10名\nメンバー"
   },
   {
-    "objectID": "detail/01-okuma.html#windows7向け2d-cadcamアプリケーション開発",
-    "href": "detail/01-okuma.html#windows7向け2d-cadcamアプリケーション開発",
+    "objectID": "detail/01-okuma.html#windows7-向け-2d-cadcam-アプリケーション開発",
+    "href": "detail/01-okuma.html#windows7-向け-2d-cadcam-アプリケーション開発",
     "title": "職務経歴 オークマ株式会社",
-    "section": "2. Windows7向け2D-CAD/CAMアプリケーション開発",
-    "text": "2. Windows7向け2D-CAD/CAMアプリケーション開発\n\n2.1. 期間\n\n2017/04 - 2018/07\n\n\n\n2.2. 担当業務\n\nテスト仕様書作成\n結合テスト・システムテスト実施\nユーザ問い合わせ対応\n受注先の工作機械に応じたチューニング\n\n\n\n2.3. 担当フェーズ\n\nテスト\n保守\n\n\n\n2.4. 開発環境\n\nWindows7\nC++\n\n\n\n2.5. 規模・役割\n\n5名\nメンバー"
+    "section": "2. Windows7 向け 2D-CAD/CAM アプリケーション開発",
+    "text": "2. Windows7 向け 2D-CAD/CAM アプリケーション開発\n\n2.1. 期間\n\n2017/04 - 2018/07\n\n\n\n2.2. 担当業務\n\nテスト仕様書作成\n結合テスト・システムテスト実施\nユーザ問い合わせ対応\n受注先の工作機械に応じたチューニング\n\n\n\n2.3. 担当フェーズ\n\nテスト\n保守\n\n\n\n2.4. 開発環境\n\nWindows7\nC++\n\n\n\n2.5. 規模・役割\n\n5名\nメンバー"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "職務経歴書",
     "section": "",
-    "text": "職務経歴書 公開ページ\nhttps://i9wa4.github.io/resume/\n\n\n個人アカウント・ブログ\nhttps://i9wa4.github.io/"
+    "text": "職務経歴書 公開ページ\nhttps://i9wa4.github.io/resume/\n\n\n個人ページトップ\nhttps://i9wa4.github.io/"
   },
   {
     "objectID": "index.html#職務要約",
@@ -88,7 +88,7 @@
     "href": "index.html#興味関心",
     "title": "職務経歴書",
     "section": "3. 興味・関心",
-    "text": "3. 興味・関心\n\n\n\n\n\n\n\n技術\n* Snowflake / BigQuery / dbt の知見を深める* データガバナンスに関する経験を積む* LLM の下支え (ベクトルデータベース構築など)* MLOps の実践\n\n\n役割\n* データエンジニアとしてリーダー経験・マネジメント経験を積む\n\n\n役割 (3-5年後)\n* データ関連業務の PjM や PdM として直接的に会社の売上に貢献する"
+    "text": "3. 興味・関心\n\n3.1. 技術\n\nSnowflake / BigQuery / dbt の知見を深める\nデータガバナンスに関する経験を積む\nLLM の下支え (ベクトルデータベース構築など)\nMLOps の実践\n\n\n\n3.2. 役割\n\n[直近] データエンジニアとしてリーダー経験・マネジメント経験を積む\n[3-5年後] データ関連業務の PjM や PdM として直接的に会社の売上に貢献する"
   },
   {
     "objectID": "index.html#職務経歴",
@@ -116,42 +116,42 @@
     "href": "index.html#通常業務以外の活動",
     "title": "職務経歴書",
     "section": "7. 通常業務以外の活動",
-    "text": "7. 通常業務以外の活動\n\n7.1. 自宅用ゲームサーバー構築\n\nGoogle Compute Engine (Ubuntu) にてゲームサーバーを構築しました。Cloud Functions と GAS により Slack 経由でサーバーを起動・停止できる仕組みを導入しました。\n上記サーバーを構築後、コスト節約のために自宅マシンに Ubuntu をインストールし、Docker コンテナでゲームサーバーを構築しました。systemd を活用して AWS S3 への自動バックアップ機能やサーバーの自動アップデート機能を実装しました。\n\nRepository: https://github.com/i9wa4/minecraft-bedrock-server-setup\n\n\n\n\n7.2. Vim 活動\n\nVim の環境構築を通して各言語の環境構築の知見を得て、社内還元した経験があります。\nVim コミュニティのオンライン・オフラインのイベントに複数参加し Vim に関する技術情報収集や交流を行っています。\nMarkdown 向けの簡易的な Formatter を Vim プラグインとして作成しました。TypeScript で作成しており Deno 環境にて動作します。\n\nRepository: https://github.com/i9wa4/markdown-number-header.vim"
+    "text": "7. 通常業務以外の活動\n\n7.1. 自宅用ゲームサーバー構築\n\nGoogle Compute Engine (Ubuntu) にてゲームサーバーを構築しました。Cloud Functions と GAS により Slack 経由でサーバーを起動・停止できる仕組みを導入しました。\n上記サーバーを構築後、コスト節約のために自宅マシンに Ubuntu をインストールし、Docker コンテナでゲームサーバーを構築しました。systemd を活用して AWS S3 への自動バックアップ機能やサーバーの自動アップデート機能を実装しました。\n\nRepository: https://github.com/i9wa4/minecraft-bedrock-server-setup\n\n\n\n\n7.2. Vim 活動\n\nVim の環境構築を通して各言語の環境構築の知見を得て、社内還元した経験があります。\nVim コミュニティのオンライン・オフラインのイベントに複数参加し Vim に関する技術情報収集や交流を行っています。\nMarkdown 向けの簡易的な Formatter を Vim プラグインとして作成しました。TypeScript で作成しており Deno 環境にて動作します。\n\nRepository: https://github.com/i9wa4/markdown-number-header.vim\n\n\n\n\n7.3. 会社テックブログ執筆\n\n[2024/07/02] hacomonoデータ基盤におけるデータ転送の課題と今後の対応 - hacomono TECH BLOG"
   },
   {
     "objectID": "detail/04-hacomono.html",
     "href": "detail/04-hacomono.html",
     "title": "職務経歴 株式会社hacomono",
     "section": "",
-    "text": "作成中\n以下、新しい順にプロジェクトを記載しております。"
+    "text": "Table 1: 会社概要・雇用形態 (2024年時点)\n\n\n\n\n\n\n\n\n\n事業内容\n月額型店舗のための会員管理・予約・キャッシュレス決済システム「hacomono」開発・販売\n\n\n資本金\n100百万円\n\n\n売上高\n非公開\n\n\n従業員数\n217名\n\n\n上場／非上場\n非上場\n\n\n雇用形態\n正社員\n\n\n勤務地\nフルリモート (居住地 北海道札幌市)年に数回東京原宿本社へ出社\n以下、新しい順にプロジェクトを記載しております。"
   },
   {
     "objectID": "detail/04-hacomono.html#プロジェクト以外の社内業務",
     "href": "detail/04-hacomono.html#プロジェクト以外の社内業務",
     "title": "職務経歴 株式会社hacomono",
     "section": "1. プロジェクト以外の社内業務",
-    "text": "1. プロジェクト以外の社内業務\n\n1.1. 社内テックブログ執筆\n\n[2024/07/02]"
+    "text": "1. プロジェクト以外の社内業務\n\n1.1. 会社テックブログ執筆\n\n[2024/07/02] hacomonoデータ基盤におけるデータ転送の課題と今後の対応 - hacomono TECH BLOG"
   },
   {
-    "objectID": "detail/04-hacomono.html#顧客-bigquery-環境へのストリーム転送機能開発運用",
-    "href": "detail/04-hacomono.html#顧客-bigquery-環境へのストリーム転送機能開発運用",
+    "objectID": "detail/04-hacomono.html#顧客環境-bigquery-へのリアルタイム転送システム開発運用",
+    "href": "detail/04-hacomono.html#顧客環境-bigquery-へのリアルタイム転送システム開発運用",
     "title": "職務経歴 株式会社hacomono",
-    "section": "2. 顧客 BigQuery 環境へのストリーム転送機能開発・運用",
-    "text": "2. 顧客 BigQuery 環境へのストリーム転送機能開発・運用\n\n2.1. 概要\n\n\n2.2. 期間\n\n2024/04 - 現在\n\n\n\n2.3. 規模・役割\n\n[2024/04 - 2024/05]\n\n役割：メンバー\n規模：2名\n\n[2024/06 - 現在]\n\n役割：リーダー\n規模：1名\n\n\n\n\n2.4. 担当業務\n\n[2024/04 - 2024/05] (2名) 定常運用業務・業務引き継ぎ\n[2024/06 - 現在] (私1名) 上記に加えて運用改善業務\n\n\n\n2.5. 機能開発・実装詳細\n\n\n2.6. 目的・背景\n\n\n2.7. 課題\n\n\n2.8. 工夫した点\n\n\n2.9. 成果\n\n\n2.10. 担当フェーズ\n\n基本設計\n詳細設計\n開発\nテスト\n運用\n保守\n\n\n\n2.11. 開発環境\n\nGitHub\nTerraform\nAWS\n\nRDS (MySQL)\nVPC\n\nGoogle Cloud\n\nBigQuery\nDatastream"
+    "section": "2. 顧客環境 BigQuery へのリアルタイム転送システム開発・運用",
+    "text": "2. 顧客環境 BigQuery へのリアルタイム転送システム開発・運用\n\n2.1. 概要\n\nhacomono に蓄積されたデータを顧客環境 BigQuery へリアルタイム転送するためのシステム開発・運用\n\n\n\n2.2. 期間\n\n2024/04 - 現在\n\n\n\n2.3. 規模・役割\n\n[2024/04 - 2024/05]\n\n役割：メンバー\n規模：2名\n\n[2024/06 - 現在]\n\n役割：リーダー\n規模：1名\n\n\n\n\n2.4. 担当業務\n\n[2024/04 - 2024/05] (2名) 開発引き継ぎ\n[2024/06 - 現在] (私1名) 開発・運用\n\n\n\n2.5. 機能開発・実装詳細\n\n\nGitHub と Terraform (Terragrunt) を用いて以下の構成を実装します。\n\n[主機能] RDS MySQL のデータを Datastream によってリアルタイムに転送させる\n\n(新規実装) [周辺機能] ログ出力\n\n\n\n\n\n2.6. 目的・背景\n\n顧客要望がありリアルタイム性を重視したテーブルに絞って機能を提供することとなりました。\n個社向け開発として進めていますが他社への展開も可能な状態に整備する必要があります。\n\n\n\n2.7. 課題\n\n前任者から引き継いだ状態のリポジトリが雑然としており各社向けの設定ファイルを切り替えることができず大規模なリファクタリングが必要でした。\nDatastream の知見のある方が社内にいないため障害発生時の対応のノウハウがない状態でした。\n\n\n\n2.8. 工夫した点\n\n\n現在工夫中です。\n\n\n\n2.9. 成果\n\n\nDatastream の知見のある方が社内にいないため障害発生時の対応のノウハウがない状態でした。\n\n\nRDS 再起動による接続断から復旧する必要がありストリームの復元を行うことがありましたが、この経験により障害発生時に欠損し得るデータに関して説明ができるようになりました。\n本機能のオプションサービス化にあたり懸念事項の解像度を上げ、サービスのマニュアル更新の準備に役立てることができました。\ncf. ストリームを復元する | Datastream | Google Cloud\n\n\n2.10. 担当フェーズ\n\n詳細設計\n開発\nテスト\n運用\n保守\n\n\n\n2.11. 開発環境\n\nGitHub\nTerraform\nTerragrunt\nAWS\n\nRDS MySQL\nVPC\n\nGoogle Cloud\n\nBigQuery\nDatastream"
   },
   {
-    "objectID": "detail/04-hacomono.html#顧客-bigquery-環境構築運用-バッチ転送",
-    "href": "detail/04-hacomono.html#顧客-bigquery-環境構築運用-バッチ転送",
+    "objectID": "detail/04-hacomono.html#顧客環境-bigquery-へのバッチ転送システム開発運用",
+    "href": "detail/04-hacomono.html#顧客環境-bigquery-へのバッチ転送システム開発運用",
     "title": "職務経歴 株式会社hacomono",
-    "section": "3. 顧客 BigQuery 環境構築・運用 (バッチ転送)",
-    "text": "3. 顧客 BigQuery 環境構築・運用 (バッチ転送)\n\n3.1. 概要\n\nバッチ処理\n\n\n\n3.2. 期間\n\n2024/04 - 現在\n\n\n\n3.3. 規模・役割\n\n[2024/04 - 2024/05]\n\n役割：メンバー\n規模：2名\n\n[2024/06 - 現在]\n\n役割：リーダー\n規模：1名\n\n\n\n\n3.4. 担当業務\n\n[2024/04 - 2024/05] (2名) 定常運用業務・業務引き継ぎ\n[2024/06 - 現在] (私1名) 上記に加えて運用改善業務\n\n\n\n3.5. 機能開発・実装詳細\n\n\n3.6. 目的・背景\n\n\n3.7. 課題\n\n\n3.8. 工夫した点\n\n\n3.9. 成果\n\n\n3.10. 担当フェーズ\n\n運用\n保守\n\n\n\n3.11. 開発環境\n\nGitHub\nTerraform\nEmbulk\nAWS\n\nECS\nRDS (MySQL)\nAurora (MySQL)\nVPC\n\nGoogle Cloud\n\nBigQuery"
+    "section": "3. 顧客環境 BigQuery へのバッチ転送システム開発・運用",
+    "text": "3. 顧客環境 BigQuery へのバッチ転送システム開発・運用\n\n3.1. 概要\n\nhacomono に蓄積されたデータを顧客環境 BigQuery へ日次バッチ転送するためのシステム開発・運用\n\n\n\n3.2. 期間\n\n2024/04 - 現在\n\n\n\n3.3. 規模・役割\n\n[2024/04 - 2024/05]\n\n役割：メンバー\n規模：2名\n\n[2024/06 - 現在]\n\n役割：リーダー\n規模：1名\n\n\n\n\n3.4. 担当業務\n\n[2024/04 - 2024/05] (2名) 定常運用業務・業務引き継ぎ\n[2024/06 - 現在] (私1名) 定常運用業務・障害対応\n\n\n\n3.5. 機能開発・実装詳細\n\nGitHub と Terraform (Terragrunt) を用いて以下の構成を実装します。\n\nRDS MySQL or Aurora MySQL をデータソースとして Embulk で顧客環境 BigQuery にデータ転送を行う\n\nシステム構成図は下記ブログをご参照ください。\n\nhacomonoデータ基盤におけるデータ転送の課題と今後の対応 - hacomono TECH BLOG\n\n\n\n\n3.6. 目的・背景\n\n顧客に向けて DWH 提供を行うサービスを開始するために暫定的に構築したシステムを運用し続けている状況です。\n\n\n\n3.7. 課題\n\n全量のデータを転送させているためデータ増加により転送時間が延びてしまい、具体的には以下の問題が起こるようになりました。\n\nRDS BurstBalance を使い切ることによる転送の不安定化が起こる\nデータソース側の DB で一時領域不足になる\n顧客約束の時刻に転送が間に合わなくなる\n\n\n\n\n3.8. 工夫した点\n\n問題発生源の特定のために Embulk のログやデータソースのメトリクスから真因を究明するよう努めました。\n\n\n\n3.9. 成果\n\n\n\nRDS BurstBalance を使い切ることによる転送の不安定化が起こる\n\n\nReadIOPS の数値が支配的だったため並列実行数を減らしたり、Embulk の読み込み量のパラメータを調整したりすることで BurstBalance を使い切らないまま可能な限り早く転送させるよう調整を行いました。\n\n\n3.10. 担当フェーズ\n\n運用\n保守\n\n\n\n3.11. 開発環境\n\nGitHub\nTerraform\nEmbulk\nAWS\n\nECS\nRDS MySQL\nAurora MySQL\nVPC\n\nGoogle Cloud\n\nBigQuery"
   },
   {
     "objectID": "detail/04-hacomono.html#社内-bigquery-環境構築運用",
     "href": "detail/04-hacomono.html#社内-bigquery-環境構築運用",
     "title": "職務経歴 株式会社hacomono",
     "section": "4. 社内 BigQuery 環境構築・運用",
-    "text": "4. 社内 BigQuery 環境構築・運用\n\n4.1. 概要\n\n自社サービスのシングルテナント・マルチテナント環境 RDB から BigQuery へデータを転送し DWH を作成するシステムの運用・保守\n\n\n\n4.2. 期間\n\n2024/04 - 現在\n\n\n\n4.3. 規模・役割\n\n[2024/04 - 2024/05]\n\n役割：メンバー\n規模：2名\n\n[2024/06 - 現在]\n\n役割：リーダー\n規模：1名\n\n\n\n\n4.4. 担当業務\n\n[2024/04 - 2024/05] (2名) 定常運用業務・業務引き継ぎ\n[2024/06 - 現在] (私1名) 上記に加えて運用改善業務\n\n\n\n4.5. 機能開発・実装詳細\n\n\n4.6. 目的・背景\n\n\n4.7. 課題\n\n\n4.8. 工夫した点\n\n\n4.9. 成果\n\n\n4.10. 担当フェーズ\n\n運用\n保守\n\n\n\n4.11. 開発環境\n\nGitHub\nTerraform\nEmbulk\nAWS\n\nECS\nRDS (MySQL)\nAurora (MySQL)\nVPC\n\nGoogle Cloud\n\nBigQuery"
+    "text": "4. 社内 BigQuery 環境構築・運用\n\n4.1. 概要\n\nhacomono プロダクトのデータベースから BigQuery へデータを転送し社内向けに DWH を作成するシステムの運用・保守\n\n\n\n4.2. 期間\n\n2024/04 - 現在\n\n\n\n4.3. 規模・役割\n\n[2024/04 - 2024/05]\n\n役割：メンバー\n規模：2名\n\n[2024/06 - 現在]\n\n役割：リーダー\n規模：1名\n\n\n\n\n4.4. 担当業務\n\n[2024/04 - 2024/05] (2名) 定常運用業務・業務引き継ぎ\n[2024/06 - 現在] (私1名) 定常運用業務・運用改善業務\n\n\n\n4.5. 機能開発・実装詳細\n\n(新規実装) Google Cloud プロジェクトと BigQuery の権限管理機能\n\n\n\n4.6. 目的・背景\n\n社内の分析需要に応えるために権限管理の行き届いた新しい BigQuery 環境を構築・運用が必要となりました。\n\n\n\n4.7. 課題\n\n\n(新規実装) Google Cloud プロジェクトと BigQuery の権限管理機能\n\n\n概ね IaC 対応が済んでいましたが権限追加に関してはコンソールからの手動追加対応となっておりました。これにより環境差分が生じ terraform apply が通らなくなる状況でした。\n\n\n4.8. 工夫した点\n\n\n(新規実装) Google Cloud プロジェクトと BigQuery の権限管理機能\n\n\n権限を最小限に留めるためにプロジェクトレベルでの権限付与をせず、データセット毎に権限を付与する運用に変更しました。\n\n\n4.9. 成果\n\n\n(新規実装) Google Cloud プロジェクトと BigQuery の権限管理機能\n\n\nIaC 化により権限の種類とユーザーを CSV ファイルに集約でき、権限付与状況をリポジトリで管理できるようになりました。\n\n\n4.10. 担当フェーズ\n\n運用\n保守\n\n\n\n4.11. 開発環境\n\nGitHub\nTerraform\nEmbulk\nAWS\n\nECS\nRDS MySQL\nAurora MySQL\nVPC\n\nGoogle Cloud\n\nBigQuery"
   },
   {
     "objectID": "detail/02-sld.html",
