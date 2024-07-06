@@ -102,21 +102,21 @@
     "href": "index.html#スキルレベル",
     "title": "職務経歴書",
     "section": "5. スキルレベル",
-    "text": "5. スキルレベル\n★：業務経験あり\n\n\n\n\n\n\n\n\n\n項目\n種類\n使用期間\nレベル\n\n\n\n\nOS\nAmazon Linux / Ubuntu\n★3年\n要件に応じた環境構築や開発環境利用が可能\n\n\n言語\nPython\n★3年\n一人称で作業可能\n\n\n〃\nSQL\n★2年\n一人称で作業可能\n\n\n〃\nShell Script\n★3年\n一人称で作業可能\n\n\n〃\nC\n★4年\n一人称で作業可能\n\n\nDB\nMySQL\n★1年\n調べながらであれば作業可能\n\n\n〃\nPostgreSQL\n★1年\n調べながらであれば作業可能\n\n\nクラウドサービス\nAWS\n★2年\nEC2 / ECS / StepFunctions / SageMaker / Cloud9 / Airflow (MWAA) 等を利用した環境構築や作業が可能\n\n\n〃\nGoogle Cloud\n★0.5年\nCompute Engine / Cloud Functions / Datastream / BigQuery (後述) 等を利用した環境構築や作業が可能\n\n\n〃\nSnowflake\n★2年\nデータマート作成 / SQL パフォーマンス改善 / Snowpark ML 利用 / パラメータ管理が可能\n\n\n〃\nBigQuery\n★0.3年\nBigQuery 関連の権限やデータセット・テーブル作成を Terraform 管理に移行することが可能\n\n\n〃\nTROCCO\n★0.1年\n簡単な操作が可能\n\n\nIaC\nDocker\n★2年\nDockerfile や Docker Compose の記述・実行が可能\n\n\n〃\nTerraform\n★0.3年\n調べながらであれば作業可能\n\n\n〃\nGitHub Actions\n★0.3年\n調べながらであれば作業可能\n\n\nその他\nGit / GitHub / CodeCommit\n★3年\nGit flow や GitHub flow に則った開発利用やレビューが可能\n\n\n〃\ndbt Core\n★0.5年\n調べながらであれば作業可能\n\n\n〃\nEmbulk\n★0.3年\n調べながらであれば作業可能"
+    "text": "5. スキルレベル\n★：業務経験あり\n\n\n\n\n\n\n\n\n\n項目\n種類\n使用期間\nレベル\n\n\n\n\nOS\nAmazon Linux / Ubuntu\n★3年\n要件に応じた環境構築や開発環境利用が可能\n\n\n言語\nPython\n★3年\n一人称で作業可能\n\n\n〃\nSQL\n★2年\n一人称で作業可能\n\n\n〃\nShell Script\n★3年\n一人称で作業可能\n\n\n〃\nC\n★4年\n一人称で作業可能\n\n\nDB\nMySQL\n★1年\n調べながらであれば作業可能\n\n\n〃\nPostgreSQL\n★1年\n調べながらであれば作業可能\n\n\nクラウドサービス\nAWS\n★2年\nEC2 / ECS / StepFunctions / SageMaker / Cloud9 / Airflow (MWAA) 等を利用した環境構築や作業が可能\n\n\n〃\nGoogle Cloud\n★0.5年\nCompute Engine / Cloud Functions / Datastream / BigQuery (後述) 等を利用した環境構築や作業が可能\n\n\n〃\nSnowflake\n★2年\nデータマート作成 / SQL パフォーマンス改善 / Snowpark ML 利用 / パラメータ管理が可能\n\n\n〃\nBigQuery\n★0.3年\nBigQuery 関連の権限管理やデータセット・テーブル作成を Terraform 管理に移行することが可能\n\n\n〃\nTROCCO\n★0.1年\n簡単な操作が可能\n\n\nIaC\nDocker\n★2年\nDockerfile や Docker Compose の記述・実行が可能\n\n\n〃\nTerraform\n★0.3年\n調べながらであれば作業可能\n\n\n〃\nGitHub Actions\n★0.3年\n調べながらであれば作業可能\n\n\nその他\nGit / GitHub / CodeCommit\n★3年\nGit flow や GitHub flow に則った開発利用やレビューが可能\n\n\n〃\ndbt Core\n★0.5年\n調べながらであれば作業可能\n\n\n〃\nEmbulk\n★0.3年\n調べながらであれば作業可能"
   },
   {
     "objectID": "index.html#資格",
     "href": "index.html#資格",
     "title": "職務経歴書",
     "section": "6. 資格",
-    "text": "6. 資格\n\n[2015/03] TOEIC スコア 805\n[2023/04] 統計検定2級"
+    "text": "6. 資格\n\n[2012/11] 普通自動車第一種運転免許\n[2015/03] TOEIC スコア 805\n[2023/04] 統計検定2級"
   },
   {
     "objectID": "index.html#通常業務以外の活動",
     "href": "index.html#通常業務以外の活動",
     "title": "職務経歴書",
     "section": "7. 通常業務以外の活動",
-    "text": "7. 通常業務以外の活動\n\n7.1. 自宅用ゲームサーバー構築\n\nGoogle Compute Engine (Ubuntu) にてゲームサーバーを構築しました。Cloud Functions と GAS により Slack 経由でサーバーを起動・停止できる仕組みを導入しました。\n上記サーバーを構築後、コスト節約のために自宅マシンに Ubuntu をインストールし、Docker コンテナでゲームサーバーを構築しました。systemd を活用して AWS S3 への自動バックアップ機能やサーバーの自動アップデート機能を実装しました。\n\nRepository: https://github.com/i9wa4/minecraft-bedrock-server-setup\n\n\n\n\n7.2. Vim 活動\n\nVim の環境構築を通して各言語の環境構築の知見を得て、社内還元した経験があります。\nVim コミュニティのオンライン・オフラインのイベントに複数参加し Vim に関する技術情報収集や交流を行っています。\nMarkdown 向けの簡易的な Formatter を Vim プラグインとして作成しました。TypeScript で作成しており Deno 環境にて動作します。\n\nRepository: https://github.com/i9wa4/markdown-number-header.vim\n\n\n\n\n7.3. 会社テックブログ執筆\n\n[2024/07/02] hacomonoデータ基盤におけるデータ転送の課題と今後の対応 - hacomono TECH BLOG"
+    "text": "7. 通常業務以外の活動\n\n7.1. 自宅用ゲームサーバー構築\n\nGoogle Compute Engine (Ubuntu) / Cloud Functions / GAS により Slack 経由で起動・停止できるゲームサーバーを構築しました。\nコスト削減のために自宅マシン (Ubuntu) にDocker コンテナでゲームサーバーを再構築しました。systemd を活用してサーバーの自動アップデート機能や AWS S3 への自動バックアップ機能を実装しました。\n\nRepository: https://github.com/i9wa4/minecraft-bedrock-server-setup\n\n\n\n\n7.2. Vim 活動\n\nVim コミュニティのオンライン・オフラインのイベントに複数参加し Vim に関する技術情報収集や交流を行っています。\nMarkdown 向けの簡易な Formatter を Vim プラグインとして作成しました。TypeScript で作成しており Deno 環境にて動作します。\n\nRepository: https://github.com/i9wa4/markdown-number-header.vim\n\n\n\n\n7.3. 会社テックブログ執筆\n\n[2024/07/02] hacomonoデータ基盤におけるデータ転送の課題と今後の対応 - hacomono TECH BLOG"
   },
   {
     "objectID": "detail/04-hacomono.html",
