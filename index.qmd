@@ -74,7 +74,7 @@ title: "職務経歴書"
 | クラウドサービス | AWS                       | ★2年    | EC2 / ECS / StepFunctions / SageMaker / Cloud9 / Airflow (MWAA) 等を利用した環境構築や作業が可能 |
 | 〃               | Google Cloud              | ★0.5年  | Compute Engine / Cloud Functions / Datastream / BigQuery (後述) 等を利用した環境構築や作業が可能 |
 | 〃               | Snowflake                 | ★2年    | データマート作成 / SQL パフォーマンス改善 / Snowpark ML 利用 / パラメータ管理が可能              |
-| 〃               | BigQuery                  | ★0.3年  | BigQuery 関連の権限やデータセット・テーブル作成を Terraform 管理に移行することが可能             |
+| 〃               | BigQuery                  | ★0.3年  | BigQuery 関連の権限管理やデータセット・テーブル作成を Terraform 管理に移行することが可能         |
 | 〃               | TROCCO                    | ★0.1年  | 簡単な操作が可能                                                                                 |
 | IaC              | Docker                    | ★2年    | Dockerfile や Docker Compose の記述・実行が可能                                                  |
 | 〃               | Terraform                 | ★0.3年  | 調べながらであれば作業可能                                                                       |
@@ -85,6 +85,7 @@ title: "職務経歴書"
 
 ## 6. 資格
 
+- [2012/11] 普通自動車第一種運転免許
 - [2015/03] TOEIC スコア 805
 - [2023/04] 統計検定2級
 
@@ -92,15 +93,14 @@ title: "職務経歴書"
 
 ### 7.1. 自宅用ゲームサーバー構築
 
-- Google Compute Engine (Ubuntu) にてゲームサーバーを構築しました。Cloud Functions と GAS により Slack 経由でサーバーを起動・停止できる仕組みを導入しました。
-- 上記サーバーを構築後、コスト節約のために自宅マシンに Ubuntu をインストールし、Docker コンテナでゲームサーバーを構築しました。systemd を活用して AWS S3 への自動バックアップ機能やサーバーの自動アップデート機能を実装しました。
+- Google Compute Engine (Ubuntu) / Cloud Functions / GAS により Slack 経由で起動・停止できるゲームサーバーを構築しました。
+- コスト削減のために自宅マシン (Ubuntu) にDocker コンテナでゲームサーバーを再構築しました。systemd を活用してサーバーの自動アップデート機能や AWS S3 への自動バックアップ機能を実装しました。
     - Repository: <https://github.com/i9wa4/minecraft-bedrock-server-setup>
 
 ### 7.2. Vim 活動
 
-- Vim の環境構築を通して各言語の環境構築の知見を得て、社内還元した経験があります。
 - Vim コミュニティのオンライン・オフラインのイベントに複数参加し Vim に関する技術情報収集や交流を行っています。
-- Markdown 向けの簡易的な Formatter を Vim プラグインとして作成しました。TypeScript で作成しており Deno 環境にて動作します。
+- Markdown 向けの簡易な Formatter を Vim プラグインとして作成しました。TypeScript で作成しており Deno 環境にて動作します。
     - Repository: <https://github.com/i9wa4/markdown-number-header.vim>
 
 ### 7.3. 会社テックブログ執筆
