@@ -23,7 +23,7 @@ title: "職務経歴書"
 
 役割に関して、前職シイエヌエス北海道ではプロジェクトのリーダーやサブリーダーを任されておりました。現職 hacomono ではメンバー採用ではあるものの、入社直後にデータエンジニアが私1名のみになった都合でデータ基盤関連のタスク管理・社内調整・目標管理といったリーダー相当の業務を担当しております。
 
-技術面では Snowflake データマート整備、Airflow や dbt を用いたデータパイプライン構築運用保守、機械学習ワークフロー構築運用保守、Embulk による BigQuery へのデータ転送の運用保守などの業務を通して得た知見があります。
+技術面では Snowflake データマート整備、Airflow や dbt を用いたデータパイプライン構築運用保守、機械学習ワークフロー構築運用保守、Embulk による BigQuery へのデータ転送の運用保守、Terraform によるデータ基盤の IaC 化の推進、GitHub での CI/CD 推進などの知見があります。
 
 ## 3. 興味・関心
 
@@ -52,7 +52,7 @@ title: "職務経歴書"
 | 2018/08 - 2022/03 | 新光商事LSIデザインセンター株式会社<br>ソフト開発一部 開発二課 | 組込エンジニアのメンバーとして以下に従事<br>* 車載マイコンの機能開発<br>* インバータやモータの制御開発                      | [Link](./detail/02-sld.qmd)      |
 | 2016/04 - 2018/07 | オークマ株式会社<br>FAシステム本部 FA開発部 ITプラザ開発課     | アプリエンジニアのメンバーとして以下に従事<br>* Windows 用 CAD/CAM アプリ開発の要件定義・テスト                             | [Link](./detail/01-okuma.qmd)    |
 
-最も苦労したプロジェクトは以下です。詳細はリンク先をご確認下さい。
+最も苦労したプロジェクトは前職で2023年12月～2024年3月にリーダーとして参画していた以下のプロジェクトです。機械学習ワークフローのリプレイスのために技術選定を行いました。詳細はリンク先をご確認下さい。
 
 - [情報通信企業向け 機械学習ワークフローと AI プラットフォーム移管 | 職務経歴 株式会社シイエヌエス北海道](./detail/03-cnsh.qmd#情報通信企業向け-機械学習ワークフローと-ai-プラットフォーム移管)
 
@@ -62,26 +62,26 @@ title: "職務経歴書"
 
 : {tbl-colwidths="[15,20,15,50]"}
 
-| 項目             | 種類                      | 使用期間 | レベル                                                                                           |
-| :---             | :---                      | :---     | :---                                                                                             |
-| OS               | Amazon Linux / Ubuntu     | ★3年    | 要件に応じた環境構築や開発環境利用が可能                                                         |
-| 言語             | Python                    | ★3年    | 一人称で作業可能                                                                                 |
-| 〃               | SQL                       | ★2年    | 一人称で作業可能                                                                                 |
-| 〃               | Shell Script              | ★3年    | 一人称で作業可能                                                                                 |
-| 〃               | C                         | ★4年    | 一人称で作業可能                                                                                 |
-| DB               | MySQL                     | ★1年    | 調べながらであれば作業可能                                                                       |
-| 〃               | PostgreSQL                | ★1年    | 調べながらであれば作業可能                                                                       |
-| クラウドサービス | AWS                       | ★2年    | EC2 / ECS / StepFunctions / SageMaker / Cloud9 / Airflow (MWAA) 等を利用した環境構築や作業が可能 |
-| 〃               | Google Cloud              | ★0.5年  | Compute Engine / Cloud Functions / Datastream / BigQuery (後述) 等を利用した環境構築や作業が可能 |
-| 〃               | Snowflake                 | ★2年    | データマート作成 / SQL パフォーマンス改善 / Snowpark ML 利用 / パラメータ管理が可能              |
-| 〃               | BigQuery                  | ★0.3年  | BigQuery 関連の権限管理やデータセット・テーブル作成を Terraform 管理に移行することが可能         |
-| 〃               | TROCCO                    | ★0.1年  | 簡単な操作が可能                                                                                 |
-| IaC              | Docker                    | ★2年    | Dockerfile や Docker Compose の記述・実行が可能                                                  |
-| 〃               | Terraform                 | ★0.3年  | 調べながらであれば作業可能                                                                       |
-| 〃               | GitHub Actions            | ★0.3年  | 調べながらであれば作業可能                                                                       |
-| その他           | Git / GitHub / CodeCommit | ★3年    | Git flow や GitHub flow に則った開発利用やレビューが可能                                         |
-| 〃               | dbt Core                  | ★0.5年  | 調べながらであれば作業可能                                                                       |
-| 〃               | Embulk                    | ★0.3年  | 調べながらであれば作業可能                                                                       |
+| 項目             | 種類                      | 使用期間 | レベル                                                                                       |
+| :---             | :---                      | :---     | :---                                                                                         |
+| OS               | Amazon Linux / Ubuntu     | ★3年    | 要件に応じた環境構築や開発環境利用が可能                                                     |
+| 言語             | Python                    | ★3年    | 一人称で作業可能                                                                             |
+| 〃               | SQL                       | ★2年    | 一人称で作業可能                                                                             |
+| 〃               | Shell Script              | ★3年    | 一人称で作業可能                                                                             |
+| 〃               | C                         | ★4年    | 一人称で作業可能                                                                             |
+| DB               | MySQL                     | ★1年    | 調べながらであれば作業可能                                                                   |
+| 〃               | PostgreSQL                | ★1年    | 調べながらであれば作業可能                                                                   |
+| クラウドサービス | AWS                       | ★2年    | EC2 / ECS / StepFunctions / SageMaker / Cloud9 / Airflow (MWAA) 等を含む環境構築や作業が可能 |
+| 〃               | Google Cloud              | ★0.5年  | Compute Engine / Cloud Functions / Datastream / BigQuery (後述) 等を含む環境構築や作業が可能 |
+| 〃               | Snowflake                 | ★2年    | データマート作成 / SQL パフォーマンス改善 / Snowpark ML 利用 / パラメータ管理が可能          |
+| 〃               | BigQuery                  | ★0.3年  | BigQuery 関連の権限管理やデータセット・テーブル作成を Terraform 管理に移行することが可能     |
+| 〃               | TROCCO                    | ★0.1年  | 簡単な操作が可能                                                                             |
+| IaC              | Docker                    | ★2年    | Dockerfile や Docker Compose の記述・実行が可能                                              |
+| 〃               | Terraform                 | ★0.3年  | BigQuery 関連の IaC 化作業が可能                                                             |
+| 〃               | GitHub Actions            | ★0.5年  | 既存ワークフロー改修 / GitHub Pages 関連のワークフロー作成が可能                             |
+| その他           | Git / GitHub / CodeCommit | ★3年    | Git flow や GitHub flow に則った開発利用やレビューが可能                                     |
+| 〃               | dbt Core                  | ★0.5年  | スクラッチからデータマート構築まで書きあげることが可能                                       |
+| 〃               | Embulk                    | ★0.3年  | 転送元 DB や 利用するインスタンス性能に応じたパフォーマンス改善が可能                        |
 
 ## 6. 資格
 
@@ -101,7 +101,7 @@ title: "職務経歴書"
 
 - Vim コミュニティのオンライン・オフラインのイベントに複数参加し Vim に関する技術情報収集や交流を行っています。
 - Markdown 向けの簡易な Formatter を Vim プラグインとして作成しました。TypeScript で作成しており Deno 環境にて動作します。
-    - Repository: <https://github.com/i9wa4/markdown-number-header.vim>
+    - Repository: <https://github.com/i9wa4/vim-markdown-number-header>
 
 ### 7.3. 会社テックブログ執筆
 
