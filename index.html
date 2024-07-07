@@ -146,7 +146,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="活かせる経験知識技術">2. 活かせる経験・知識・技術</h2>
 <p>職歴を通して要件定義・開発・テスト・運用・保守のいずれの工程も経験を積んでおります。</p>
 <p>役割に関して、前職シイエヌエス北海道ではプロジェクトのリーダーやサブリーダーを任されておりました。現職 hacomono ではメンバー採用ではあるものの、入社直後にデータエンジニアが私1名のみになった都合でデータ基盤関連のタスク管理・社内調整・目標管理といったリーダー相当の業務を担当しております。</p>
-<p>技術面では Snowflake データマート整備、Airflow や dbt を用いたデータパイプライン構築運用保守、機械学習ワークフロー構築運用保守、Embulk による BigQuery へのデータ転送の運用保守などの業務を通して得た知見があります。</p>
+<p>技術面では Snowflake データマート整備、Airflow や dbt を用いたデータパイプライン構築運用保守、機械学習ワークフロー構築運用保守、Embulk による BigQuery へのデータ転送の運用保守、Terraform によるデータ基盤の IaC 化の推進、GitHub での CI/CD 推進などの知見があります。</p>
 </section>
 <section id="興味関心" class="level2">
 <h2 class="anchored" data-anchor-id="興味関心">3. 興味・関心</h2>
@@ -212,7 +212,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
-<p>最も苦労したプロジェクトは以下です。詳細はリンク先をご確認下さい。</p>
+<p>最も苦労したプロジェクトは前職で2023年12月～2024年3月にリーダーとして参画していた以下のプロジェクトです。機械学習ワークフローのリプレイスのために技術選定を行いました。詳細はリンク先をご確認下さい。</p>
 <ul>
 <li><a href="./detail/03-cnsh.html#情報通信企業向け-機械学習ワークフローと-ai-プラットフォーム移管">情報通信企業向け 機械学習ワークフローと AI プラットフォーム移管 | 職務経歴 株式会社シイエヌエス北海道</a></li>
 </ul>
@@ -282,13 +282,13 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: left;">クラウドサービス</td>
 <td style="text-align: left;">AWS</td>
 <td style="text-align: left;">★2年</td>
-<td style="text-align: left;">EC2 / ECS / StepFunctions / SageMaker / Cloud9 / Airflow (MWAA) 等を利用した環境構築や作業が可能</td>
+<td style="text-align: left;">EC2 / ECS / StepFunctions / SageMaker / Cloud9 / Airflow (MWAA) 等を含む環境構築や作業が可能</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">〃</td>
 <td style="text-align: left;">Google Cloud</td>
 <td style="text-align: left;">★0.5年</td>
-<td style="text-align: left;">Compute Engine / Cloud Functions / Datastream / BigQuery (後述) 等を利用した環境構築や作業が可能</td>
+<td style="text-align: left;">Compute Engine / Cloud Functions / Datastream / BigQuery (後述) 等を含む環境構築や作業が可能</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">〃</td>
@@ -318,13 +318,13 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: left;">〃</td>
 <td style="text-align: left;">Terraform</td>
 <td style="text-align: left;">★0.3年</td>
-<td style="text-align: left;">調べながらであれば作業可能</td>
+<td style="text-align: left;">BigQuery 関連の IaC 化作業が可能</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">〃</td>
 <td style="text-align: left;">GitHub Actions</td>
-<td style="text-align: left;">★0.3年</td>
-<td style="text-align: left;">調べながらであれば作業可能</td>
+<td style="text-align: left;">★0.5年</td>
+<td style="text-align: left;">既存ワークフロー改修 / GitHub Pages 関連のワークフロー作成が可能</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">その他</td>
@@ -336,13 +336,13 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: left;">〃</td>
 <td style="text-align: left;">dbt Core</td>
 <td style="text-align: left;">★0.5年</td>
-<td style="text-align: left;">調べながらであれば作業可能</td>
+<td style="text-align: left;">スクラッチからデータマート構築まで書きあげることが可能</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">〃</td>
 <td style="text-align: left;">Embulk</td>
 <td style="text-align: left;">★0.3年</td>
-<td style="text-align: left;">調べながらであれば作業可能</td>
+<td style="text-align: left;">転送元 DB や 利用するインスタンス性能に応じたパフォーマンス改善が可能</td>
 </tr>
 </tbody>
 </table>
@@ -373,7 +373,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Vim コミュニティのオンライン・オフラインのイベントに複数参加し Vim に関する技術情報収集や交流を行っています。</li>
 <li>Markdown 向けの簡易な Formatter を Vim プラグインとして作成しました。TypeScript で作成しており Deno 環境にて動作します。
 <ul>
-<li>Repository: <a href="https://github.com/i9wa4/markdown-number-header.vim" class="uri">https://github.com/i9wa4/markdown-number-header.vim</a></li>
+<li>Repository: <a href="https://github.com/i9wa4/vim-markdown-number-header" class="uri">https://github.com/i9wa4/vim-markdown-number-header</a></li>
 </ul></li>
 </ul>
 </section>
