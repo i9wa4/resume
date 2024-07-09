@@ -4,10 +4,10 @@ title: "職務経歴書"
 
 : {tbl-colwidths="[30,70]"}
 
-|                                                  |                                  |
-| :---                                             | :---                             |
-| 職務経歴書 公開ページ<br>※pdf版と同一の内容です | <https://i9wa4.github.io/resume> |
-| 自己紹介ページ                                   | <https://i9wa4.github.io/i9wa4>  |
+|                   |                                  |
+| :---              | :---                             |
+| 職務経歴書 公開先 | <https://i9wa4.github.io/resume> |
+| 自己紹介          | <https://i9wa4.github.io/i9wa4>  |
 
 ## 1. 職務要約
 
