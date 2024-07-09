@@ -103,6 +103,7 @@ title: "職務経歴書"
 - Markdown 向けの簡易な Formatter を Vim プラグインとして作成しました。TypeScript で作成しており Deno 環境にて動作します。
     - Repository: <https://github.com/i9wa4/vim-markdown-number-header>
 
-### 7.3. 会社テックブログ執筆
+### 7.3. 社外へのアウトプット
 
 - [2024/07/02] [hacomonoデータ基盤におけるデータ転送の課題と今後の対応 - hacomono TECH BLOG](https://techblog.hacomono.jp/entry/2024/07/02/1100)
+- [2024/08予定] Findy Tools への BigQuery・Terraform のレビュー寄稿
