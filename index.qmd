@@ -119,18 +119,18 @@ date: last-modified
 
 ## 7. 通常業務以外の活動
 
-### 7.3. 社外へのアウトプット
+### 7.1. 社外へのアウトプット
 
 - [2024/07/02] [hacomonoデータ基盤におけるデータ転送の課題と今後の対応 - hacomono TECH BLOG](https://techblog.hacomono.jp/entry/2024/07/02/1100)
 - [2024/08予定] Findy Tools への BigQuery・Terraform のレビュー寄稿
 
-### 7.1. 自宅用ゲームサーバー構築
+### 7.2. 自宅用ゲームサーバー構築
 
 - GCE (Ubuntu) / Cloud Functions / GAS により Slack 経由で起動・停止できるゲームサーバーを構築しました。
 - 自宅 Ubuntu マシンにも Docker でゲームサーバーを構築し systemd によるサーバーの自動アップデート機能と AWS S3 への自動バックアップ機能を実装しました。
     - Repository: <https://github.com/i9wa4/minecraft-bedrock-server-setup>
 
-### 7.2. Vim 活動
+### 7.3. Vim 活動
 
 - Vim コミュニティのイベントに複数参加し Vim に関する技術情報収集や交流を行っています。
 - Markdown 向け Formatter を Vim プラグインとして TypeScript (Deno) で作成しました。
