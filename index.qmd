@@ -34,7 +34,6 @@ date: last-modified
 | 言語          | Python                    | ★3年    | 一人称で作業可能                                                                             |
 | 言語          | SQL                       | ★2年    | 一人称で作業可能                                                                             |
 | 言語          | Shell Script              | ★3年    | 一人称で作業可能                                                                             |
-| 言語          | C                         | ★4年    | 一人称で作業可能                                                                             |
 | DB            | MySQL / PostgreSQL        | ★1年    | 不具合調査等でのデータ閲覧可能                                                               |
 | Cloud         | AWS                       | ★2年    | EC2 / ECS / StepFunctions / SageMaker / Cloud9 / Airflow (MWAA) 等を含む環境構築や作業が可能 |
 | Cloud         | Google Cloud              | ★0.5年  | Compute Engine / Cloud Functions / Datastream / BigQuery (後述) 等を含む環境構築や作業が可能 |
