@@ -5,12 +5,6 @@ project:
 website:
   title: "職務経歴書"
   site-url: "https://i9wa4.github.io/resume/"
-  navbar:
-    right:
-      - icon: github
-        href: https://github.com/i9wa4
-      - icon: twitter-x
-        href: https://x.com/i9wa4_
 
 format:
   html:
@@ -19,6 +13,7 @@ format:
     toc-expand: 2
     toc-title: TOC
     toc-location: right
+    page-layout: full
 
 date: last-modified
 date-format: iso
