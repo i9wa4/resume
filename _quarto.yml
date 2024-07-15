@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: docs
+  output-dir: "docs"
 
 website:
   title: "職務経歴書"
@@ -11,7 +11,7 @@ format:
     toc: true
     toc-depth: 2
     toc-expand: 2
-    toc-title: TOC
+    toc-title: "TOC"
     toc-location: right
     page-layout: full
 
