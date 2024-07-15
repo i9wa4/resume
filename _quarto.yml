@@ -19,3 +19,4 @@ format:
     toc-title: "TOC"
     toc-location: right
     page-layout: full
+    linestretch: 1.4
