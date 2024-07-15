@@ -67,49 +67,49 @@
     "href": "index.html",
     "title": "職務経歴書",
     "section": "",
-    "text": "職務経歴書 公開先\nhttps://i9wa4.github.io/resume\n\n\n自己紹介\nhttps://i9wa4.github.io/i9wa4"
+    "text": "職務経歴書 公開先\nhttps://i9wa4.github.io/resume\n\n\nGitHub\nhttps://github.com/i9wa4"
   },
   {
     "objectID": "index.html#職務要約",
     "href": "index.html#職務要約",
     "title": "職務経歴書",
     "section": "1. 職務要約",
-    "text": "1. 職務要約\n北海道大学卒業後、Windowsアプリエンジニアや組込エンジニアとして6年勤務しました。\nその後株式会社シイエヌエス北海道にてデータエンジニアとして2年間データマート整備、データパイプライン構築、機械学習ワークフロー構築、機械学習モデル運用業務に従事し、サブリーダーやリーダーを任されました。\n2024年4月から現職である株式会社hacomonoにて一人データエンジニアとしてデータ基盤の構築・運用・保守業務に従事しております。札幌にてフルリモートの勤務となります。"
+    "text": "1. 職務要約\n北海道大学卒業後、Windowsアプリエンジニアや組込エンジニアとして6年勤務しました。\nその後株式会社シイエヌエス北海道にてデータエンジニアとして2年間データマート整備、データパイプライン構築、機械学習ワークフロー構築、機械学習モデル運用業務に従事し、サブリーダーやリーダーを任されてきました。\n2024年4月から現職である株式会社hacomonoにて一人データエンジニアとしてデータ基盤の構築・運用・保守業務に従事しております。札幌にてフルリモートの勤務となります。"
   },
   {
     "objectID": "index.html#活かせる経験知識技術",
     "href": "index.html#活かせる経験知識技術",
     "title": "職務経歴書",
     "section": "2. 活かせる経験・知識・技術",
-    "text": "2. 活かせる経験・知識・技術\n職歴を通して要件定義・開発・テスト・運用・保守のいずれの工程も経験を積んでおります。\n役割に関して、前職シイエヌエス北海道ではプロジェクトのリーダーやサブリーダーを任されておりました。現職 hacomono ではメンバー採用ではあるものの、入社直後にデータエンジニアが私1名のみになった都合でデータ基盤関連のタスク管理・社内調整・目標管理といったリーダー相当の業務を担当しております。\n技術面では Snowflake データマート整備、Airflow や dbt を用いたデータパイプライン構築運用保守、機械学習ワークフロー構築運用保守、Snowpark ML 利用、Embulk による BigQuery へのデータ転送の運用保守、Terraform によるデータ基盤の IaC 化の推進、GitHub での CI/CD 推進などの知見があります。"
+    "text": "2. 活かせる経験・知識・技術\n役割面では前職シイエヌエス北海道にてプロジェクトのリーダーやサブリーダーを任されておりました。現職 hacomono ではメンバー採用ではあるものの、入社直後にデータエンジニアが私1名のみになった都合でデータ基盤関連のタスク管理・社内調整・目標管理といったリーダー相当の業務を担当しております。\n技術面では Snowflake データマート整備、Airflow & dbt のデータパイプライン構築運用保守、Embulk による BigQuery へのデータ転送の運用保守、Terraform によるデータ基盤の IaC 化の推進、機械学習ワークフロー構築運用保守などの知見があります。"
   },
   {
-    "objectID": "index.html#興味関心",
-    "href": "index.html#興味関心",
+    "objectID": "index.html#スキルレベル",
+    "href": "index.html#スキルレベル",
     "title": "職務経歴書",
-    "section": "3. 興味・関心",
-    "text": "3. 興味・関心\n\n3.1. 技術\n\nSnowflake / BigQuery / dbt の知見を深める\nデータガバナンスに関する経験を積む\nLLM の下支え (ベクトルデータベース構築など)\nMLOps の実践\n\n\n\n3.2. 役割\n\n[直近] データエンジニアとしてリーダー経験・マネジメント経験を積む\n[3-5年後] データ関連業務の PjM や PdM (あるいは EM) として会社の売上に貢献できる立場になる"
+    "section": "3. スキルレベル",
+    "text": "3. スキルレベル\n★：業務経験あり\n\n\n\n\n\n\n\n\n\n項目\n種類\n使用期間\nレベル\n\n\n\n\nOS\nAmazon Linux / Ubuntu\n★3年\n要件に応じた環境構築や開発環境利用が可能\n\n\n言語\nPython\n★3年\n一人称で作業可能\n\n\n言語\nSQL\n★2年\n一人称で作業可能\n\n\n言語\nShell Script\n★3年\n一人称で作業可能\n\n\n言語\nC\n★4年\n一人称で作業可能\n\n\nDB\nMySQL\n★1年\n不具合調査等でのデータ閲覧可能\n\n\nDB\nPostgreSQL\n★1年\n不具合調査等でのデータ閲覧可能\n\n\nCloud\nAWS\n★2年\nEC2 / ECS / StepFunctions / SageMaker / Cloud9 / Airflow (MWAA) 等を含む環境構築や作業が可能\n\n\nCloud\nGoogle Cloud\n★0.5年\nCompute Engine / Cloud Functions / Datastream / BigQuery (後述) 等を含む環境構築や作業が可能\n\n\nCloud (Data)\nSnowflake\n★2年\nデータマート作成 / SQL パフォーマンス改善 / Snowpark ML 利用 / パラメータ管理が可能\n\n\nCloud (Data)\nBigQuery\n★0.3年\nBigQuery 関連の権限管理やデータセット・テーブル作成を Terraform 管理に移行することが可能\n\n\nCloud (Data)\nTROCCO\n★0.1年\n簡単な操作が可能\n\n\nCloud (ML)\nDataRobot\n★2年\nオートパイロットや blueprint 固定でのモデル運用全体、各種評価指標の取得の実装が可能\n\n\nIaC\nDocker\n★2年\nDockerfile や Docker Compose の記述・実行が可能\n\n\nIaC\nTerraform\n★0.3年\nBigQuery 関連の IaC 化作業が可能\n\n\nその他\nGit / GitHub / CodeCommit\n★3年\nGit flow や GitHub flow に則った開発利用やレビューが可能\n\n\nその他\nGitHub Actions\n★0.5年\n既存ワークフロー改修 / GitHub Pages 関連のワークフロー作成が可能\n\n\nその他 (Data)\ndbt Core\n★0.5年\nスクラッチからデータマート構築まで書きあげることが可能\n\n\nその他 (Data)\nEmbulk\n★0.3年\n転送元 DB や 利用するインスタンス性能に応じたパフォーマンス改善が可能"
   },
   {
     "objectID": "index.html#職務経歴",
     "href": "index.html#職務経歴",
     "title": "職務経歴書",
     "section": "4. 職務経歴",
-    "text": "4. 職務経歴\n新しい順に記載しております。\n\n\n\n\n\n\n\n\n\n在籍期間\n所属\n概要\n詳細\n\n\n\n\n2024/04 - 現在\n株式会社hacomonoプロダクト 基盤本部 データ基盤部\nデータエンジニアのメンバーとして以下に従事- 自社環境・顧客環境の DWH 構築・運用- 自社データ基盤の運用改善・機能追加\nLink\n\n\n2022/04 - 2024/03\n株式会社シイエヌエス北海道デジタルビジネス推進部\nデータエンジニアのサブリーダーやリーダーとして以下に従事- データパイプライン構築- 機械学習ワークフロー構築\nLink\n\n\n2018/08 - 2022/03\n新光商事LSIデザインセンター株式会社ソフト開発一部 開発二課\n組込エンジニアのメンバーとして以下に従事- 車載マイコンの機能開発- インバータやモータの制御開発\nLink\n\n\n2016/04 - 2018/07\nオークマ株式会社FAシステム本部 FA開発部 ITプラザ開発課\nアプリエンジニアのメンバーとして以下に従事- Windows 用 CAD/CAM アプリ開発の要件定義・テスト\nLink\n\n\n\n最も苦労したプロジェクトは前職で2023年12月～2024年3月にリーダーとして参画していた以下のプロジェクトです。機械学習ワークフローのリプレイスのために技術選定から設計まで行いました。詳細はリンク先をご確認下さい。\n\n情報通信企業向け 機械学習ワークフローと AI プラットフォーム移管 | 職務経歴 株式会社シイエヌエス北海道"
-  },
-  {
-    "objectID": "index.html#スキルレベル",
-    "href": "index.html#スキルレベル",
-    "title": "職務経歴書",
-    "section": "5. スキルレベル",
-    "text": "5. スキルレベル\n★：業務経験あり\n\n\n\n\n\n\n\n\n\n項目\n種類\n使用期間\nレベル\n\n\n\n\nOS\nAmazon Linux / Ubuntu\n★3年\n要件に応じた環境構築や開発環境利用が可能\n\n\n言語\nPython\n★3年\n一人称で作業可能\n\n\n〃\nSQL\n★2年\n一人称で作業可能\n\n\n〃\nShell Script\n★3年\n一人称で作業可能\n\n\n〃\nC\n★4年\n一人称で作業可能\n\n\nDB\nMySQL\n★1年\n調べながらであれば作業可能\n\n\n〃\nPostgreSQL\n★1年\n調べながらであれば作業可能\n\n\nクラウドサービス\nAWS\n★2年\nEC2 / ECS / StepFunctions / SageMaker / Cloud9 / Airflow (MWAA) 等を含む環境構築や作業が可能\n\n\n〃\nGoogle Cloud\n★0.5年\nCompute Engine / Cloud Functions / Datastream / BigQuery (後述) 等を含む環境構築や作業が可能\n\n\n〃\nSnowflake\n★2年\nデータマート作成 / SQL パフォーマンス改善 / Snowpark ML 利用 / パラメータ管理が可能\n\n\n〃\nBigQuery\n★0.3年\nBigQuery 関連の権限管理やデータセット・テーブル作成を Terraform 管理に移行することが可能\n\n\n〃\nTROCCO\n★0.1年\n簡単な操作が可能\n\n\nIaC\nDocker\n★2年\nDockerfile や Docker Compose の記述・実行が可能\n\n\n〃\nTerraform\n★0.3年\nBigQuery 関連の IaC 化作業が可能\n\n\n〃\nGitHub Actions\n★0.5年\n既存ワークフロー改修 / GitHub Pages 関連のワークフロー作成が可能\n\n\nその他\nGit / GitHub / CodeCommit\n★3年\nGit flow や GitHub flow に則った開発利用やレビューが可能\n\n\n〃\ndbt Core\n★0.5年\nスクラッチからデータマート構築まで書きあげることが可能\n\n\n〃\nEmbulk\n★0.3年\n転送元 DB や 利用するインスタンス性能に応じたパフォーマンス改善が可能"
+    "text": "4. 職務経歴\n新しい順に記載しております。\n\n\n\n\n\n\n\n\n\n在籍期間\n所属\n概要\n詳細\n\n\n\n\n2024/04 - 現在\n株式会社hacomonoプロダクト 基盤本部 データ基盤部\nデータエンジニアのメンバーとして以下に従事- 自社環境・顧客環境の DWH 構築・運用- 自社データ基盤の運用改善・機能追加\n詳細\n\n\n2022/04 - 2024/03\n株式会社シイエヌエス北海道デジタルビジネス推進部\nデータエンジニアのサブリーダーやリーダーとして以下に従事- データパイプライン構築- 機械学習ワークフロー構築\n詳細\n\n\n2018/08 - 2022/03\n新光商事LSIデザインセンター株式会社ソフト開発一部 開発二課\n組込エンジニアのメンバーとして以下に従事- 車載マイコンの機能開発- インバータやモータの制御開発\n詳細\n\n\n2016/04 - 2018/07\nオークマ株式会社FAシステム本部 FA開発部 ITプラザ開発課\nアプリエンジニアのメンバーとして以下に従事- Windows 用 CAD/CAM アプリ開発の要件定義・テスト\n詳細\n\n\n\n最も苦労したプロジェクトは前職で2023年12月～2024年3月にリーダーとして参画していた以下のプロジェクトです。機械学習ワークフローのリプレイスのために技術選定から設計まで行いました。詳細はリンク先をご確認下さい。\n\n情報通信企業向け 機械学習ワークフローと AI プラットフォーム移管 | 職務経歴 株式会社シイエヌエス北海道"
   },
   {
     "objectID": "index.html#資格",
     "href": "index.html#資格",
     "title": "職務経歴書",
-    "section": "6. 資格",
-    "text": "6. 資格\n\n[2012/11] 普通自動車第一種運転免許\n[2015/03] TOEIC スコア 805\n[2023/04] 統計検定2級"
+    "section": "5. 資格",
+    "text": "5. 資格\n\n[2012/11] 普通自動車第一種運転免許\n[2015/03] TOEIC スコア 805\n[2023/04] 統計検定2級"
+  },
+  {
+    "objectID": "index.html#興味関心",
+    "href": "index.html#興味関心",
+    "title": "職務経歴書",
+    "section": "6. 興味・関心",
+    "text": "6. 興味・関心\n\n6.1. 技術\n\nSnowflake / BigQuery / dbt の知見を深める\nデータガバナンスに関する経験を積む\nLLM の下支え (ベクトルデータベース構築など)\nMLOps の実践\n\n\n\n6.2. 役割\n\n[直近] データエンジニアとしてリーダー経験・マネジメント経験を積む\n[3-5年後] データ関連業務の PjM や PdM (あるいは EM) として会社の売上に貢献できる立場になる"
   },
   {
     "objectID": "index.html#通常業務以外の活動",
