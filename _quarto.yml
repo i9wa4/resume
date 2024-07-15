@@ -2,6 +2,11 @@ project:
   type: website
   output-dir: "docs"
 
+date-format: iso
+theme:
+  light: flatly
+  dark: darkly
+
 website:
   title: "職務経歴書"
   site-url: "https://i9wa4.github.io/resume/"
@@ -14,7 +19,3 @@ format:
     toc-title: "TOC"
     toc-location: right
     page-layout: full
-
-date: last-modified
-date-format: iso
-theme: flatly
