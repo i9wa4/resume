@@ -10,6 +10,7 @@ theme:
 website:
   title: "職務経歴書"
   site-url: "https://i9wa4.github.io/resume/"
+  favicon: "./assets/icon_hhkb2.jpg"
   search: false
 
 format:
