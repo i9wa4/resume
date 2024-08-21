@@ -53,7 +53,7 @@
     "href": "index.html#通常業務以外の活動",
     "title": "職務経歴書",
     "section": "7. 通常業務以外の活動",
-    "text": "7. 通常業務以外の活動\n\n7.1. 社外へのアウトプット\n\n[2024/07/02] hacomonoデータ基盤におけるデータ転送の課題と今後の対応 - hacomono TECH BLOG\n[2024/08予定] Findy Tools への BigQuery・Terraform のレビュー寄稿\n\n\n\n7.2. 自宅用ゲームサーバー構築\n\nGCE (Ubuntu) / Cloud Functions / GAS により Slack 経由で起動・停止できるゲームサーバーを構築しました。\n自宅 Ubuntu マシンにも Docker でゲームサーバーを構築し systemd によるサーバーの自動アップデート機能と AWS S3 への自動バックアップ機能を実装しました。\n\nRepository: https://github.com/i9wa4/minecraft-bedrock-server-setup\n\n\n\n\n7.3. Vim 活動\n\nVim コミュニティのイベントに複数参加し Vim に関する技術情報収集や交流を行っています。\nMarkdown 向け Formatter を Vim プラグインとして TypeScript (Deno) で作成しました。\n\nRepository: https://github.com/i9wa4/vim-markdown-number-header"
+    "text": "7. 通常業務以外の活動\n\n7.1. 社外へのアウトプット\n\n[2024/07/02] hacomonoデータ基盤におけるデータ転送の課題と今後の対応 - hacomono TECH BLOG\n[2024/08/21] Findy Tools への BigQuery レビュー寄稿 株式会社hacomonoのBigQuery導入事例\n\n\n\n7.2. 自宅用ゲームサーバー構築\n\nGCE (Ubuntu) / Cloud Functions / GAS により Slack 経由で起動・停止できるゲームサーバーを構築しました。\n自宅 Ubuntu マシンにも Docker でゲームサーバーを構築し systemd によるサーバーの自動アップデート機能と AWS S3 への自動バックアップ機能を実装しました。\n\nRepository: https://github.com/i9wa4/minecraft-bedrock-server-setup\n\n\n\n\n7.3. Vim 活動\n\nVim コミュニティのイベントに複数参加し Vim に関する技術情報収集や交流を行っています。\nMarkdown 向け Formatter を Vim プラグインとして TypeScript (Deno) で作成しました。\n\nRepository: https://github.com/i9wa4/vim-markdown-number-header"
   },
   {
     "objectID": "detail/02-sld.html",
