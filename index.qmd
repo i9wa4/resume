@@ -99,7 +99,7 @@ date: last-modified
 ### 7.1. 社外へのアウトプット
 
 - [2024/07/02] [hacomonoデータ基盤におけるデータ転送の課題と今後の対応 - hacomono TECH BLOG](https://techblog.hacomono.jp/entry/2024/07/02/1100)
-- [2024/08予定] Findy Tools への BigQuery・Terraform のレビュー寄稿
+- [2024/08/21] Findy Tools への BigQuery レビュー寄稿 [株式会社hacomonoのBigQuery導入事例](https://findy-tools.io/products/bigquery/49/231)
 
 ### 7.2. 自宅用ゲームサーバー構築
 
