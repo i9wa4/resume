@@ -32,7 +32,7 @@
     "href": "index.html#通常業務以外の活動",
     "title": "職務経歴書",
     "section": "4. 通常業務以外の活動",
-    "text": "4. 通常業務以外の活動\n\n[2024/07/02] 会社テックブログ執筆 hacomonoデータ基盤におけるデータ転送の課題と今後の対応 - hacomono TECH BLOG\n[2024/08/21] レビュー執筆 株式会社hacomonoのBigQuery導入事例 - Findy Tools\n\n[2024/10/08] 特集記事への掲載 39社のデータ基盤アーキテクチャ特集 - ツールの技術選定のポイントと活用術 - Findy Tools"
+    "text": "4. 通常業務以外の活動\n\n[2024/07/02] 会社テックブログ執筆 hacomonoデータ基盤におけるデータ転送の課題と今後の対応 - hacomono TECH BLOG\n[2024/08/21] レビュー執筆 株式会社hacomonoのBigQuery導入事例 - Findy Tools\n[2024/10/08] 特集記事への掲載 39社のデータ基盤アーキテクチャ特集 - ツールの技術選定のポイントと活用術 - Findy Tools"
   },
   {
     "objectID": "index.html#今後取り組みたいこと",
@@ -126,11 +126,11 @@
     "text": "Table 1: 会社概要・雇用形態 (2024年時点)\n\n\n\n\n\n\n\n\n\n事業内容\n月額型店舗のための会員管理・予約・キャッシュレス決済システム「hacomono」開発・販売\n\n\n資本金\n100百万円\n\n\n売上高\n非公開\n\n\n従業員数\n217名\n\n\n上場／非上場\n非上場\n\n\n雇用形態\n正社員\n\n\n勤務地\nフルリモート (居住地 北海道札幌市)年に数回東京原宿本社へ出社\n\n\n所属\n[2024/04 - 2024/08] 基盤本部 データ基盤部[2024/09 - 現在] データ本部 データ基盤部 (組織改編)\n以下、新しい順にプロジェクトを記載しております。"
   },
   {
-    "objectID": "details/04-hacomono.html#プロジェクト以外の業務",
-    "href": "details/04-hacomono.html#プロジェクト以外の業務",
+    "objectID": "details/04-hacomono.html#通常業務以外の活動",
+    "href": "details/04-hacomono.html#通常業務以外の活動",
     "title": "職務経歴 株式会社hacomono",
-    "section": "1. プロジェクト以外の業務",
-    "text": "1. プロジェクト以外の業務\n\n1.1. 社外へのアウトプット\n\n[2024/07/02] 会社テックブログ執筆 hacomonoデータ基盤におけるデータ転送の課題と今後の対応 - hacomono TECH BLOG\n[2024/08/21] レビュー執筆 株式会社hacomonoのBigQuery導入事例 - Findy Tools\n\n[2024/10/08] 特集記事への掲載 39社のデータ基盤アーキテクチャ特集 - ツールの技術選定のポイントと活用術 - Findy Tools"
+    "section": "1. 通常業務以外の活動",
+    "text": "1. 通常業務以外の活動\n\n[2024/07/02] 会社テックブログ執筆 hacomonoデータ基盤におけるデータ転送の課題と今後の対応 - hacomono TECH BLOG\n[2024/08/21] レビュー執筆 株式会社hacomonoのBigQuery導入事例 - Findy Tools\n[2024/10/08] 特集記事への掲載 39社のデータ基盤アーキテクチャ特集 - ツールの技術選定のポイントと活用術 - Findy Tools"
   },
   {
     "objectID": "details/04-hacomono.html#顧客環境-bigquery-へのバッチ転送システム開発運用",
