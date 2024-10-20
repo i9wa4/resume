@@ -15,16 +15,6 @@ website:
   image: "/assets/common/icon_hhkb3.png"
   search: false
 
-# format:
-#   html:
-#     toc: true
-#     toc-depth: 2
-#     toc-expand: 2
-#     toc-title: "TOC"
-#     toc-location: right
-#     page-layout: full
-#     linestretch: 1.4
-
 format:
   html:
     page-layout: full
@@ -32,3 +22,4 @@ format:
     toc-depth: 2
     toc-expand: true
     toc-title: "Table of Contents"
+    linestretch: 1.4
