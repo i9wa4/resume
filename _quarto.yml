@@ -11,8 +11,6 @@ theme:
 website:
   title: "職務経歴書"
   site-url: "https://i9wa4.github.io/resume/"
-  favicon: "/assets/icon_hhkb3.png"
-  image: "/assets/common/icon_hhkb3.png"
   search: false
 
 format:
