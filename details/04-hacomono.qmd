@@ -40,7 +40,8 @@ repo-actions: false
 ### 1.1. 社外へのアウトプット
 
 - [2024/07/02] [hacomonoデータ基盤におけるデータ転送の課題と今後の対応 - hacomono TECH BLOG](https://techblog.hacomono.jp/entry/2024/07/02/1100)
-- [2024/08/21] Findy Tools への BigQuery レビュー寄稿 [株式会社hacomonoのBigQuery導入事例](https://findy-tools.io/products/bigquery/49/231)
+- [2024/08/21] [株式会社hacomonoのBigQuery導入事例 - Findy Tools](https://findy-tools.io/products/bigquery/49/231)
+    - [2024/10/08] [39社のデータ基盤アーキテクチャ特集 - ツールの技術選定のポイントと活用術 - Findy Tools](https://findy-tools.io/articles/data-review/28) ※hacomono 事例の掲載
 
 ## 2. 顧客環境 BigQuery へのバッチ転送システム開発・運用
 
