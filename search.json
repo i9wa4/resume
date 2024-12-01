@@ -11,7 +11,7 @@
     "href": "index.html#職務要約",
     "title": "職務経歴書",
     "section": "1. 職務要約",
-    "text": "1. 職務要約\n北海道大学理学部数学科を卒業後、Windowsアプリエンジニアや組込エンジニアとして6年勤務しました。\nその後2022年4月から2社でデータエンジニアとしてデータ基盤・データパイプライン・機械学習ワークフローの構築運用に従事してきました。\n2024年11月から株式会社GENDAにて MLOps エンジニアとして主に実装面の課題解決に取り組んでいます。"
+    "text": "1. 職務要約\n北海道大学理学部数学科を卒業後、Windowsアプリエンジニアや組込エンジニアとして6年勤務しました。\nその後2022年4月から2社でデータエンジニアとしてデータ基盤・データパイプライン・機械学習ワークフローの構築運用に従事してきました。\n2024年11月から株式会社GENDAにて MLOps エンジニアとして機械学習基盤の整備のような実装面の課題解決、データエンジニアとしてデータマート整備やダッシュボード作成といったビジネス寄りのタスクに取り組んでいます。"
   },
   {
     "objectID": "index.html#自己pr",
@@ -32,7 +32,7 @@
     "href": "index.html#通常業務以外の活動",
     "title": "職務経歴書",
     "section": "4. 通常業務以外の活動",
-    "text": "4. 通常業務以外の活動\n\n[2024/07/02] 会社テックブログ執筆 hacomonoデータ基盤におけるデータ転送の課題と今後の対応 - hacomono TECH BLOG\n[2024/08/21] レビュー執筆 株式会社hacomonoのBigQuery導入事例 - Findy Tools\n[2024/10/08] 特集記事への掲載 39社のデータ基盤アーキテクチャ特集 - ツールの技術選定のポイントと活用術 - Findy Tools"
+    "text": "4. 通常業務以外の活動\n\n[2024/07/02] 会社テックブログ執筆 hacomonoデータ基盤におけるデータ転送の課題と今後の対応 - hacomono TECH BLOG\n[2024/08/21] レビュー執筆 株式会社hacomonoのBigQuery導入事例 - Findy Tools\n[2024/10/08] 特集記事への掲載 39社のデータ基盤アーキテクチャ特集 - ツールの技術選定のポイントと活用術 - Findy Tools\n[2024/12/02] 会社アドベントカレンダー Vim/Neovimのdbt開発環境の現状とVimを救う話"
   },
   {
     "objectID": "index.html#今後取り組みたいこと",
@@ -46,7 +46,7 @@
     "href": "index.html#スキルレベル",
     "title": "職務経歴書",
     "section": "6. スキルレベル",
-    "text": "6. スキルレベル\n★：業務経験あり\n\n\n\n\n\n\n\n\n\n項目\n種類\n使用期間\nレベル\n\n\n\n\nOS\nAmazon Linux / Ubuntu\n ★4年\n要件に応じた環境構築や開発環境利用が可能\n\n\n言語\nPython\n ★4年\n一人称で作業可能\n\n\n言語\nSQL\n ★3年\n一人称で作業可能\n\n\n言語\nShell Script\n ★4年\n一人称で作業可能\n\n\nDB\nMySQL / PostgreSQL\n ★3年\n不具合調査等でのデータ閲覧可能\n\n\nCloud\nAWS\n ★3年\nEC2 / ECS / StepFunctions / SageMaker / Cloud9 / MWAA 等を含む環境構築や作業が可能\n\n\nCloud\nGoogle Cloud\n ★0.5年\nCompute Engine / Cloud Functions / Datastream / BigQuery (後述) 等を含む環境構築や作業が可能\n\n\nCloud (Data)\nBigQuery\n ★0.5年\nBigQuery 関連の権限管理やデータセット・テーブル作成を Terraform 管理に移行することが可能\n\n\nCloud (Data)\nSnowflake\n ★2年\nデータマート作成 / SQL パフォーマンス改善 / Snowpark ML 利用 / パラメータ管理が可能\n\n\nCloud (ML)\nDataRobot\n ★2年\nオートパイロットや blueprint 固定でのモデルデプロイ・運用、各種評価指標の取得の実装が可能\n\n\nIaC\nDocker\n ★3年\nDockerfile や Docker Compose の記述・実行が可能\n\n\nIaC\nTerraform\n ★0.5年\nBigQuery 関連の IaC 化作業が可能\n\n\nその他\nGitHub / CodeCommit\n ★4年\nGit flow や GitHub flow に則った開発利用やレビューが可能\n\n\nその他\nGitHub Actions\n ★0.5年\n既存ワークフロー改修 / GitHub Pages 関連のワークフロー作成が可能\n\n\nその他 (Data)\nEmbulk\n ★0.5年\n転送元 DB や 利用するインスタンス性能に応じたパフォーマンス改善が可能\n\n\nその他 (Data)\ndbt Core\n ★0.5年\nスクラッチから marts まで書きあげることが可能"
+    "text": "6. スキルレベル\n★：業務経験あり\n\n\n\n\n\n\n\n\n\n項目\n種類\n使用期間\nレベル\n\n\n\n\nOS\nAmazon Linux / Ubuntu\n ★4年\n要件に応じた環境構築や開発環境利用が可能\n\n\n言語\nPython\n ★4年\n一人称で作業可能\n\n\n言語\nSQL\n ★3年\n一人称で作業可能\n\n\n言語\nShell Script\n ★4年\n一人称で作業可能\n\n\nDB\nMySQL / PostgreSQL\n ★3年\n不具合調査等でのデータ閲覧可能\n\n\nCloud\nAWS\n ★3年\nEC2 / ECS / StepFunctions / SageMaker / Cloud9 / MWAA 等を含む環境構築や作業が可能\n\n\nCloud\nGoogle Cloud\n ★0.5年\nCompute Engine / Cloud Functions / Datastream / BigQuery (後述) 等を含む環境構築や作業が可能\n\n\nCloud (Data)\nBigQuery\n ★0.5年\nBigQuery 関連の権限管理やデータセット・テーブル作成を Terraform 管理に移行することが可能\n\n\nCloud (Data)\nSnowflake\n ★2年\nデータマート作成 / SQL パフォーマンス改善 / Snowpark ML 利用 / パラメータ管理が可能\n\n\nCloud (Data/ML)\nDatabricks\n ★0.1年\ndbt Core との連携によるデータマート構築や機械学習環境整備が可能\n\n\nCloud (ML)\nDataRobot\n ★2年\nオートパイロットや blueprint 固定でのモデルデプロイ・運用、各種評価指標の取得の実装が可能\n\n\nIaC\nDocker\n ★3年\nDockerfile や Docker Compose の記述・実行が可能\n\n\nIaC\nTerraform\n ★0.5年\nBigQuery 関連の IaC 化作業が可能\n\n\nその他\nGitHub / CodeCommit\n ★4年\nGit flow や GitHub flow に則った開発利用やレビューが可能\n\n\nその他\nGitHub Actions\n ★0.5年\n既存ワークフロー改修 / GitHub Pages 関連のワークフロー作成が可能\n\n\nその他 (Data)\nEmbulk\n ★0.5年\n転送元 DB や 利用するインスタンス性能に応じたパフォーマンス改善が可能\n\n\nその他 (Data)\ndbt Core\n ★0.5年\nスクラッチから marts まで書きあげることが可能"
   },
   {
     "objectID": "index.html#資格",
