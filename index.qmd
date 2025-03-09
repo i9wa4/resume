@@ -63,9 +63,10 @@ date: last-modified
 
 ### 5.2. 技術面
 
+- データ基盤の管理者として各種サービスに対する知見を深める
+- データ活用に繋がる分野 (BIツール・データカタログ・データマート作成など) に携わる
 - 機械学習ワークフローの構築や改善
-- LLM を利用するタスクに携わる
-- DWH サービスや dbt の知見を深める
+- 特徴量作成・データマート改善のようにデータの観点から機械学習に貢献する
 
 ## 6. スキルレベル
 
@@ -81,20 +82,30 @@ date: last-modified
 | 言語            | Shell Script          | <!-- 2021/04-xxxx/xx --> ★4年                  | 一人称で作業可能                                                                             |
 | DB              | MySQL / PostgreSQL    | <!-- 2022/04-xxxx/xx --> ★3年                  | 不具合調査等でのデータ閲覧可能                                                               |
 | Cloud           | AWS                   | <!-- 2022/04-xxxx/xx --> ★3年                  | EC2 / ECS / StepFunctions / SageMaker / Cloud9 / MWAA 等を含む環境構築や作業が可能           |
-| Cloud           | Google Cloud          | <!-- 2024/04-xxxx/xx --> ★0.5年                | Compute Engine / Cloud Functions / Datastream / BigQuery (後述) 等を含む環境構築や作業が可能 |
-| Cloud (Data)    | BigQuery              | <!-- 2024/04-xxxx/xx --> ★0.5年                | BigQuery 関連の権限管理やデータセット・テーブル作成を Terraform 管理に移行することが可能     |
+| Cloud           | Google Cloud          | <!-- 2024/04-2024/10 --> ★0.5年                | Compute Engine / Cloud Functions / Datastream / BigQuery (後述) 等を含む環境構築や作業が可能 |
+| Cloud (Data)    | BigQuery              | <!-- 2024/04-2024/10 --> ★0.5年                | BigQuery 関連の権限管理やデータセット・テーブル作成を Terraform 管理に移行することが可能     |
 | Cloud (Data)    | Snowflake             | <!-- 2022/04-2024/03, 2024/11-xxxx/xx --> ★2年 | データマート作成 / SQL パフォーマンス改善 / Snowpark ML 利用 / パラメータ管理が可能          |
-| Cloud (Data/ML) | Databricks            | <!-- 2024/11-xxxx/xx --> ★0.1年                | dbt Core との連携によるデータマート構築や機械学習環境整備が可能                              |
+| Cloud (Data/ML) | Databricks            | <!-- 2024/11-xxxx/xx --> ★0.5年                | dbt Core との連携によるデータマート構築や機械学習環境整備が可能                              |
 | Cloud (ML)      | DataRobot             | <!-- 2022/04-2024/03 --> ★2年                  | オートパイロットや blueprint 固定でのモデルデプロイ・運用、各種評価指標の取得の実装が可能    |
 | IaC             | Docker                | <!-- 2022/04-xxxx/xx --> ★3年                  | Dockerfile や Docker Compose の記述・実行が可能                                              |
-| IaC             | Terraform             | <!-- 2024/04-xxxx/xx --> ★0.5年                | BigQuery 関連の IaC 化作業が可能                                                             |
+| IaC             | Terraform             | <!-- 2024/04-xxxx/xx --> ★1年                  | BigQuery 関連の IaC 化作業が可能                                                             |
 | その他          | GitHub / CodeCommit   | <!-- 2021/04-xxxx/xx --> ★4年                  | Git flow や GitHub flow に則った開発利用やレビューが可能                                     |
-| その他          | GitHub Actions        | <!-- 2024/04-xxxx/xx --> ★0.5年                | 既存ワークフロー改修 / GitHub Pages 関連のワークフロー作成が可能                             |
-| その他 (Data)   | Embulk                | <!-- 2024/04-xxxx/xx --> ★0.5年                | 転送元 DB や 利用するインスタンス性能に応じたパフォーマンス改善が可能                        |
-| その他 (Data)   | dbt Core              | <!-- 2023/10-2024/03 --> ★0.5年                | スクラッチから marts まで書きあげることが可能                                                |
+| その他          | GitHub Actions        | <!-- 2024/04-xxxx/xx --> ★1年                  | 既存ワークフロー改修 / GitHub Pages 関連のワークフロー作成が可能                             |
+| その他 (Data)   | Embulk                | <!-- 2024/04-2024/10 --> ★0.5年                | 転送元 DB や 利用するインスタンス性能に応じたパフォーマンス改善が可能                        |
+| その他 (Data)   | dbt Core              | <!-- 2023/10-2024/03, 2024/11-xxxx/xx --> ★1年 | スクラッチから marts まで書きあげることが可能                                                |
 
 ## 7. 資格
 
 <!-- - [2012/11] 普通自動車第一種運転免許 -->
 - [2015/03] TOEIC スコア 805
 - [2023/04] 統計検定2級
+
+<!--
+<https://x.com/Akira_Akagawa/status/1870455703472865395>
+
+> 私はもう少し細かく書いてもらっているな。
+>
+> プロジェクト単位で書くなら、状況と制約、自身の期待役割、主体的に行なった行動・判断・工夫、結果とその結果が状況をどう変えたか等。
+>
+> さらに組織内での役割の推移と、その役割が自分に回ってきたのはなぜか、それ以前のどんな振る舞いが評価されて機会が回ってきたのかをダイジェストで書いてもらっている。
+-->
