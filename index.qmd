@@ -113,3 +113,5 @@ MLOpsエンジニアとしての経験：二値分類による顧客の行動予
 >
 > さらに組織内での役割の推移と、その役割が自分に回ってきたのはなぜか、それ以前のどんな振る舞いが評価されて機会が回ってきたのかをダイジェストで書いてもらっている。
 -->
+<!-- [エンジニアが読みたくなる職務経歴書 - dwango on GitHub](https://dwango.github.io/articles/engineers-resume/) -->
+<!-- [GitHubの機能をフルに使って職務経歴書の継続的インテグレーションを実現する](https://zenn.dev/ryo_kawamata/articles/resume-on-github) -->
