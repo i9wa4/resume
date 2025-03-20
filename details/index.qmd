@@ -75,7 +75,7 @@ gitGraph LR:
     commit id: "データエンジニア / MLOps エンジニア-2"
     checkout main
     branch f order: 6
-    commit id: "SinkCapital 業務委託としてジョイン" tag: "25.01" type: HIGHLIGHT
+    commit id: "SinkCapital 業務委託として参画" tag: "25.01" type: HIGHLIGHT
     commit id: "データエンジニア-2"
     %% now
     checkout main
