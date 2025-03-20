@@ -1,6 +1,5 @@
 ---
-title: "職務経歴詳細"
-toc: false
+title: "職務経歴 詳細"
 listing:
   - id: "list-all"
     categories: numbered
@@ -18,9 +17,13 @@ listing:
     type: default
 ---
 
-新しい順に記載しております。
+::: {.callout-note appearance="simple"}
 
-## 1. 各社職務経歴詳細
+始業時期の新しい順に記載しております。
+
+:::
+
+## 1. 職務経歴 詳細
 
 ::: {#list-all}
 :::
@@ -33,7 +36,7 @@ listing:
         'logLevel': 'debug',
         'theme': 'base',
         'gitGraph': {
-            'rotateCommitLabel': false
+            'rotateCommitLabel': true
         },
         'themeVariables': {
             'commitLabelFontSize': '18px',
@@ -41,36 +44,39 @@ listing:
         }
     }
 }%%
-gitGraph BT:
+%% gitGraph BT:
+gitGraph LR:
     checkout main
-    commit id: "北海道大学 理学部数学科 卒業" tag: "16.03"
+    commit id: " "
+    %% commit id: "北海道大学 理学部数学科 卒業" tag: "16.03"
     branch a order: 1
     commit id: "オークマ 入社" tag: "16.04" type: HIGHLIGHT
     commit id: "アプリエンジニア"
     checkout main
-    merge a id: "オークマ 退職" tag: "18.07"
+    merge a id: "退職-1" tag: "18.07"
     branch b order: 2
     commit id: "新光商事LSIデザインセンター 入社" tag: "18.08" type: HIGHLIGHT
     commit id: "組込エンジニア"
     checkout main
-    merge b id: "新光商事LSIデザインセンター 退職" tag: "22.03"
+    merge b id: "退職-2" tag: "22.03"
     branch c order: 3
     commit id: "シイエヌエス北海道 入社" tag: "22.04" type: HIGHLIGHT
-    commit id: "データエンジニア / MLOps エンジニア (1)"
+    commit id: "データエンジニア / MLOps エンジニア-1"
     checkout main
-    merge c id: "シイエヌエス北海道 退職" tag: "24.03"
+    merge c id: "退職-3" tag: "24.03"
     branch d order: 4
     commit id: "hacomono 入社" tag: "24.04" type: HIGHLIGHT
-    commit id: "データエンジニア (1)"
+    commit id: "データエンジニア-1"
     checkout main
-    merge d id: "hacomono 退職" tag: "24.10"
+    merge d id: "退職-4" tag: "24.10"
     branch e order: 5
     commit id: "GENDA 入社" tag: "24.11" type: HIGHLIGHT
-    commit id: "データエンジニア / MLOps エンジニア (2)"
+    commit id: "データエンジニア / MLOps エンジニア-2"
     checkout main
     branch f order: 6
     commit id: "SinkCapital 業務委託としてジョイン" tag: "25.01" type: HIGHLIGHT
-    commit id: "データエンジニア (2)"
+    commit id: "データエンジニア-2"
+    %% now
     checkout main
     commit id: "個人活動 (1) Vim コミュニティ活動"
     commit id: "個人活動 (2) Vim プラグイン開発"

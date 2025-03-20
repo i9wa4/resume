@@ -12,6 +12,19 @@ website:
   title: "職務経歴書"
   site-url: "https://i9wa4.github.io/resume/"
   search: false
+  sidebar:
+    style: "docked"
+    search: false
+    contents:
+      - section: "職務経歴 詳細"
+        href: "./details/index.qmd"
+        contents:
+          - "./details/05-genda.qmd"
+          - "./details/04-hacomono.qmd"
+          - "./details/03-cnsh.qmd"
+          - "./details/02-sld.qmd"
+          - "./details/01-okuma.qmd"
+
 
 format:
   html:
