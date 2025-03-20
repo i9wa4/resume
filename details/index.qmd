@@ -9,21 +9,23 @@ listing:
       filename:
         - "index.qmd"
     fields:
-      - "description"
+      - "Period"
       - "categories"
       - "title"
+    filter-ui: false
     sort:
       - "filename desc"
-    type: default
+    sort-ui: false
+    type: table
 ---
+
+## 1. 職務経歴 詳細
 
 ::: {.callout-note appearance="simple"}
 
 始業時期の新しい順に記載しております。
 
 :::
-
-## 1. 職務経歴 詳細
 
 ::: {#list-all}
 :::
@@ -47,8 +49,7 @@ listing:
 %% gitGraph BT:
 gitGraph LR:
     checkout main
-    commit id: " "
-    %% commit id: "北海道大学 理学部数学科 卒業" tag: "16.03"
+    commit id: "北海道大学 理学部数学科 卒業" tag: "16.03"
     branch a order: 1
     commit id: "オークマ 入社" tag: "16.04" type: HIGHLIGHT
     commit id: "アプリエンジニア"

@@ -1,9 +1,9 @@
 ---
 title: "新光商事LSIデザインセンター株式会社"
 date: last-modified
-description: "2018/08 - 2022/03"
 categories:
   - "本業"
+Period: "2018/08 - 2022/03"
 ---
 
 :会社概要・雇用形態 (2022年時点) {#tbl-company tbl-colwidths="[20,80]"}

@@ -1,10 +1,10 @@
 ---
 title: "株式会社GENDA"
 date: last-modified
-description: "2024/11 - 現在"
 categories:
   - "本業"
   - "就業中"
+Period: "2024/11 - 現在"
 ---
 
 :会社概要・雇用形態 (2024年時点) {#tbl-company tbl-colwidths="[20,80]"}
