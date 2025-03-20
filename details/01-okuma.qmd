@@ -1,6 +1,9 @@
 ---
-title: "職務経歴 オークマ株式会社"
+title: "オークマ株式会社"
 date: last-modified
+description: "2016/04 - 2018/07"
+categories:
+  - "本業"
 ---
 
 :会社概要・雇用形態 (2018年時点) {#tbl-company tbl-colwidths="[20,80]"}
