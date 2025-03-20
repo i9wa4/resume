@@ -1,5 +1,5 @@
 ---
-title: "合同会社SickCapital"
+title: "合同会社SinkCapital"
 date: last-modified
 categories:
   - "業務委託"
