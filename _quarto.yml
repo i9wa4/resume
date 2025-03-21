@@ -26,7 +26,6 @@ website:
           - "./details/02-sld.qmd"
           - "./details/01-okuma.qmd"
 
-
 format:
   html:
     page-layout: full
