@@ -1,6 +1,7 @@
 ---
 title: "職務経歴書"
 date: last-modified
+image: "https://github.com/i9wa4.png"
 ---
 
 - 現住所 北海道札幌市
