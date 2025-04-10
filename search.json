@@ -1,16 +1,5 @@
 [
   {
-    "objectID": "details/06-sinkcapital.html",
-    "href": "details/06-sinkcapital.html",
-    "title": "合同会社SinkCapital",
-    "section": "",
-    "text": "アサイン待機中",
-    "crumbs": [
-      "職務経歴 詳細",
-      "合同会社SinkCapital"
-    ]
-  },
-  {
     "objectID": "details/05-genda.html",
     "href": "details/05-genda.html",
     "title": "株式会社GENDA",
@@ -22,11 +11,44 @@
     ]
   },
   {
-    "objectID": "details/05-genda.html#データ-タスク",
-    "href": "details/05-genda.html#データ-タスク",
+    "objectID": "details/05-genda.html#データ-カラオケ事業会社のデータ利活用推進",
+    "href": "details/05-genda.html#データ-カラオケ事業会社のデータ利活用推進",
     "title": "株式会社GENDA",
-    "section": "1. [データ] タスク",
-    "text": "1. [データ] タスク\n\n1.1. 概要\n\n\n1.2. 期間\n\n\n1.3. 規模・役割\n\n\n1.4. 担当業務\n\n\n1.5. 機能開発・実装詳細\n\n\n1.6. 目的・背景\n\n\n1.7. 課題\n\n\n1.8. 工夫した点\n\n\n1.9. 成果\n\n\n1.10. 担当フェーズ\n\n\n1.11. 開発環境",
+    "section": "1. [データ] カラオケ事業会社のデータ利活用推進",
+    "text": "1. [データ] カラオケ事業会社のデータ利活用推進\n\n1.1. 概要\n\n様々な意思決定をデータに基づいて行うために必要なデータ基盤の構築運用とデータ活用方法の提案\n\n\n\n1.2. 期間\n\n2024/11 - 現在\n\n\n\n1.3. 規模・役割\n\n役割：リーダー\n規模：4名\n\nデータエンジニアリング全般：2名 (自分含む)\n\n内訳\n\nデータパイプライン構築：メンバー1名\ndbt によるデータマート構築：私1名\nダッシュボード作成：私1名\n\n\n事業会社側役員との折衝等担当 (BizDev)：1名\n事業会社側経理担当：1名\n\n\n\n\n1.4. 担当業務\n\nPOS データやアプリDBのデータを Snowflake に集約するデータパイプライン構築・運用\n\n補足：Snowflake に転送後 Databricks からテーブルを参照しています\n\n用途に応じた dbt によるデータマート構築\nデータ基盤上のデータを利用したダッシュボード作成・運用\nデータ基盤 (Databricks) やデータ利活用方法の啓蒙\n\n\n\n1.5. 機能開発・実装詳細\n\nデータパイプライン構築\n\nMWAA を用いて事業会社側の SFTP サーバ上の CSV ファイルをダウンロードし Snowflake のテーブルへデータを追加する\nデータパイプライン全体を Terraform で管理している\nあるいは直接受領したファイルを Snowflake へ手動追加する\n\ndbt によるデータマート構築\n\nDatabricks で dbt Core ジョブを実行し Databricks 上にデータマートを構築する\n\nダッシュボード作成\n\nDatabricks のダッシュボード機能を利用する\n\n\n\n\n1.6. 目的・背景\n\n開発が生じる要因\n\nデータパイプライン構築\n\nM&A によりグループインした企業の POS データを新たに取り込む\n目標数値など連携対象が増加した際に適宜取り込む\nIPコラボの情報などのマスターデータを営業サイドから受領する\n\ndbt によるデータマート構築\n\nダッシュボード作成に必要なデータ集計処理時間の短縮のために dbt によるバッチ処理に切り出す\n\nダッシュボード作成\n\n料金体系の変更など施策の効果を監視するために可視化したいデータの要望を受ける\n\n\n\n\n\n1.7. 課題\n\n人手不足による開発遅延\n\n私がデータ転送部分の開発・改修を自分の手で直接実施はせず他メンバーに任せるという業務分担状況で、なおかつグループインする企業が増え続けている都合でデータ転送部分を担うデータエンジニアの手が回りづらい状況が続いていました。\n経営目線で求められるダッシュボードを作成する上で必要なデータへの知見や技術をもった人間が私しかいないため私がボトルネックになっています。\n\n\n\n\n1.8. 工夫した点\n\n\n私がデータ転送部分の開発・改修に深くコミットしていないという業務分担状況で、なおかつグループインする企業が増え続けている都合でデータ転送部分を担うデータエンジニアの手が回りづらい状況が続いている\n\n\n後段の開発作業の工数を削減する目的で、現状の実装から最小限の変更で対応できる要件となるよう事業会社側と交渉をまとめました。 実装作業こそ自分で実施しないものの、実装内容を100%理解できているため業務の切り出しを最適な形で行うことができました。\n\n\n経営目線で求められるダッシュボードを作成する上で必要なデータへの知見や技術をもった人間が私しかいないため私がボトルネックになっています。\n\n\n現状も続いている課題であって大きな成果はまだ出せていません。 現在事業会社側では全社的にトップダウンな意思決定を伴いつつDX推進中になるため、事業会社側のメンバーの工数の確保をトップダウンで実施してもらい、その時間を活用して私の手で人材育成を行う流れを検討しています。 生成AIを補助に利用する方法などを提示しつつできる形で関与できるメンバーを増やしていければと思います。\n\n\n1.9. 成果\n\nダッシュボード\n\n事業会社側の経理部門により Excel で毎日作成されていた売上速報をダッシュボードにより完全自動化できました。\n週次で実施している全国のエリア統括者と役員の参加する営業会議向けに作成していた週報の作成をほぼ自動化できました。\n事業会社側の担当者から追跡したいデータに関する要望が出てくるようになり、データドリブンな意思決定をできる体質に一歩近付きました。\n\nデータ基盤\n\nマーケティング施策の効果検証に利用するデータを揃えることで効果的なマーケティング施策立案に貢献しました。\n\n\n\n\n1.10. 担当フェーズ\n\nヒアリングや提案による以下の要件整理\n\nデータパイプライン改修\nダッシュボード新規作成・項目追加\n\n開通指揮\n\nデータパイプライン改修\n\n開発作業\n\ndbt によるデータマート構築\nダッシュボード新規作成・項目追加\n\n運用作業\n\nデータパイプライン不通時の原因調査\nデータマートやダッシュボードの障害解消\n\n\n\n\n1.11. 開発環境\n\nデータ基盤\n\nAWS\n\nMWAA\n\nSnowflake\nDatabricks\ndbt Core\nTerraform",
+    "crumbs": [
+      "職務経歴 詳細",
+      "株式会社GENDA"
+    ]
+  },
+  {
+    "objectID": "details/05-genda.html#データ-ゲームセンター事業会社でのipマスタデータ作成支援",
+    "href": "details/05-genda.html#データ-ゲームセンター事業会社でのipマスタデータ作成支援",
+    "title": "株式会社GENDA",
+    "section": "3. [データ] ゲームセンター事業会社でのIPマスタデータ作成支援",
+    "text": "3. [データ] ゲームセンター事業会社でのIPマスタデータ作成支援",
+    "crumbs": [
+      "職務経歴 詳細",
+      "株式会社GENDA"
+    ]
+  },
+  {
+    "objectID": "details/05-genda.html#ml-機械学習開発運用環境の改善",
+    "href": "details/05-genda.html#ml-機械学習開発運用環境の改善",
+    "title": "株式会社GENDA",
+    "section": "2. [ML] 機械学習開発運用環境の改善",
+    "text": "2. [ML] 機械学習開発運用環境の改善",
+    "crumbs": [
+      "職務経歴 詳細",
+      "株式会社GENDA"
+    ]
+  },
+  {
+    "objectID": "details/05-genda.html#その他-開発へのai活用推進",
+    "href": "details/05-genda.html#その他-開発へのai活用推進",
+    "title": "株式会社GENDA",
+    "section": "4. [その他] 開発へのAI活用推進",
+    "text": "4. [その他] 開発へのAI活用推進",
     "crumbs": [
       "職務経歴 詳細",
       "株式会社GENDA"
@@ -36,8 +58,8 @@
     "objectID": "details/05-genda.html#その他-開発業務以外の活動",
     "href": "details/05-genda.html#その他-開発業務以外の活動",
     "title": "株式会社GENDA",
-    "section": "2. [その他] 開発業務以外の活動",
-    "text": "2. [その他] 開発業務以外の活動\n\n会社テックブログ執筆\n\numa-chanさんの記事一覧 | Zenn\n\n採用活動\n\nカジュアル面談実施\n転職媒体での候補者選定",
+    "section": "5. [その他] 開発業務以外の活動",
+    "text": "5. [その他] 開発業務以外の活動\n\n会社テックブログ執筆\n\numa-chanさんの記事一覧 | Zenn\n\n採用活動\n\nカジュアル面談実施\n転職媒体での候補者選定",
     "crumbs": [
       "職務経歴 詳細",
       "株式会社GENDA"
@@ -99,11 +121,11 @@
     ]
   },
   {
-    "objectID": "details/03-cnsh.html#その他-プロジェクト以外の業務",
-    "href": "details/03-cnsh.html#その他-プロジェクト以外の業務",
+    "objectID": "details/03-cnsh.html#その他-開発業務以外の活動",
+    "href": "details/03-cnsh.html#その他-開発業務以外の活動",
     "title": "株式会社シイエヌエス北海道",
-    "section": "5. [その他] プロジェクト以外の業務",
-    "text": "5. [その他] プロジェクト以外の業務\n\n5.1. 新卒採用一次選考の面接官対応\n\n2024年新卒採用：学生6名分\n2025年新卒採用：学生6名分\n\n\n\n5.2. データ分析業務担当者育成\n\n育成用プログラム進捗管理 (2023/06 - 2023/12)\n\n利用教材：データサイエンス100本ノック\n育成対象者：7名 (2023年度)\n業務：環境構築手順作成・質疑応答対応・作業進捗管理 (すべて私1名で対応)\n\nローカル上の環境構築手順の共有 (随時)\n\n社内 Wiki にて記事作成\n具体例\n\nAmazon Linux (EC2) + Anaconda + PyStan 環境構築\nWindows + Anaconda + PyStan 環境構築\nUbuntu (WSL2) + Docker (Dockerfile) + CPython + venv 環境構築\nUbuntu (WSL2) + Docker 環境構築 (データサイエンス100本ノック向け)\nAmazon Linux (Cloud9) + pyenv 環境構築\nVSCode と Vim での Linter Formatter 導入方法\n\n\nデータ分析関連技術情報共有 (随時)\n\nニュースサイト・技術ブログ・技術コミュニティにて情報収集し、社内チャットにて随時共有",
+    "section": "5. [その他] 開発業務以外の活動",
+    "text": "5. [その他] 開発業務以外の活動\n\n5.1. 新卒採用一次選考の面接官対応\n\n2024年新卒採用：学生6名分\n2025年新卒採用：学生6名分\n\n\n\n5.2. データ分析業務担当者育成\n\n育成用プログラム進捗管理 (2023/06 - 2023/12)\n\n利用教材：データサイエンス100本ノック\n育成対象者：7名 (2023年度)\n業務：環境構築手順作成・質疑応答対応・作業進捗管理 (すべて私1名で対応)\n\nローカル上の環境構築手順の共有 (随時)\n\n社内 Wiki にて記事作成\n具体例\n\nAmazon Linux (EC2) + Anaconda + PyStan 環境構築\nWindows + Anaconda + PyStan 環境構築\nUbuntu (WSL2) + Docker (Dockerfile) + CPython + venv 環境構築\nUbuntu (WSL2) + Docker 環境構築 (データサイエンス100本ノック向け)\nAmazon Linux (Cloud9) + pyenv 環境構築\nVSCode と Vim での Linter Formatter 導入方法\n\n\nデータ分析関連技術情報共有 (随時)\n\nニュースサイト・技術ブログ・技術コミュニティにて情報収集し、社内チャットにて随時共有",
     "crumbs": [
       "職務経歴 詳細",
       "株式会社シイエヌエス北海道"
@@ -114,7 +136,7 @@
     "href": "details/index.html",
     "title": "職務経歴 詳細",
     "section": "",
-    "text": "始業時期の新しい順に記載しております。\n\n\n\n\n\n\n\n\nPeriod\n\n\nCategories\n\n\nTitle\n\n\n\n\n\n\n2025/01 - 現在\n\n\n業務委託, 就業中\n\n\n合同会社SinkCapital\n\n\n\n\n2024/11 - 現在\n\n\n本業, 就業中\n\n\n株式会社GENDA\n\n\n\n\n2024/04 - 2024/10\n\n\n本業\n\n\n株式会社hacomono\n\n\n\n\n2022/04 - 2024/03\n\n\n本業\n\n\n株式会社シイエヌエス北海道\n\n\n\n\n2018/08 - 2022/03\n\n\n本業\n\n\n新光商事LSIデザインセンター株式会社\n\n\n\n\n2016/04 - 2018/07\n\n\n本業\n\n\nオークマ株式会社\n\n\n\n\n\nNo matching items",
+    "text": "始業時期の新しい順に記載しております。\n\n\n\n\n\n\n\n\nPeriod\n\n\nCategories\n\n\nTitle\n\n\n\n\n\n\n2024/11 - 現在\n\n\n本業, 就業中\n\n\n株式会社GENDA\n\n\n\n\n2024/04 - 2024/10\n\n\n本業\n\n\n株式会社hacomono\n\n\n\n\n2022/04 - 2024/03\n\n\n本業\n\n\n株式会社シイエヌエス北海道\n\n\n\n\n2018/08 - 2022/03\n\n\n本業\n\n\n新光商事LSIデザインセンター株式会社\n\n\n\n\n2016/04 - 2018/07\n\n\n本業\n\n\nオークマ株式会社\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "職務経歴 詳細"
     ]
@@ -124,7 +146,7 @@
     "href": "details/index.html#職務経歴-詳細",
     "title": "職務経歴 詳細",
     "section": "",
-    "text": "始業時期の新しい順に記載しております。\n\n\n\n\n\n\n\n\nPeriod\n\n\nCategories\n\n\nTitle\n\n\n\n\n\n\n2025/01 - 現在\n\n\n業務委託, 就業中\n\n\n合同会社SinkCapital\n\n\n\n\n2024/11 - 現在\n\n\n本業, 就業中\n\n\n株式会社GENDA\n\n\n\n\n2024/04 - 2024/10\n\n\n本業\n\n\n株式会社hacomono\n\n\n\n\n2022/04 - 2024/03\n\n\n本業\n\n\n株式会社シイエヌエス北海道\n\n\n\n\n2018/08 - 2022/03\n\n\n本業\n\n\n新光商事LSIデザインセンター株式会社\n\n\n\n\n2016/04 - 2018/07\n\n\n本業\n\n\nオークマ株式会社\n\n\n\n\n\nNo matching items",
+    "text": "始業時期の新しい順に記載しております。\n\n\n\n\n\n\n\n\nPeriod\n\n\nCategories\n\n\nTitle\n\n\n\n\n\n\n2024/11 - 現在\n\n\n本業, 就業中\n\n\n株式会社GENDA\n\n\n\n\n2024/04 - 2024/10\n\n\n本業\n\n\n株式会社hacomono\n\n\n\n\n2022/04 - 2024/03\n\n\n本業\n\n\n株式会社シイエヌエス北海道\n\n\n\n\n2018/08 - 2022/03\n\n\n本業\n\n\n新光商事LSIデザインセンター株式会社\n\n\n\n\n2016/04 - 2018/07\n\n\n本業\n\n\nオークマ株式会社\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "職務経歴 詳細"
     ]
@@ -134,7 +156,7 @@
     "href": "details/index.html#職務経歴-git-graph",
     "title": "職務経歴 詳細",
     "section": "2. 職務経歴 Git Graph",
-    "text": "2. 職務経歴 Git Graph\n\n\n\n\n\n%%{\n    init: {\n        'logLevel': 'debug',\n        'theme': 'base',\n        'gitGraph': {\n            'rotateCommitLabel': true\n        },\n        'themeVariables': {\n            'commitLabelFontSize': '18px',\n            'tagLabelFontSize': '16px'\n        }\n    }\n}%%\n%% gitGraph BT:\ngitGraph LR:\n    checkout main\n    commit id: \"北海道大学 理学部数学科 卒業\" tag: \"16.03\"\n    branch a order: 1\n    commit id: \"オークマ 入社\" tag: \"16.04\" type: HIGHLIGHT\n    commit id: \"アプリエンジニア\"\n    checkout main\n    merge a id: \"退職-1\" tag: \"18.07\"\n    branch b order: 2\n    commit id: \"新光商事LSIデザインセンター 入社\" tag: \"18.08\" type: HIGHLIGHT\n    commit id: \"組込エンジニア\"\n    checkout main\n    merge b id: \"退職-2\" tag: \"22.03\"\n    branch c order: 3\n    commit id: \"シイエヌエス北海道 入社\" tag: \"22.04\" type: HIGHLIGHT\n    commit id: \"データエンジニア / MLOps エンジニア-1\"\n    checkout main\n    merge c id: \"退職-3\" tag: \"24.03\"\n    branch d order: 4\n    commit id: \"hacomono 入社\" tag: \"24.04\" type: HIGHLIGHT\n    commit id: \"データエンジニア-1\"\n    checkout main\n    merge d id: \"退職-4\" tag: \"24.10\"\n    branch e order: 5\n    commit id: \"GENDA 入社\" tag: \"24.11\" type: HIGHLIGHT\n    commit id: \"データエンジニア / MLOps エンジニア-2\"\n    checkout main\n    branch f order: 6\n    commit id: \"SinkCapital 業務委託として参画\" tag: \"25.01\" type: HIGHLIGHT\n    commit id: \"データエンジニア-2\"\n    %% now\n    checkout main\n    commit id: \"個人活動 (1) Vim コミュニティ活動\"\n    commit id: \"個人活動 (2) Vim プラグイン開発\"\n    checkout e\n    commit id: \"GENDA 就業中\" type: HIGHLIGHT\n    checkout f\n    commit id: \"SinkCapital 就業中\" type: HIGHLIGHT",
+    "text": "2. 職務経歴 Git Graph\n\n\n\n\n\n%%{\n    init: {\n        'logLevel': 'debug',\n        'theme': 'base',\n        'gitGraph': {\n            'rotateCommitLabel': true\n        },\n        'themeVariables': {\n            'commitLabelFontSize': '18px',\n            'tagLabelFontSize': '16px'\n        }\n    }\n}%%\n%% gitGraph BT:\ngitGraph LR:\n    checkout main\n    commit id: \"北海道大学 理学部数学科 卒業\" tag: \"16.03\"\n    branch a order: 1\n    commit id: \"オークマ 入社\" tag: \"16.04\" type: HIGHLIGHT\n    commit id: \"アプリエンジニア\"\n    checkout main\n    merge a id: \"退職-1\" tag: \"18.07\"\n    branch b order: 2\n    commit id: \"新光商事LSIデザインセンター 入社\" tag: \"18.08\" type: HIGHLIGHT\n    commit id: \"組込エンジニア\"\n    checkout main\n    merge b id: \"退職-2\" tag: \"22.03\"\n    branch c order: 3\n    commit id: \"シイエヌエス北海道 入社\" tag: \"22.04\" type: HIGHLIGHT\n    commit id: \"データエンジニア / MLOps エンジニア-1\"\n    checkout main\n    merge c id: \"退職-3\" tag: \"24.03\"\n    branch d order: 4\n    commit id: \"hacomono 入社\" tag: \"24.04\" type: HIGHLIGHT\n    commit id: \"データエンジニア-1\"\n    checkout main\n    merge d id: \"退職-4\" tag: \"24.10\"\n    branch e order: 5\n    commit id: \"GENDA 入社\" tag: \"24.11\" type: HIGHLIGHT\n    commit id: \"データエンジニア / MLOps エンジニア-2\"\n    %% checkout main\n    %% branch f order: 6\n    %% commit id: \"SinkCapital 業務委託として参画\" tag: \"25.01\" type: HIGHLIGHT\n    %% commit id: \"データエンジニア-2\"\n\n    %% Working\n    checkout main\n    commit id: \"個人活動 (1) Vim コミュニティ活動\"\n    commit id: \"個人活動 (2) Vim プラグイン開発\"\n    checkout e\n    commit id: \"GENDA 就業中\" type: HIGHLIGHT\n    %% checkout f\n    %% commit id: \"SinkCapital 就業中\" type: HIGHLIGHT",
     "crumbs": [
       "職務経歴 詳細"
     ]
@@ -273,44 +295,44 @@
     ]
   },
   {
-    "objectID": "details/04-hacomono.html#顧客環境-bigquery-へのバッチ転送システム開発運用",
-    "href": "details/04-hacomono.html#顧客環境-bigquery-へのバッチ転送システム開発運用",
+    "objectID": "details/04-hacomono.html#データ-顧客環境-bigquery-へのバッチ転送システム開発運用",
+    "href": "details/04-hacomono.html#データ-顧客環境-bigquery-へのバッチ転送システム開発運用",
     "title": "株式会社hacomono",
-    "section": "1. 顧客環境 BigQuery へのバッチ転送システム開発・運用",
-    "text": "1. 顧客環境 BigQuery へのバッチ転送システム開発・運用\n\n1.1. 概要\n\nhacomono に蓄積されたデータを顧客環境 BigQuery へ日次バッチ転送するためのシステム開発・運用\n\n\n\n1.2. 期間\n\n2024/04 - 2024/10\n\n\n\n1.3. 規模・役割\n\n[2024/04 - 2024/05]\n\n役割：メンバー\n規模：2名\n\n[2024/06 - 2024/10]\n\n役割：リーダー\n規模：1名\n\n\n\n\n1.4. 担当業務\n\n[2024/04 - 2024/05] (2名) 定常運用業務・業務引き継ぎ\n[2024/06 - 2024/10] (私1名) 定常運用業務・障害対応\n\n\n\n1.5. 機能開発・実装詳細\n\nGitHub と Terraform (Terragrunt) を用いて以下の構成を実装します。\n\nRDS MySQL or Aurora MySQL をデータソースとして Embulk で顧客環境 BigQuery にデータ転送を行う\n\nシステム構成図は下記ブログをご参照ください。\n\nhacomonoデータ基盤におけるデータ転送の課題と今後の対応 - hacomono TECH BLOG\n\n\n\n\n1.6. 目的・背景\n\n顧客に向けて DWH 提供を行うサービスを開始するために暫定的に構築したシステムを運用し続けている状況です。\n\n\n\n1.7. 課題\n\n全量のデータを転送させているためデータ増加により転送時間が延びてしまい、具体的には以下の問題が起こるようになりました。\n\nRDS BurstBalance を使い切ることによる転送の不安定化が起こる\nデータソース側の DB で一時領域不足になる\n顧客約束の時刻に転送が間に合わなくなる\n\n\n\n\n1.8. 工夫した点\n\n問題発生源の特定のために Embulk のログやデータソースのメトリクスから真因を究明するよう努めました。\n\n\n\n1.9. 成果\n\n\nRDS BurstBalance を使い切ることによる転送の不安定化が起こる\n\n\nReadIOPS の数値が支配的だったため並列実行数を減らしたり、Embulk の読み込み量のパラメータを調整したりすることで BurstBalance を使い切らないまま可能な限り早く転送させるよう調整を行いました。\n\n\n1.10. 担当フェーズ\n\n運用\n保守\n\n\n\n1.11. 開発環境\n\nGitHub\nTerraform\nEmbulk\nAWS\n\nECS\nRDS MySQL\nAurora MySQL\nVPC\n\nGoogle Cloud\n\nBigQuery",
+    "section": "1. [データ] 顧客環境 BigQuery へのバッチ転送システム開発・運用",
+    "text": "1. [データ] 顧客環境 BigQuery へのバッチ転送システム開発・運用\n\n1.1. 概要\n\nhacomono アプリDBに蓄積されたデータを顧客環境 BigQuery へ日次バッチ転送するためのシステム開発・運用\n\n\n\n1.2. 期間\n\n2024/04 - 2024/10\n\n\n\n1.3. 規模・役割\n\n[2024/04 - 2024/05]\n\n役割：メンバー\n規模：2名\n\n[2024/06 - 2024/10]\n\n役割：リーダー\n規模：1名\n\n\n\n\n1.4. 担当業務\n\n[2024/04 - 2024/05] (2名) 定常運用業務・業務引き継ぎ\n[2024/06 - 2024/10] (私1名) 定常運用業務・障害対応\n\n\n\n1.5. 機能開発・実装詳細\n\nGitHub と Terraform (Terragrunt) を用いて以下の構成を実装します。\n\nRDS MySQL or Aurora MySQL をデータソースとして Embulk で顧客環境 BigQuery にデータ転送を行う\n\nシステム構成図は下記ブログをご参照ください。\n\nhacomonoデータ基盤におけるデータ転送の課題と今後の対応 - hacomono TECH BLOG\n\n\n\n\n1.6. 目的・背景\n\n顧客に向けて DWH 提供を行うサービスを開始するために暫定的に構築したシステムを運用し続けている状況です。\n\n\n\n1.7. 課題\n\n全量のデータを転送させているためデータ増加により転送時間が延びてしまい、具体的には以下の問題が起こるようになりました。\n\nRDS BurstBalance を使い切ることによる転送の不安定化が起こる\nデータソース側の DB で一時領域不足になる\n顧客約束の時刻に転送が間に合わなくなる\n\n\n\n\n1.8. 工夫した点\n\n問題発生源の特定のために Embulk のログやデータソースのメトリクスから真因を究明するよう努めました。\n\n\n\n1.9. 成果\n\n\nRDS BurstBalance を使い切ることによる転送の不安定化が起こる\n\n\nReadIOPS の数値が支配的だったため並列実行数を減らしたり、Embulk の読み込み量のパラメータを調整したりすることで BurstBalance を使い切らないまま可能な限り早く転送させるよう調整を行いました。\n\n\n1.10. 担当フェーズ\n\n運用\n保守\n\n\n\n1.11. 開発環境\n\nGitHub\nTerraform\nEmbulk\nAWS\n\nECS\nRDS MySQL\nAurora MySQL\nVPC\n\nGoogle Cloud\n\nBigQuery",
     "crumbs": [
       "職務経歴 詳細",
       "株式会社hacomono"
     ]
   },
   {
-    "objectID": "details/04-hacomono.html#社内-bigquery-環境構築運用",
-    "href": "details/04-hacomono.html#社内-bigquery-環境構築運用",
+    "objectID": "details/04-hacomono.html#データ-社内-bigquery-環境構築運用",
+    "href": "details/04-hacomono.html#データ-社内-bigquery-環境構築運用",
     "title": "株式会社hacomono",
-    "section": "2. 社内 BigQuery 環境構築・運用",
-    "text": "2. 社内 BigQuery 環境構築・運用\n\n2.1. 概要\n\nhacomono プロダクトのデータベースから BigQuery へデータを転送し社内向けに DWH を作成するシステムの運用・保守\n\n\n\n2.2. 期間\n\n2024/04 - 2024/10\n\n\n\n2.3. 規模・役割\n\n[2024/04 - 2024/05]\n\n役割：メンバー\n規模：2名\n\n[2024/06 - 2024/10]\n\n役割：リーダー\n規模：1名\n\n\n\n\n2.4. 担当業務\n\n[2024/04 - 2024/05] (2名) 定常運用業務・業務引き継ぎ\n[2024/06 - 2024/10] (私1名) 定常運用業務・運用改善業務\n\n\n\n2.5. 機能開発・実装詳細\n\n(新規実装) Google Cloud プロジェクトと BigQuery の権限管理機能\n\n\n\n2.6. 目的・背景\n\n社内の分析需要に応えるために権限管理の行き届いた新しい BigQuery 環境を構築・運用が必要となりました。\n\n\n\n2.7. 課題\n\n\n(新規実装) Google Cloud プロジェクトと BigQuery の権限管理機能\n\n\n概ね IaC 対応が済んでいましたが権限追加に関してはコンソールからの手動追加対応となっておりました。これにより環境差分が生じ terraform apply が通らなくなる状況でした。\n\n\n2.8. 工夫した点\n\n\n(新規実装) Google Cloud プロジェクトと BigQuery の権限管理機能\n\n\n権限を最小限に留めるためにプロジェクトレベルでの権限付与をせず、データセット毎に権限を付与する運用に変更しました。\n\n\n2.9. 成果\n\n\n(新規実装) Google Cloud プロジェクトと BigQuery の権限管理機能\n\n\nIaC 化により権限の種類とユーザーを CSV ファイルに集約でき、権限付与状況をリポジトリで管理できるようになりました。\n\n\n2.10. 担当フェーズ\n\n運用\n保守\n\n\n\n2.11. 開発環境\n\nGitHub\nTerraform\nEmbulk\nAWS\n\nECS\nRDS MySQL\nAurora MySQL\nVPC\n\nGoogle Cloud\n\nBigQuery",
+    "section": "2. [データ] 社内 BigQuery 環境構築・運用",
+    "text": "2. [データ] 社内 BigQuery 環境構築・運用\n\n2.1. 概要\n\nhacomono プロダクトのデータベースから BigQuery へデータを転送し社内向けに DWH を作成するシステムの運用・保守\n\n\n\n2.2. 期間\n\n2024/04 - 2024/10\n\n\n\n2.3. 規模・役割\n\n[2024/04 - 2024/05]\n\n役割：メンバー\n規模：2名\n\n[2024/06 - 2024/10]\n\n役割：リーダー\n規模：1名\n\n\n\n\n2.4. 担当業務\n\n[2024/04 - 2024/05] (2名) 定常運用業務・業務引き継ぎ\n[2024/06 - 2024/10] (私1名) 定常運用業務・運用改善業務\n\n\n\n2.5. 機能開発・実装詳細\n\n(新規実装) Google Cloud プロジェクトと BigQuery の権限管理機能\n\n\n\n2.6. 目的・背景\n\n社内の分析需要に応えるために権限管理の行き届いた新しい BigQuery 環境を構築・運用が必要となりました。\n\n\n\n2.7. 課題\n\n\n(新規実装) Google Cloud プロジェクトと BigQuery の権限管理機能\n\n\n概ね IaC 対応が済んでいましたが権限追加に関してはコンソールからの手動追加対応となっておりました。これにより環境差分が生じ terraform apply が通らなくなる状況でした。\n\n\n2.8. 工夫した点\n\n\n(新規実装) Google Cloud プロジェクトと BigQuery の権限管理機能\n\n\n権限を最小限に留めるためにプロジェクトレベルでの権限付与をせず、データセット毎に権限を付与する運用に変更しました。\n\n\n2.9. 成果\n\n\n(新規実装) Google Cloud プロジェクトと BigQuery の権限管理機能\n\n\nIaC 化により権限の種類とユーザーを CSV ファイルに集約でき、権限付与状況をリポジトリで管理できるようになりました。\n\n\n2.10. 担当フェーズ\n\n運用\n保守\n\n\n\n2.11. 開発環境\n\nGitHub\nTerraform\nEmbulk\nAWS\n\nECS\nRDS MySQL\nAurora MySQL\nVPC\n\nGoogle Cloud\n\nBigQuery",
     "crumbs": [
       "職務経歴 詳細",
       "株式会社hacomono"
     ]
   },
   {
-    "objectID": "details/04-hacomono.html#顧客環境-bigquery-へのリアルタイム転送システム開発運用",
-    "href": "details/04-hacomono.html#顧客環境-bigquery-へのリアルタイム転送システム開発運用",
+    "objectID": "details/04-hacomono.html#データ-顧客環境-bigquery-へのリアルタイム転送システム開発運用",
+    "href": "details/04-hacomono.html#データ-顧客環境-bigquery-へのリアルタイム転送システム開発運用",
     "title": "株式会社hacomono",
-    "section": "3. 顧客環境 BigQuery へのリアルタイム転送システム開発・運用",
-    "text": "3. 顧客環境 BigQuery へのリアルタイム転送システム開発・運用\n\n3.1. 概要\n\nhacomono に蓄積されたデータを顧客環境 BigQuery へリアルタイム転送するためのシステム開発・運用\n2024年8月まで開発を続けていましたが、契約締結できず検証段階で開発を中断しています。\n\n\n\n3.2. 期間\n\n2024/04 - 2024/08\n\n\n\n3.3. 規模・役割\n\n[2024/04 - 2024/05]\n\n役割：メンバー\n規模：2名\n\n[2024/06 - 2024/08]\n\n役割：リーダー\n規模：2名\n\n\n\n\n3.4. 担当業務\n\n[2024/04 - 2024/05] (2名) 開発引き継ぎ\n[2024/06 - 2024/08] 主機能開発・進捗管理\n\n\n\n3.5. 機能開発・実装詳細\n\nGitHub と Terraform (Terragrunt) を用いて以下の構成を実装します。\n\n[主機能] RDS MySQL のデータを Datastream によってリアルタイムに転送させる\n\n(新規実装) [周辺機能] ログ出力\n\n\n\n\n\n3.6. 目的・背景\n\n顧客要望がありリアルタイム性を重視したテーブルに絞って機能を提供することとなりました。\n個社向け開発として進めていますが他社への展開も可能な状態に整備する必要があります。\n\n\n\n3.7. 課題\n\n前任者から引き継いだ状態のリポジトリが雑然としており各社向けの設定ファイルを切り替えることができず大規模なリファクタリングが必要でした。\nDatastream の知見のある方が社内にいないため障害発生時の対応のノウハウがない状態でした。\n\n\n\n3.8. 成果\n\n\nDatastream の知見のある方が社内にいないため障害発生時の対応のノウハウがない状態でした。\n\n\nRDS 再起動による接続断から復旧する必要がありストリームの復元を行うことがありましたが、この経験により障害発生時に欠損し得るデータに関して説明ができるようになりました。\n本機能のオプションサービス化にあたり懸念事項の解像度を上げ、サービスのマニュアル更新の準備に役立てることができました。\n\n\n3.9. 担当フェーズ\n\n詳細設計\n開発\nテスト\n運用\n保守\n\n\n\n3.10. 開発環境\n\nGitHub\nTerraform\nTerragrunt\nAWS\n\nRDS MySQL\nVPC\n\nGoogle Cloud\n\nBigQuery\nDatastream",
+    "section": "3. [データ] 顧客環境 BigQuery へのリアルタイム転送システム開発・運用",
+    "text": "3. [データ] 顧客環境 BigQuery へのリアルタイム転送システム開発・運用\n\n3.1. 概要\n\nhacomono に蓄積されたデータを顧客環境 BigQuery へリアルタイム転送するためのシステム開発・運用\n2024年8月まで開発を続けていましたが、契約締結できず検証段階で開発を中断しています。\n\n\n\n3.2. 期間\n\n2024/04 - 2024/08\n\n\n\n3.3. 規模・役割\n\n[2024/04 - 2024/05]\n\n役割：メンバー\n規模：2名\n\n[2024/06 - 2024/08]\n\n役割：リーダー\n規模：2名\n\n\n\n\n3.4. 担当業務\n\n[2024/04 - 2024/05] (2名) 開発引き継ぎ\n[2024/06 - 2024/08] 主機能開発・進捗管理\n\n\n\n3.5. 機能開発・実装詳細\n\nGitHub と Terraform (Terragrunt) を用いて以下の構成を実装します。\n\n[主機能] RDS MySQL のデータを Datastream によってリアルタイムに転送させる\n\n(新規実装) [周辺機能] ログ出力\n\n\n\n\n\n3.6. 目的・背景\n\n顧客要望がありリアルタイム性を重視したテーブルに絞って機能を提供することとなりました。\n個社向け開発として進めていますが他社への展開も可能な状態に整備する必要があります。\n\n\n\n3.7. 課題\n\n前任者から引き継いだ状態のリポジトリが雑然としており各社向けの設定ファイルを切り替えることができず大規模なリファクタリングが必要でした。\nDatastream の知見のある方が社内にいないため障害発生時の対応のノウハウがない状態でした。\n\n\n\n3.8. 成果\n\n\nDatastream の知見のある方が社内にいないため障害発生時の対応のノウハウがない状態でした。\n\n\nRDS 再起動による接続断から復旧する必要がありストリームの復元を行うことがありましたが、この経験により障害発生時に欠損し得るデータに関して説明ができるようになりました。\n本機能のオプションサービス化にあたり懸念事項の解像度を上げ、サービスのマニュアル更新の準備に役立てることができました。\n\n\n3.9. 担当フェーズ\n\n詳細設計\n開発\nテスト\n運用\n保守\n\n\n\n3.10. 開発環境\n\nGitHub\nTerraform\nTerragrunt\nAWS\n\nRDS MySQL\nVPC\n\nGoogle Cloud\n\nBigQuery\nDatastream",
     "crumbs": [
       "職務経歴 詳細",
       "株式会社hacomono"
     ]
   },
   {
-    "objectID": "details/04-hacomono.html#通常業務以外の活動",
-    "href": "details/04-hacomono.html#通常業務以外の活動",
+    "objectID": "details/04-hacomono.html#その他-開発業務以外の活動",
+    "href": "details/04-hacomono.html#その他-開発業務以外の活動",
     "title": "株式会社hacomono",
-    "section": "4. 通常業務以外の活動",
-    "text": "4. 通常業務以外の活動\n\n4.1. 記事執筆\n\n\n\n日付\n概要\nリンク\n\n\n\n\n2024/07/02\nhacomono テックブログ執筆\nhacomonoデータ基盤におけるデータ転送の課題と今後の対応 - hacomono TECH BLOG\n\n\n2024/08/21\nFindy Tools 様 レビュー執筆\n株式会社hacomonoのBigQuery導入事例 - Findy Tools\n\n\n2024/10/08\nFindy Tools 様 特集記事掲載\n39社のデータ基盤アーキテクチャ特集 - ツールの技術選定のポイントと活用術 - Findy Tools",
+    "section": "4. [その他] 開発業務以外の活動",
+    "text": "4. [その他] 開発業務以外の活動\n\n4.1. 記事執筆\n\n\n\n日付\n概要\nリンク\n\n\n\n\n2024/07/02\nhacomono テックブログ執筆\nhacomonoデータ基盤におけるデータ転送の課題と今後の対応 - hacomono TECH BLOG\n\n\n2024/08/21\nFindy Tools 様 レビュー執筆\n株式会社hacomonoのBigQuery導入事例 - Findy Tools\n\n\n2024/10/08\nFindy Tools 様 特集記事掲載\n39社のデータ基盤アーキテクチャ特集 - ツールの技術選定のポイントと活用術 - Findy Tools",
     "crumbs": [
       "職務経歴 詳細",
       "株式会社hacomono"
