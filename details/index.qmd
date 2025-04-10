@@ -73,16 +73,17 @@ gitGraph LR:
     branch e order: 5
     commit id: "GENDA 入社" tag: "24.11" type: HIGHLIGHT
     commit id: "データエンジニア / MLOps エンジニア-2"
-    checkout main
-    branch f order: 6
-    commit id: "SinkCapital 業務委託として参画" tag: "25.01" type: HIGHLIGHT
-    commit id: "データエンジニア-2"
-    %% now
+    %% checkout main
+    %% branch f order: 6
+    %% commit id: "SinkCapital 業務委託として参画" tag: "25.01" type: HIGHLIGHT
+    %% commit id: "データエンジニア-2"
+
+    %% Working
     checkout main
     commit id: "個人活動 (1) Vim コミュニティ活動"
     commit id: "個人活動 (2) Vim プラグイン開発"
     checkout e
     commit id: "GENDA 就業中" type: HIGHLIGHT
-    checkout f
-    commit id: "SinkCapital 就業中" type: HIGHLIGHT
+    %% checkout f
+    %% commit id: "SinkCapital 就業中" type: HIGHLIGHT
 ```
