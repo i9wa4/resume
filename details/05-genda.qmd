@@ -132,13 +132,13 @@ Period: "2024/11 - 現在"
 
 ### 1.11. 開発環境
 
-- データ基盤
-    - AWS
-        - MWAA
-    - Snowflake
-    - Databricks
-    - dbt Core
-    - Terraform
+- GitHub
+- AWS
+    - MWAA
+- Snowflake
+- Databricks
+- dbt Core
+- Terraform
 
 ## 2. [データ] ゲームセンター事業会社のIPマスターデータ作成支援
 
@@ -206,6 +206,7 @@ Period: "2024/11 - 現在"
 - データ入力アプリ
     - kintone
 - データ基盤
+    - GitHub
     - AWS
         - MWAA
     - Snowflake
@@ -272,13 +273,14 @@ Period: "2024/11 - 現在"
 
 ### 3.11. 開発環境
 
+- GitHub
 - GitHub Actions
 - AWS
     - ECS
     - RDS
     - S3
 - Databricks
-- dbt
+- dbt Core
 
 ## 4. [その他] 開発環境等へのAI導入推進
 
