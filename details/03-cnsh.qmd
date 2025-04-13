@@ -2,7 +2,12 @@
 title: "株式会社シイエヌエス北海道"
 date: last-modified
 categories:
-  - "本業"
+  - "正社員"
+description: |
+  データエンジニア・MLOps エンジニアとして以下に従事<br>
+  - データパイプライン構築<br>
+  - データマート整備<br>
+  - 機械学習ワークフロー構築
 Period: "2022/04 - 2024/03"
 ---
 

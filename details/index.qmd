@@ -12,6 +12,7 @@ listing:
       - "Period"
       - "categories"
       - "title"
+      - "description"
     filter-ui: false
     sort:
       - "filename desc"
@@ -19,71 +20,5 @@ listing:
     type: table
 ---
 
-## 1. 職務経歴 詳細
-
-::: {.callout-note appearance="simple"}
-
-始業時期の新しい順に記載しております。
-
-:::
-
 ::: {#list-all}
 :::
-
-## 2. 職務経歴 Git Graph
-
-```{mermaid}
-%%{
-    init: {
-        'logLevel': 'debug',
-        'theme': 'base',
-        'gitGraph': {
-            'rotateCommitLabel': true
-        },
-        'themeVariables': {
-            'commitLabelFontSize': '18px',
-            'tagLabelFontSize': '16px'
-        }
-    }
-}%%
-%% gitGraph BT:
-gitGraph LR:
-    checkout main
-    commit id: "北海道大学 理学部数学科 卒業" tag: "16.03"
-    branch a order: 1
-    commit id: "オークマ 入社" tag: "16.04" type: HIGHLIGHT
-    commit id: "アプリエンジニア"
-    checkout main
-    merge a id: "退職-1" tag: "18.07"
-    branch b order: 2
-    commit id: "新光商事LSIデザインセンター 入社" tag: "18.08" type: HIGHLIGHT
-    commit id: "組込エンジニア"
-    checkout main
-    merge b id: "退職-2" tag: "22.03"
-    branch c order: 3
-    commit id: "シイエヌエス北海道 入社" tag: "22.04" type: HIGHLIGHT
-    commit id: "データエンジニア / MLOps エンジニア-1"
-    checkout main
-    merge c id: "退職-3" tag: "24.03"
-    branch d order: 4
-    commit id: "hacomono 入社" tag: "24.04" type: HIGHLIGHT
-    commit id: "データエンジニア-1"
-    checkout main
-    merge d id: "退職-4" tag: "24.10"
-    branch e order: 5
-    commit id: "GENDA 入社" tag: "24.11" type: HIGHLIGHT
-    commit id: "データエンジニア / MLOps エンジニア-2"
-    %% checkout main
-    %% branch f order: 6
-    %% commit id: "SinkCapital 業務委託として参画" tag: "25.01" type: HIGHLIGHT
-    %% commit id: "データエンジニア-2"
-
-    %% Working
-    checkout main
-    commit id: "個人活動 (1) Vim コミュニティ活動"
-    commit id: "個人活動 (2) Vim プラグイン開発"
-    checkout e
-    commit id: "GENDA 就業中" type: HIGHLIGHT
-    %% checkout f
-    %% commit id: "SinkCapital 就業中" type: HIGHLIGHT
-```

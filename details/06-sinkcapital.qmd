@@ -5,7 +5,5 @@ categories:
   - "業務委託"
   - "就業中"
 draft: true
-Period: "2025/01 - 現在"
+Period: ""
 ---
-
-アサイン待機中

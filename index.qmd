@@ -1,6 +1,23 @@
 ---
 title: "職務経歴書"
 date: last-modified
+listing:
+  - id: "list-details"
+    contents:
+      - "/details"
+    exclude:
+      filename:
+        - "index.qmd"
+    fields:
+      - "Period"
+      - "categories"
+      - "title"
+      - "description"
+    filter-ui: false
+    sort:
+      - "filename desc"
+    sort-ui: false
+    type: table
 ---
 
 - 現住所 北海道札幌市
@@ -19,60 +36,90 @@ MLOpsエンジニアとしての経験：二値分類による顧客の行動予
 
 ::: {.callout-note appearance="simple"}
 
-始業時期の新しい順に記載しております。
+各社での職務経歴詳細は社名のリンク先にてご確認ください。
 
 :::
 
-::: {.callout-note appearance="simple"}
-
-各社での職務経歴詳細は [こちらのリンク](/details/index.qmd) からご覧いただけます。
-
+::: {#list-details}
 :::
 
+```{mermaid}
+%%{
+    init: {
+        'logLevel': 'debug',
+        'theme': 'base',
+        'gitGraph': {
+            'rotateCommitLabel': true,
+            'showBranches': false
+        },
+        'themeVariables': {
+            'commitLabelFontSize': '18px',
+            'tagLabelFontSize': '16px'
+        }
+    }
+}%%
+gitGraph LR:
+    checkout main
+    commit id: "北海道大学 理学部数学科 卒業" tag: "16.03"
 
-: {tbl-colwidths="[14,30,56]"}
+    branch b01 order: 1
+    commit id: "オークマ株式会社 入社" tag: "16.04" type: HIGHLIGHT
+    commit id: "Windows アプリエンジニア"
+    checkout main
+    merge b01 id: "退職-1" tag: "18.07"
 
-+-------------------+-------------------------------------+----------------------------------------------------------+
-| 在籍期間          | 所属                                | 概要                                                     |
-+===================+=====================================+==========================================================+
-| 2024/11 - 現在    | 株式会社GENDA                       | データエンジニアや MLOps エンジニアとして以下に従事<br>  |
-|                   |                                     | - データパイプラインの上流から下流まで全体の変更対応<br> |
-|                   |                                     | - ダッシュボード作成・運用<br>                           |
-|                   |                                     | - AWS から Databricks への機械学習開発基盤移行対応<br>   |
-|                   |                                     | - CI 導入など機械学習基盤の整備                          |
-+-------------------+-------------------------------------+----------------------------------------------------------+
-| 2024/04 - 2024/10 | 株式会社hacomono                    | データエンジニアとして以下に従事<br>                     |
-|                   |                                     | - 自社環境・顧客環境の DWH 構築・運用<br>                |
-|                   |                                     | - 自社データ基盤の運用改善・機能追加                     |
-+-------------------+-------------------------------------+----------------------------------------------------------+
-| 2022/04 - 2024/03 | 株式会社シイエヌエス北海道          | データエンジニアや MLOps エンジニアとして以下に従事<br>  |
-|                   |                                     | - データパイプライン構築<br>                             |
-|                   |                                     | - 機械学習ワークフロー構築                               |
-+-------------------+-------------------------------------+----------------------------------------------------------+
-| 2018/08 - 2022/03 | 新光商事LSIデザインセンター株式会社 | 組込エンジニアとして以下に従事<br>                       |
-|                   |                                     | - 車載マイコンの機能開発<br>                             |
-|                   |                                     | - インバータやモータの制御開発                           |
-+-------------------+-------------------------------------+----------------------------------------------------------+
-| 2016/04 - 2018/07 | オークマ株式会社                    | Windows アプリエンジニアとして以下に従事<br>             |
-|                   |                                     | - Windows 用 CAD/CAM アプリ開発の要件定義・テスト        |
-+-------------------+-------------------------------------+----------------------------------------------------------+
+    branch b02 order: 2
+    commit id: "新光商事LSIデザインセンター株式会社 入社" tag: "18.08" type: HIGHLIGHT
+    commit id: "組込エンジニア"
+    checkout main
+    merge b02 id: "退職-2" tag: "22.03"
+
+    branch b03 order: 3
+    commit id: "株式会社シイエヌエス北海道 入社" tag: "22.04" type: HIGHLIGHT
+    commit id: "データエンジニア / MLOps エンジニア-1"
+    checkout main
+    merge b03 id: "退職-3" tag: "24.03"
+
+    branch b04 order: 4
+    commit id: "株式会社hacomono 入社" tag: "24.04" type: HIGHLIGHT
+    commit id: "データエンジニア"
+    checkout main
+    merge b04 id: "退職-4" tag: "24.10"
+
+    branch b05 order: 5
+    commit id: "株式会社GENDA 入社" tag: "24.11" type: HIGHLIGHT
+    commit id: "データエンジニア / MLOps エンジニア-2"
+
+    %% Current Activity
+    checkout main
+    %% commit id: "個人活動"
+
+    checkout b05
+    commit id: "就業中" type: HIGHLIGHT
+```
 
 ### 2.1. 最も苦労したプロジェクト
 
 株式会社シイエヌエス北海道在職中の2023年12月～2024年3月にリーダーとして参画していた以下です。AI プラットフォームのリプレイスのためにワークフロー全体の技術選定から設計まで行いました。顧客との方針調整を密に実施し PoC 段階から設計・実装へフェーズを進めることができました。
 
-[[ML] 情報通信企業向け 機械学習ワークフローと AI プラットフォーム移管 | 職務経歴 株式会社シイエヌエス北海道](/details/03-cnsh.qmd#ml-情報通信企業向け-機械学習ワークフローと-ai-プラットフォーム移管)
+[[ML] 情報通信企業向け 機械学習ワークフローと AI プラットフォーム移管 | 株式会社シイエヌエス北海道](/details/03-cnsh.qmd#ml-情報通信企業向け-機械学習ワークフローと-ai-プラットフォーム移管)
 
 ## 3. 通常業務以外の活動
 
-### 3.1. 記事執筆
+### 3.1. 記事執筆・掲載
+
+::: {.callout-note appearance="simple"}
+
+執筆・掲載時期の新しい順に記載しております。
+
+:::
 
 | 日付       | 概要                        | リンク                                                                                                                                  |
 | :---       | :---                        | :---                                                                                                                                    |
-| 2024/07/02 | hacomono テックブログ執筆   | [hacomonoデータ基盤におけるデータ転送の課題と今後の対応 - hacomono TECH BLOG](https://techblog.hacomono.jp/entry/2024/07/02/1100)       |
-| 2024/08/21 | Findy Tools 様 レビュー執筆 | [株式会社hacomonoのBigQuery導入事例 - Findy Tools](https://findy-tools.io/products/bigquery/49/231)                                     |
-| 2024/10/08 | Findy Tools 様 特集記事掲載 | [39社のデータ基盤アーキテクチャ特集 - ツールの技術選定のポイントと活用術 - Findy Tools](https://findy-tools.io/articles/data-review/28) |
 | 2024/12 -  | GENDA テックブログ執筆      | [uma-chanさんの記事一覧 - Zenn](https://zenn.dev/i9wa4)                                                                                 |
+| 2024/10/08 | Findy Tools 様 特集記事掲載 | [39社のデータ基盤アーキテクチャ特集 - ツールの技術選定のポイントと活用術 - Findy Tools](https://findy-tools.io/articles/data-review/28) |
+| 2024/08/21 | Findy Tools 様 レビュー執筆 | [株式会社hacomonoのBigQuery導入事例 - Findy Tools](https://findy-tools.io/products/bigquery/49/231)                                     |
+| 2024/07/02 | hacomono テックブログ執筆   | [hacomonoデータ基盤におけるデータ転送の課題と今後の対応 - hacomono TECH BLOG](https://techblog.hacomono.jp/entry/2024/07/02/1100)       |
 
 ## 4. 今後取り組みたいこと
 

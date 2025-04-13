@@ -2,7 +2,11 @@
 title: "株式会社hacomono"
 date: last-modified
 categories:
-  - "本業"
+  - "正社員"
+description: |
+  データエンジニアとして以下に従事<br>
+  - 自社環境・顧客環境の DWH 構築・運用<br>
+  - 自社データ基盤の運用改善・機能追加
 Period: "2024/04 - 2024/10"
 ---
 
@@ -257,8 +261,8 @@ RDS 再起動による接続断から復旧する必要がありストリーム�
 
 | 日付       | 概要                        | リンク                                                                                                                                  |
 | :---       | :---                        | :---                                                                                                                                    |
-| 2024/07/02 | hacomono テックブログ執筆   | [hacomonoデータ基盤におけるデータ転送の課題と今後の対応 - hacomono TECH BLOG](https://techblog.hacomono.jp/entry/2024/07/02/1100)       |
-| 2024/08/21 | Findy Tools 様 レビュー執筆 | [株式会社hacomonoのBigQuery導入事例 - Findy Tools](https://findy-tools.io/products/bigquery/49/231)                                     |
 | 2024/10/08 | Findy Tools 様 特集記事掲載 | [39社のデータ基盤アーキテクチャ特集 - ツールの技術選定のポイントと活用術 - Findy Tools](https://findy-tools.io/articles/data-review/28) |
+| 2024/08/21 | Findy Tools 様 レビュー執筆 | [株式会社hacomonoのBigQuery導入事例 - Findy Tools](https://findy-tools.io/products/bigquery/49/231)                                     |
+| 2024/07/02 | hacomono テックブログ執筆   | [hacomonoデータ基盤におけるデータ転送の課題と今後の対応 - hacomono TECH BLOG](https://techblog.hacomono.jp/entry/2024/07/02/1100)       |
 
 <!-- - [2024/10/29] <https://techblog.hacomono.jp/entry/2024/10/29/1100> -->
