@@ -25,8 +25,8 @@
     "objectID": "details/05-genda.html#データ-ゲームセンター事業会社でのipマスタデータ作成支援",
     "href": "details/05-genda.html#データ-ゲームセンター事業会社でのipマスタデータ作成支援",
     "title": "株式会社GENDA",
-    "section": "3. [データ] ゲームセンター事業会社でのIPマスタデータ作成支援",
-    "text": "3. [データ] ゲームセンター事業会社でのIPマスタデータ作成支援",
+    "section": "2. [データ] ゲームセンター事業会社でのIPマスタデータ作成支援",
+    "text": "2. [データ] ゲームセンター事業会社でのIPマスタデータ作成支援",
     "crumbs": [
       "職務経歴 詳細",
       "株式会社GENDA"
@@ -36,8 +36,8 @@
     "objectID": "details/05-genda.html#ml-機械学習開発運用環境の改善",
     "href": "details/05-genda.html#ml-機械学習開発運用環境の改善",
     "title": "株式会社GENDA",
-    "section": "2. [ML] 機械学習開発運用環境の改善",
-    "text": "2. [ML] 機械学習開発運用環境の改善",
+    "section": "3. [ML] 機械学習開発運用環境の改善",
+    "text": "3. [ML] 機械学習開発運用環境の改善",
     "crumbs": [
       "職務経歴 詳細",
       "株式会社GENDA"
@@ -136,27 +136,7 @@
     "href": "details/index.html",
     "title": "職務経歴 詳細",
     "section": "",
-    "text": "始業時期の新しい順に記載しております。\n\n\n\n\n\n\n\n\nPeriod\n\n\nCategories\n\n\nTitle\n\n\n\n\n\n\n2024/11 - 現在\n\n\n本業, 就業中\n\n\n株式会社GENDA\n\n\n\n\n2024/04 - 2024/10\n\n\n本業\n\n\n株式会社hacomono\n\n\n\n\n2022/04 - 2024/03\n\n\n本業\n\n\n株式会社シイエヌエス北海道\n\n\n\n\n2018/08 - 2022/03\n\n\n本業\n\n\n新光商事LSIデザインセンター株式会社\n\n\n\n\n2016/04 - 2018/07\n\n\n本業\n\n\nオークマ株式会社\n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "職務経歴 詳細"
-    ]
-  },
-  {
-    "objectID": "details/index.html#職務経歴-詳細",
-    "href": "details/index.html#職務経歴-詳細",
-    "title": "職務経歴 詳細",
-    "section": "",
-    "text": "始業時期の新しい順に記載しております。\n\n\n\n\n\n\n\n\nPeriod\n\n\nCategories\n\n\nTitle\n\n\n\n\n\n\n2024/11 - 現在\n\n\n本業, 就業中\n\n\n株式会社GENDA\n\n\n\n\n2024/04 - 2024/10\n\n\n本業\n\n\n株式会社hacomono\n\n\n\n\n2022/04 - 2024/03\n\n\n本業\n\n\n株式会社シイエヌエス北海道\n\n\n\n\n2018/08 - 2022/03\n\n\n本業\n\n\n新光商事LSIデザインセンター株式会社\n\n\n\n\n2016/04 - 2018/07\n\n\n本業\n\n\nオークマ株式会社\n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "職務経歴 詳細"
-    ]
-  },
-  {
-    "objectID": "details/index.html#職務経歴-git-graph",
-    "href": "details/index.html#職務経歴-git-graph",
-    "title": "職務経歴 詳細",
-    "section": "2. 職務経歴 Git Graph",
-    "text": "2. 職務経歴 Git Graph\n\n\n\n\n\n%%{\n    init: {\n        'logLevel': 'debug',\n        'theme': 'base',\n        'gitGraph': {\n            'rotateCommitLabel': true\n        },\n        'themeVariables': {\n            'commitLabelFontSize': '18px',\n            'tagLabelFontSize': '16px'\n        }\n    }\n}%%\n%% gitGraph BT:\ngitGraph LR:\n    checkout main\n    commit id: \"北海道大学 理学部数学科 卒業\" tag: \"16.03\"\n    branch a order: 1\n    commit id: \"オークマ 入社\" tag: \"16.04\" type: HIGHLIGHT\n    commit id: \"アプリエンジニア\"\n    checkout main\n    merge a id: \"退職-1\" tag: \"18.07\"\n    branch b order: 2\n    commit id: \"新光商事LSIデザインセンター 入社\" tag: \"18.08\" type: HIGHLIGHT\n    commit id: \"組込エンジニア\"\n    checkout main\n    merge b id: \"退職-2\" tag: \"22.03\"\n    branch c order: 3\n    commit id: \"シイエヌエス北海道 入社\" tag: \"22.04\" type: HIGHLIGHT\n    commit id: \"データエンジニア / MLOps エンジニア-1\"\n    checkout main\n    merge c id: \"退職-3\" tag: \"24.03\"\n    branch d order: 4\n    commit id: \"hacomono 入社\" tag: \"24.04\" type: HIGHLIGHT\n    commit id: \"データエンジニア-1\"\n    checkout main\n    merge d id: \"退職-4\" tag: \"24.10\"\n    branch e order: 5\n    commit id: \"GENDA 入社\" tag: \"24.11\" type: HIGHLIGHT\n    commit id: \"データエンジニア / MLOps エンジニア-2\"\n    %% checkout main\n    %% branch f order: 6\n    %% commit id: \"SinkCapital 業務委託として参画\" tag: \"25.01\" type: HIGHLIGHT\n    %% commit id: \"データエンジニア-2\"\n\n    %% Working\n    checkout main\n    commit id: \"個人活動 (1) Vim コミュニティ活動\"\n    commit id: \"個人活動 (2) Vim プラグイン開発\"\n    checkout e\n    commit id: \"GENDA 就業中\" type: HIGHLIGHT\n    %% checkout f\n    %% commit id: \"SinkCapital 就業中\" type: HIGHLIGHT",
+    "text": "Period\n\n\nCategories\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\n2024/11 - 現在\n\n\n正社員, 就業中\n\n\n株式会社GENDA\n\n\nデータエンジニア・MLOps エンジニアとして以下に従事 - データパイプライン全体の変更対応 - データマート整備 - ダッシュボード作成・運用 - AWS から Databricks への機械学習開発基盤移行対応 - CI 導入など機械学習基盤の整備 \n\n\n\n\n2024/04 - 2024/10\n\n\n正社員\n\n\n株式会社hacomono\n\n\nデータエンジニアとして以下に従事 - 自社環境・顧客環境の DWH 構築・運用 - 自社データ基盤の運用改善・機能追加 \n\n\n\n\n2022/04 - 2024/03\n\n\n正社員\n\n\n株式会社シイエヌエス北海道\n\n\nデータエンジニア・MLOps エンジニアとして以下に従事 - データパイプライン構築 - データマート整備 - 機械学習ワークフロー構築 \n\n\n\n\n2018/08 - 2022/03\n\n\n正社員\n\n\n新光商事LSIデザインセンター株式会社\n\n\n組込エンジニアとして以下に従事 - 車載マイコンの機能開発 - インバータやモータの制御開発 \n\n\n\n\n2016/04 - 2018/07\n\n\n正社員\n\n\nオークマ株式会社\n\n\nWindows アプリエンジニアとして以下に従事 - Windows 用 CAD/CAM アプリ開発の要件定義・テスト \n\n\n\n\n\nNo matching items",
     "crumbs": [
       "職務経歴 詳細"
     ]
@@ -180,14 +160,14 @@
     "href": "index.html#職務経歴",
     "title": "職務経歴書",
     "section": "2. 職務経歴",
-    "text": "2. 職務経歴\n\n\n\n\n\n\n始業時期の新しい順に記載しております。\n\n\n\n\n\n\n\n\n\n各社での職務経歴詳細は こちらのリンク からご覧いただけます。\n\n\n\n\n\n\n\n\n\n\n\n在籍期間\n所属\n概要\n\n\n\n\n2024/11 - 現在\n株式会社GENDA\nデータエンジニアや MLOps エンジニアとして以下に従事 - データパイプラインの上流から下流まで全体の変更対応 - ダッシュボード作成・運用 - AWS から Databricks への機械学習開発基盤移行対応 - CI 導入など機械学習基盤の整備\n\n\n2024/04 - 2024/10\n株式会社hacomono\nデータエンジニアとして以下に従事 - 自社環境・顧客環境の DWH 構築・運用 - 自社データ基盤の運用改善・機能追加\n\n\n2022/04 - 2024/03\n株式会社シイエヌエス北海道\nデータエンジニアや MLOps エンジニアとして以下に従事 - データパイプライン構築 - 機械学習ワークフロー構築\n\n\n2018/08 - 2022/03\n新光商事LSIデザインセンター株式会社\n組込エンジニアとして以下に従事 - 車載マイコンの機能開発 - インバータやモータの制御開発\n\n\n2016/04 - 2018/07\nオークマ株式会社\nWindows アプリエンジニアとして以下に従事 - Windows 用 CAD/CAM アプリ開発の要件定義・テスト\n\n\n\n\n2.1. 最も苦労したプロジェクト\n株式会社シイエヌエス北海道在職中の2023年12月～2024年3月にリーダーとして参画していた以下です。AI プラットフォームのリプレイスのためにワークフロー全体の技術選定から設計まで行いました。顧客との方針調整を密に実施し PoC 段階から設計・実装へフェーズを進めることができました。\n[ML] 情報通信企業向け 機械学習ワークフローと AI プラットフォーム移管 | 職務経歴 株式会社シイエヌエス北海道"
+    "text": "2. 職務経歴\n\n\n\n\n\n\n各社での職務経歴詳細は社名のリンク先にてご確認ください。\n\n\n\n\n\n\n\n\nPeriod\n\n\nCategories\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\n2024/11 - 現在\n\n\n正社員, 就業中\n\n\n株式会社GENDA\n\n\nデータエンジニア・MLOps エンジニアとして以下に従事 - データパイプライン全体の変更対応 - データマート整備 - ダッシュボード作成・運用 - AWS から Databricks への機械学習開発基盤移行対応 - CI 導入など機械学習基盤の整備 \n\n\n\n\n2024/04 - 2024/10\n\n\n正社員\n\n\n株式会社hacomono\n\n\nデータエンジニアとして以下に従事 - 自社環境・顧客環境の DWH 構築・運用 - 自社データ基盤の運用改善・機能追加 \n\n\n\n\n2022/04 - 2024/03\n\n\n正社員\n\n\n株式会社シイエヌエス北海道\n\n\nデータエンジニア・MLOps エンジニアとして以下に従事 - データパイプライン構築 - データマート整備 - 機械学習ワークフロー構築 \n\n\n\n\n2018/08 - 2022/03\n\n\n正社員\n\n\n新光商事LSIデザインセンター株式会社\n\n\n組込エンジニアとして以下に従事 - 車載マイコンの機能開発 - インバータやモータの制御開発 \n\n\n\n\n2016/04 - 2018/07\n\n\n正社員\n\n\nオークマ株式会社\n\n\nWindows アプリエンジニアとして以下に従事 - Windows 用 CAD/CAM アプリ開発の要件定義・テスト \n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n%%{\n    init: {\n        'logLevel': 'debug',\n        'theme': 'base',\n        'gitGraph': {\n            'rotateCommitLabel': true,\n            'showBranches': false\n        },\n        'themeVariables': {\n            'commitLabelFontSize': '18px',\n            'tagLabelFontSize': '16px'\n        }\n    }\n}%%\ngitGraph LR:\n    checkout main\n    commit id: \"北海道大学 理学部数学科 卒業\" tag: \"16.03\"\n\n    branch b01 order: 1\n    commit id: \"オークマ株式会社 入社\" tag: \"16.04\" type: HIGHLIGHT\n    commit id: \"Windows アプリエンジニア\"\n    checkout main\n    merge b01 id: \"退職-1\" tag: \"18.07\"\n\n    branch b02 order: 2\n    commit id: \"新光商事LSIデザインセンター株式会社 入社\" tag: \"18.08\" type: HIGHLIGHT\n    commit id: \"組込エンジニア\"\n    checkout main\n    merge b02 id: \"退職-2\" tag: \"22.03\"\n\n    branch b03 order: 3\n    commit id: \"株式会社シイエヌエス北海道 入社\" tag: \"22.04\" type: HIGHLIGHT\n    commit id: \"データエンジニア / MLOps エンジニア-1\"\n    checkout main\n    merge b03 id: \"退職-3\" tag: \"24.03\"\n\n    branch b04 order: 4\n    commit id: \"株式会社hacomono 入社\" tag: \"24.04\" type: HIGHLIGHT\n    commit id: \"データエンジニア\"\n    checkout main\n    merge b04 id: \"退職-4\" tag: \"24.10\"\n\n    branch b05 order: 5\n    commit id: \"株式会社GENDA 入社\" tag: \"24.11\" type: HIGHLIGHT\n    commit id: \"データエンジニア / MLOps エンジニア-2\"\n\n    %% Current Activity\n    checkout main\n    %% commit id: \"個人活動\"\n\n    checkout b05\n    commit id: \"就業中\" type: HIGHLIGHT\n\n\n\n\n\n\n\n2.1. 最も苦労したプロジェクト\n株式会社シイエヌエス北海道在職中の2023年12月～2024年3月にリーダーとして参画していた以下です。AI プラットフォームのリプレイスのためにワークフロー全体の技術選定から設計まで行いました。顧客との方針調整を密に実施し PoC 段階から設計・実装へフェーズを進めることができました。\n[ML] 情報通信企業向け 機械学習ワークフローと AI プラットフォーム移管 | 株式会社シイエヌエス北海道"
   },
   {
     "objectID": "index.html#通常業務以外の活動",
     "href": "index.html#通常業務以外の活動",
     "title": "職務経歴書",
     "section": "3. 通常業務以外の活動",
-    "text": "3. 通常業務以外の活動\n\n3.1. 記事執筆\n\n\n\n日付\n概要\nリンク\n\n\n\n\n2024/07/02\nhacomono テックブログ執筆\nhacomonoデータ基盤におけるデータ転送の課題と今後の対応 - hacomono TECH BLOG\n\n\n2024/08/21\nFindy Tools 様 レビュー執筆\n株式会社hacomonoのBigQuery導入事例 - Findy Tools\n\n\n2024/10/08\nFindy Tools 様 特集記事掲載\n39社のデータ基盤アーキテクチャ特集 - ツールの技術選定のポイントと活用術 - Findy Tools\n\n\n2024/12 -\nGENDA テックブログ執筆\numa-chanさんの記事一覧 - Zenn"
+    "text": "3. 通常業務以外の活動\n\n3.1. 記事執筆・掲載\n\n\n\n\n\n\n執筆・掲載時期の新しい順に記載しております。\n\n\n\n\n\n\n日付\n概要\nリンク\n\n\n\n\n2024/12 -\nGENDA テックブログ執筆\numa-chanさんの記事一覧 - Zenn\n\n\n2024/10/08\nFindy Tools 様 特集記事掲載\n39社のデータ基盤アーキテクチャ特集 - ツールの技術選定のポイントと活用術 - Findy Tools\n\n\n2024/08/21\nFindy Tools 様 レビュー執筆\n株式会社hacomonoのBigQuery導入事例 - Findy Tools\n\n\n2024/07/02\nhacomono テックブログ執筆\nhacomonoデータ基盤におけるデータ転送の課題と今後の対応 - hacomono TECH BLOG"
   },
   {
     "objectID": "index.html#今後取り組みたいこと",
@@ -332,7 +312,7 @@
     "href": "details/04-hacomono.html#その他-開発業務以外の活動",
     "title": "株式会社hacomono",
     "section": "4. [その他] 開発業務以外の活動",
-    "text": "4. [その他] 開発業務以外の活動\n\n4.1. 記事執筆\n\n\n\n日付\n概要\nリンク\n\n\n\n\n2024/07/02\nhacomono テックブログ執筆\nhacomonoデータ基盤におけるデータ転送の課題と今後の対応 - hacomono TECH BLOG\n\n\n2024/08/21\nFindy Tools 様 レビュー執筆\n株式会社hacomonoのBigQuery導入事例 - Findy Tools\n\n\n2024/10/08\nFindy Tools 様 特集記事掲載\n39社のデータ基盤アーキテクチャ特集 - ツールの技術選定のポイントと活用術 - Findy Tools",
+    "text": "4. [その他] 開発業務以外の活動\n\n4.1. 記事執筆\n\n\n\n日付\n概要\nリンク\n\n\n\n\n2024/10/08\nFindy Tools 様 特集記事掲載\n39社のデータ基盤アーキテクチャ特集 - ツールの技術選定のポイントと活用術 - Findy Tools\n\n\n2024/08/21\nFindy Tools 様 レビュー執筆\n株式会社hacomonoのBigQuery導入事例 - Findy Tools\n\n\n2024/07/02\nhacomono テックブログ執筆\nhacomonoデータ基盤におけるデータ転送の課題と今後の対応 - hacomono TECH BLOG",
     "crumbs": [
       "職務経歴 詳細",
       "株式会社hacomono"
