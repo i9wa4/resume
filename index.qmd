@@ -88,28 +88,30 @@ AIを活用して開発環境改善やデータ分析の簡易化 (民主化) �
 
 : {tbl-colwidths="[15,20,10,55]"}
 
-| 項目            | 種類                  | 使用期間                                        | レベル                                                                                                                                     |
-| :---            | :---                  | :---                                            | :---                                                                                                                                       |
-| OS              | Amazon Linux / Ubuntu | <!-- 2021/04-xxxx/xx --> ★4年                  | 要件に応じた環境構築や開発環境利用が可能                                                                                                   |
-| 言語            | Python                | <!-- 2021/04-xxxx/xx --> ★4年                  | 一人称で作業可能                                                                                                                           |
-| 言語            | SQL                   | <!-- 2022/04-xxxx/xx --> ★3年                  | 一人称で作業可能                                                                                                                           |
-| 言語            | Shell Script          | <!-- 2021/04-xxxx/xx --> ★4年                  | 一人称で作業可能                                                                                                                           |
-| Cloud           | AWS                   | <!-- 2022/04-xxxx/xx --> ★3年                  | EC2 / ECS / RDS / StepFunctions / SageMaker / Cloud9 / MWAA (Airflow) 等を含む環境構築や作業が可能                                         |
-| Cloud           | Google Cloud          | <!-- 2024/04-2024/10 --> ★0.5年                | BigQuery 中心としたプロジェクトの管理者業務や Compute Engine / Cloud Functions / Datastream / BigQuery (後述) 等を含む環境構築や作業が可能 |
-| Cloud (Data)    | BigQuery              | <!-- 2024/04-2024/10 --> ★0.5年                | 管理者業務や IaC 化作業が可能                                                                                                              |
-| Cloud (Data)    | TROCCO                | <!-- 2024/04-2024/10 --> ★0.5年                | ジョブ作成・運用が可能                                                                                                                     |
-| Cloud (Data)    | dbt Cloud             | <!-- 2024/11-xxxx/xx --> ★0.5年                | ジョブ作成・運用が可能                                                                                                                     |
-| Cloud (Data/ML) | Databricks            | <!-- 2024/11-xxxx/xx --> ★0.5年                | 管理者業務や dbt Core との連携によるデータマート構築・ダッシュボード作成・機械学習環境整備が可能                                           |
-| Cloud (Data/ML) | Snowflake             | <!-- 2022/04-2024/03, 2024/11-xxxx/xx --> ★2年 | データマート作成 / SQL パフォーマンス改善 / Snowpark ML 利用 / パラメータ管理が可能                                                        |
-| Cloud (ML)      | DataRobot             | <!-- 2022/04-2024/03 --> ★2年                  | オートパイロットや blueprint 固定でのモデルデプロイ・運用、API を利用した各種評価指標の取得の実装が可能                                    |
-| DB              | MySQL                 | <!-- 2022/04, 2024/04-xxxx/xx --> ★1年         | パフォーマンス調整のために必要なパラメータ調整の指示やデータ閲覧が可能                                                                     |
-| DB              | PostgreSQL            | <!-- 2022/04-2022/09 --> ★0.5年                | ローカル環境でのデータベース作成・データ閲覧が可能                                                                                         |
-| IaC             | Docker                | <!-- 2022/04-xxxx/xx --> ★3年                  | Dockerfile や Docker Compose の記述・実行が可能                                                                                            |
-| IaC             | GitHub Actions        | <!-- 2024/04-xxxx/xx --> ★1年                  | 既存ワークフロー改修 / CI/CD 向けのワークフロー作成 / GitHub Pages 関連のワークフロー作成が可能                                            |
-| IaC             | Terraform             | <!-- 2024/04-xxxx/xx --> ★1年                  | AWS / Google Cloud (特に BigQuery) / Snowflake を用いた基盤の修正作業や IaC 化が可能                                                       |
-| その他          | GitHub / CodeCommit   | <!-- 2021/04-xxxx/xx --> ★4年                  | Git flow や GitHub flow に則った開発利用やレビューが可能                                                                                   |
-| その他 (Data)   | Embulk                | <!-- 2024/04-2024/10 --> ★0.5年                | 転送元 DB や 利用するインスタンス性能に応じたパフォーマンス改善が可能                                                                      |
-| その他 (Data)   | dbt Core              | <!-- 2023/10-2024/03, 2024/11-xxxx/xx --> ★1年 | プロジェクト新規作成から運用まで可能                                                                                                       |
+| 項目      | 種類                  | 使用期間                                        | レベル                                                                                                                                     |
+| :---      | :---                  | :---                                            | :---                                                                                                                                       |
+| IaC       | Docker                | <!-- 2022/04-xxxx/xx --> ★3年                  | Dockerfile や Docker Compose の記述・実行が可能                                                                                            |
+| IaC       | GitHub / CodeCommit   | <!-- 2021/04-xxxx/xx --> ★4年                  | Git flow や GitHub flow に則った開発利用やレビューが可能                                                                                   |
+| IaC       | GitHub Actions        | <!-- 2024/04-xxxx/xx --> ★1年                  | 既存ワークフロー改修 / CI/CD 向けのワークフロー作成 / GitHub Pages 関連のワークフロー作成が可能                                            |
+| IaC       | Terraform             | <!-- 2024/04-xxxx/xx --> ★1年                  | AWS / Google Cloud (特に BigQuery) / Snowflake を用いた基盤の修正作業や IaC 化が可能                                                       |
+| Data      | BigQuery              | <!-- 2024/04-2024/10 --> ★0.5年                | 管理者業務や IaC 化作業が可能                                                                                                              |
+| Data      | Embulk                | <!-- 2024/04-2024/10 --> ★0.5年                | 転送元 DB や 利用するインスタンス性能に応じたパフォーマンス改善が可能                                                                      |
+| Data      | TROCCO                | <!-- 2024/04-2024/10 --> ★0.5年                | ジョブ作成・運用が可能                                                                                                                     |
+| Data      | dbt Cloud             | <!-- 2024/11-xxxx/xx --> ★0.5年                | ジョブ作成・運用が可能                                                                                                                     |
+| Data      | dbt Core              | <!-- 2023/10-2024/03, 2024/11-xxxx/xx --> ★1年 | プロジェクト新規作成から運用まで可能                                                                                                       |
+| Data / ML | Databricks            | <!-- 2024/11-xxxx/xx --> ★0.5年                | 管理者業務や dbt Core との連携によるデータマート構築・ダッシュボード作成・機械学習環境整備が可能                                           |
+| Data / ML | Snowflake             | <!-- 2022/04-2024/03, 2024/11-xxxx/xx --> ★2年 | データマート作成 / SQL パフォーマンス改善 / Snowpark ML 利用 / パラメータ管理が可能                                                        |
+| ML        | DataRobot             | <!-- 2022/04-2024/03 --> ★2年                  | オートパイロットや blueprint 固定でのモデルデプロイ・運用、API を利用した各種評価指標の取得の実装が可能                                    |
+| OS        | Amazon Linux / Ubuntu | <!-- 2021/04-xxxx/xx --> ★4年                  | 要件に応じた環境構築や開発環境利用が可能                                                                                                   |
+| OS        | Windows / macOS       | <!-- 2016/04-xxxx/xx --> ★9年                  | 開発利用が可能                                                                                                                             |
+| 言語      | C                     | <!-- 2018/08-2022/03 --> ★3年                  | 一人称で作業可能                                                                                                                           |
+| 言語      | Python                | <!-- 2021/04-xxxx/xx --> ★4年                  | 一人称で作業可能                                                                                                                           |
+| 言語      | SQL                   | <!-- 2022/04-xxxx/xx --> ★3年                  | 一人称で作業可能                                                                                                                           |
+| 言語      | Shell Script          | <!-- 2021/04-xxxx/xx --> ★4年                  | 一人称で作業可能                                                                                                                           |
+| Cloud     | AWS                   | <!-- 2022/04-xxxx/xx --> ★3年                  | EC2 / ECS / RDS / StepFunctions / SageMaker / Cloud9 / MWAA (Airflow) 等を含む環境構築や作業が可能                                         |
+| Cloud     | Google Cloud          | <!-- 2024/04-2024/10 --> ★0.5年                | BigQuery 中心としたプロジェクトの管理者業務や Compute Engine / Cloud Functions / Datastream / BigQuery (後述) 等を含む環境構築や作業が可能 |
+| DB        | MySQL                 | <!-- 2022/04, 2024/04-xxxx/xx --> ★1年         | パフォーマンス調整のために必要なパラメータ調整の指示やデータ閲覧が可能                                                                     |
+| DB        | PostgreSQL            | <!-- 2022/04-2022/09 --> ★0.5年                | ローカル環境でのデータベース作成・データ閲覧が可能                                                                                         |
 
 ## 6. 資格
 
