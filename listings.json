@@ -1,6 +1,6 @@
 [
   {
-    "listing": "/details/index.html",
+    "listing": "/index.html",
     "items": [
       "/details/05-genda.html",
       "/details/04-hacomono.html",
@@ -10,7 +10,7 @@
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/details/index.html",
     "items": [
       "/details/05-genda.html",
       "/details/04-hacomono.html",
