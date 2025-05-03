@@ -10,12 +10,14 @@ theme:
 
 website:
   title: "職務経歴書"
-  site-path: "/resume/"
+  bread-crumbs: true
+  page-navigation: true
   search: false
   sidebar:
-    style: "docked"
+    style: floating
     search: false
     contents:
+      - "---"
       - section: "職務経歴 詳細"
         href: "./details/index.qmd"
         contents:
@@ -25,12 +27,27 @@ website:
           - "./details/03-cnsh.qmd"
           - "./details/02-sld.qmd"
           - "./details/01-okuma.qmd"
+      - "---"
+      - href: "https://github.com/i9wa4"
+        text: "GitHub"
+      - href: "https://x.com/i9wa4_"
+        text: "X (Twitter)"
+      - href: "https://www.linkedin.com/in/daikm/"
+        text: "LinkedIn"
+      - href: "https://i9wa4.github.io"
+        text: "個人ページ"
 
 format:
   html:
+    code-copy: true
+    code-overflow: wrap
+    grid:
+      sidebar-width: 250px
+      body-width: 900px
+      margin-width: 300px
+    linestretch: 1.4
     page-layout: full
-    toc: true
     toc-depth: 2
     toc-expand: true
     toc-title: "Table of Contents"
-    linestretch: 1.4
+    toc: true
