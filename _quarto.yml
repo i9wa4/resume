@@ -17,7 +17,6 @@ website:
     style: floating
     search: false
     contents:
-      - "---"
       - section: "職務経歴 詳細"
         href: "./details/index.qmd"
         contents:
@@ -34,6 +33,8 @@ website:
         text: "X (Twitter)"
       - href: "https://www.linkedin.com/in/daikm/"
         text: "LinkedIn"
+      - href: "https://zenn.dev/i9wa4"
+        text: "Zenn"
       - href: "https://i9wa4.github.io"
         text: "個人ページ"
 
