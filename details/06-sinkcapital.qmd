@@ -1,9 +1,0 @@
----
-title: "合同会社SinkCapital"
-date: last-modified
-categories:
-  - "業務委託"
-  - "就業中"
-draft: true
-Period: ""
----

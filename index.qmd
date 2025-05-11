@@ -4,19 +4,36 @@ date: last-modified
 listing:
   - id: "list-details-full-time"
     contents:
-      - "/details"
+      - "details"
     exclude:
       filename:
         - "index.qmd"
     fields:
       - "Period"
-      - "categories"
       - "title"
       - "description"
     filter-ui: false
     include:
       categories:
         - "正社員"
+    sort:
+      - "filename desc"
+    sort-ui: false
+    type: table
+  - id: "list-details-part-time"
+    contents:
+      - "details"
+    exclude:
+      filename:
+        - "index.qmd"
+    fields:
+      - "Period"
+      - "title"
+      - "description"
+    filter-ui: false
+    include:
+      categories:
+        - "業務委託"
     sort:
       - "filename desc"
     sort-ui: false
@@ -63,7 +80,12 @@ listing:
 ::: {#list-details-full-time}
 :::
 
-### 3.2. 最も苦労したプロジェクト
+### 3.2. 業務委託
+
+::: {#list-details-part-time}
+:::
+
+### 3.3. 最も苦労したプロジェクト
 
 現職の株式会社GENDAにて取り組んでいる以下です。
 データ基盤の改修・データマート構築・ダッシュボード作成・全体の運用・データ分析支援といったデータに関すること全てを私が対応しており、プロジェクト進行上人員不足の面での課題に向き合い解消に向かっている最中です。
@@ -123,9 +145,9 @@ AIを活用して開発環境改善やデータ分析の簡易化 (民主化) �
 
 ### 7.1. 記事執筆・掲載
 
-| 日付       | 概要                        | リンク                                                                                                                                  |
-| :---       | :---                        | :---                                                                                                                                    |
-| 2024/12 -  | GENDA テックブログ執筆      | [uma-chanさんの記事一覧 - Zenn](https://zenn.dev/i9wa4)                                                                                 |
-| 2024/10/08 | Findy Tools 様 特集記事掲載 | [39社のデータ基盤アーキテクチャ特集 - ツールの技術選定のポイントと活用術 - Findy Tools](https://findy-tools.io/articles/data-review/28) |
-| 2024/08/21 | Findy Tools 様 レビュー執筆 | [株式会社hacomonoのBigQuery導入事例 - Findy Tools](https://findy-tools.io/products/bigquery/49/231)                                     |
-| 2024/07/02 | hacomono テックブログ執筆   | [hacomonoデータ基盤におけるデータ転送の課題と今後の対応 - hacomono TECH BLOG](https://techblog.hacomono.jp/entry/2024/07/02/1100)       |
+| 日付           | 概要                        | リンク                                                                                                                                  |
+| :---           | :---                        | :---                                                                                                                                    |
+| 2024/12 - 現在 | GENDA テックブログ執筆      | [uma-chanさんの記事一覧 - Zenn](https://zenn.dev/i9wa4)                                                                                 |
+| 2024/10/08     | Findy Tools 様 特集記事掲載 | [39社のデータ基盤アーキテクチャ特集 - ツールの技術選定のポイントと活用術 - Findy Tools](https://findy-tools.io/articles/data-review/28) |
+| 2024/08/21     | Findy Tools 様 レビュー執筆 | [株式会社hacomonoのBigQuery導入事例 - Findy Tools](https://findy-tools.io/products/bigquery/49/231)                                     |
+| 2024/07/02     | hacomono テックブログ執筆   | [hacomonoデータ基盤におけるデータ転送の課題と今後の対応 - hacomono TECH BLOG](https://techblog.hacomono.jp/entry/2024/07/02/1100)       |

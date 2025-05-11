@@ -48,39 +48,52 @@ gitGraph LR:
     checkout main
     commit id: "北海道大学 理学部数学科 卒業" tag: "16.03"
 
+    checkout main
     branch b01 order: 1
     commit id: "オークマ株式会社 入社" tag: "16.04" type: HIGHLIGHT
     commit id: "Windows アプリエンジニア"
     checkout main
     merge b01 id: "退職-1" tag: "18.07"
 
+    checkout main
     branch b02 order: 2
     commit id: "新光商事LSIデザインセンター株式会社 入社" tag: "18.08" type: HIGHLIGHT
     commit id: "組込エンジニア"
     checkout main
     merge b02 id: "退職-2" tag: "22.03"
 
+    checkout main
     branch b03 order: 3
     commit id: "株式会社シイエヌエス北海道 入社" tag: "22.04" type: HIGHLIGHT
     commit id: "データエンジニア / MLOps エンジニア-1"
     checkout main
     merge b03 id: "退職-3" tag: "24.03"
 
+    checkout main
     branch b04 order: 4
     commit id: "株式会社hacomono 入社" tag: "24.04" type: HIGHLIGHT
     commit id: "データエンジニア"
     checkout main
     merge b04 id: "退職-4" tag: "24.10"
 
+    checkout main
     branch b05 order: 5
     commit id: "株式会社GENDA 入社" tag: "24.11" type: HIGHLIGHT
     commit id: "データエンジニア / MLOps エンジニア-2"
 
-    %% Current Activity
-    checkout main
+    %% checkout main
+    %% branch b06 order: 6
+    %% commit id: "PIVOT株式会社 参画" tag: "25.05" type: HIGHLIGHT
+    %% commit id: "データエンジニア / MLOps エンジニア-3"
+
+    %% --- Current Activity ---
+
+    %% checkout main
     %% commit id: "個人活動"
 
-    %% Current Activity
     checkout b05
     commit id: "就業中" type: HIGHLIGHT
+
+    %% checkout b06
+    %% commit id: "参画中" type: HIGHLIGHT
 ```

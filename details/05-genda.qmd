@@ -3,7 +3,6 @@ title: "株式会社GENDA"
 date: last-modified
 categories:
   - "正社員"
-  - "就業中"
 description: |
   データエンジニア・MLOps エンジニアとして以下に従事<br>
   - データパイプライン全体の変更対応<br>
@@ -327,9 +326,9 @@ Period: "2024/11 - 現在"
 
 ### 5.1. 記事執筆・掲載
 
-| 日付      | 概要                   | リンク                                                  |
-| :---      | :---                   | :---                                                    |
-| 2024/12 - | GENDA テックブログ執筆 | [uma-chanさんの記事一覧 - Zenn](https://zenn.dev/i9wa4) |
+| 日付           | 概要                   | リンク                                                  |
+| :---           | :---                   | :---                                                    |
+| 2024/12 - 現在 | GENDA テックブログ執筆 | [uma-chanさんの記事一覧 - Zenn](https://zenn.dev/i9wa4) |
 
 ### 5.2. 採用活動
 
