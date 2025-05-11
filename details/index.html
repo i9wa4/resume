@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.29">
+<meta name="generator" content="quarto-1.7.30">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -25,7 +25,7 @@ ul.task-list li input[type="checkbox"] {
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<link href="../details/06-sinkcapital.html" rel="next">
+<link href="../details/06-pivot.html" rel="next">
 <script src="../site_libs/quarto-listing/list.min.js"></script>
 <script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/clipboard/clipboard.min.js"></script>
@@ -35,14 +35,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-0815c480559380816a4d1ea211a47e91.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-748b535e376f14d4692bf2b2e5fd6380.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-0815c480559380816a4d1ea211a47e91.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-de070a7b0ab54f8780927367ac907214.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-2b3e328b71be8d25427581baeb23079b.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-de070a7b0ab54f8780927367ac907214.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-f0f9aa56fbdac84f42bcd9bd270c405c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-c61d6f04e2704926659c7ea48d85aaf1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-f0f9aa56fbdac84f42bcd9bd270c405c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-386f80a332252c0ea16114d409fa485b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-7dc0d073cb12fedc7da6bc67d3295fe6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-386f80a332252c0ea16114d409fa485b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -277,6 +277,7 @@ window.Quarto = {
       toggleColorMode(toAlternate);
       setStyleSentinel(toAlternate);
       toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
     };
     // Switch to dark mode if need be
     if (hasAlternateSentinel()) {
@@ -355,36 +356,65 @@ window.Quarto = {
       </ul>
   </li>
         <li class="px-0"><hr class="sidebar-divider hi "></li>
-        <li class="sidebar-item">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">My Other Websites</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="https://i9wa4.github.io/i9wa4" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="https://i9wa4.github.io" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">My Page</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">External Links</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="https://github.com/i9wa4" class="sidebar-item-text sidebar-link">
  <span class="menu-text">GitHub</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="https://x.com/i9wa4_" class="sidebar-item-text sidebar-link">
  <span class="menu-text">X (Twitter)</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="https://www.linkedin.com/in/daikm/" class="sidebar-item-text sidebar-link">
  <span class="menu-text">LinkedIn</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="https://zenn.dev/i9wa4" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Zenn</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="https://i9wa4.github.io" class="sidebar-item-text sidebar-link">
- <span class="menu-text">個人ページ</span></a>
-  </div>
-</li>
+      </ul>
+  </li>
     </ul>
     </div>
 </nav>
@@ -392,7 +422,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(5)</span></div><div class="category" data-category="JUU1JUIwJUIxJUU2JUE1JUFEJUU0JUI4JUFE">就業中 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUU2JUFEJUEzJUU3JUE0JUJFJUU1JTkzJUEx">正社員 <span class="quarto-category-count">(5)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(5)</span></div><div class="category" data-category="JUU2JUFEJUEzJUU3JUE0JUJFJUU1JTkzJUEx">正社員 <span class="quarto-category-count">(5)</span></div></div></div>
 <!-- main -->
 <main class="content column-body" id="quarto-document-content">
 
@@ -451,12 +481,12 @@ Description
 </thead>
 <tbody class="list">
 
-<tr data-index="0" data-categories="JUU2JUFEJUEzJUU3JUE0JUJFJUU1JTkzJUExJTJDJUU1JUIwJUIxJUU2JUE1JUFEJUU0JUI4JUFE" data-listing-date-sort="1744682959000" data-listing-file-modified-sort="1744682959000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1450" data-listing-title-sort="株式会社GENDA" data-listing-filename-sort="05-genda.qmd">
+<tr data-index="0" data-categories="JUU2JUFEJUEzJUU3JUE0JUJFJUU1JTkzJUEx" data-listing-date-sort="1746927395000" data-listing-file-modified-sort="1746927395000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1461" data-listing-title-sort="株式会社GENDA" data-listing-filename-sort="05-genda.qmd">
 <td>
 <span class="listing-Period">2024/11 - 現在</span>
 </td>
 <td>
-<span class="listing-categories">正社員, 就業中</span>
+<span class="listing-categories">正社員</span>
 </td>
 <td>
 <a href="../details/05-genda.html" class="title listing-title">株式会社GENDA</a>
@@ -558,41 +588,54 @@ gitGraph LR:
     checkout main
     commit id: "北海道大学 理学部数学科 卒業" tag: "16.03"
 
+    checkout main
     branch b01 order: 1
     commit id: "オークマ株式会社 入社" tag: "16.04" type: HIGHLIGHT
     commit id: "Windows アプリエンジニア"
     checkout main
     merge b01 id: "退職-1" tag: "18.07"
 
+    checkout main
     branch b02 order: 2
     commit id: "新光商事LSIデザインセンター株式会社 入社" tag: "18.08" type: HIGHLIGHT
     commit id: "組込エンジニア"
     checkout main
     merge b02 id: "退職-2" tag: "22.03"
 
+    checkout main
     branch b03 order: 3
     commit id: "株式会社シイエヌエス北海道 入社" tag: "22.04" type: HIGHLIGHT
     commit id: "データエンジニア / MLOps エンジニア-1"
     checkout main
     merge b03 id: "退職-3" tag: "24.03"
 
+    checkout main
     branch b04 order: 4
     commit id: "株式会社hacomono 入社" tag: "24.04" type: HIGHLIGHT
     commit id: "データエンジニア"
     checkout main
     merge b04 id: "退職-4" tag: "24.10"
 
+    checkout main
     branch b05 order: 5
     commit id: "株式会社GENDA 入社" tag: "24.11" type: HIGHLIGHT
     commit id: "データエンジニア / MLOps エンジニア-2"
 
-    %% Current Activity
-    checkout main
+    %% checkout main
+    %% branch b06 order: 6
+    %% commit id: "PIVOT株式会社 参画" tag: "25.05" type: HIGHLIGHT
+    %% commit id: "データエンジニア / MLOps エンジニア-3"
+
+    %% --- Current Activity ---
+
+    %% checkout main
     %% commit id: "個人活動"
 
-    %% Current Activity
     checkout b05
     commit id: "就業中" type: HIGHLIGHT
+
+    %% checkout b06
+    %% commit id: "参画中" type: HIGHLIGHT
 </pre>
 </div>
 <p></p></figure><p></p>
@@ -1020,8 +1063,8 @@ gitGraph LR:
   <div class="nav-page nav-page-previous">
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../details/06-sinkcapital.html" class="pagination-link" aria-label="合同会社SinkCapital">
-        <span class="nav-page-text">合同会社SinkCapital</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../details/06-pivot.html" class="pagination-link" aria-label="PIVOT株式会社">
+        <span class="nav-page-text">PIVOT株式会社</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
