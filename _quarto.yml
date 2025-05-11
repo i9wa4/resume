@@ -12,15 +12,14 @@ website:
   title: "職務経歴書"
   bread-crumbs: true
   page-navigation: false
-  search: true
+  search: false
   sidebar:
     style: floating
-    search: false
     contents:
       - section: "職務経歴 詳細"
         href: "details/index.qmd"
         contents:
-          - "details/06-pivot.qmd"
+          # - "details/06-pivot.qmd"
           - "details/05-genda.qmd"
           - "details/04-hacomono.qmd"
           - "details/03-cnsh.qmd"
