@@ -11,8 +11,8 @@ theme:
 website:
   title: "職務経歴書"
   bread-crumbs: true
-  page-navigation: true
-  search: false
+  page-navigation: false
+  search: true
   sidebar:
     style: floating
     search: false
