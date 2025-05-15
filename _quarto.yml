@@ -19,7 +19,7 @@ website:
       - section: "職務経歴 詳細"
         href: "details/index.qmd"
         contents:
-          # - "details/06-pivot.qmd"
+          - "details/07-pivot.qmd"
           - "details/05-genda.qmd"
           - "details/04-hacomono.qmd"
           - "details/03-cnsh.qmd"

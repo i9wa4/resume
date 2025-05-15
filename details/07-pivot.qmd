@@ -1,12 +1,11 @@
 ---
 title: "PIVOT株式会社"
 date: last-modified
-draft: true
 categories:
   - "業務委託"
 description: |
   データエンジニア・MLOps エンジニア
-Period: "2025/05 - 現在"
+Period: "2025/06 - 現在"
 ---
 
 :会社概要・雇用形態 (2025年時点) {#tbl-company tbl-colwidths="[20,80]"}

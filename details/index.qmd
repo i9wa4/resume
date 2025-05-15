@@ -81,10 +81,10 @@ gitGraph LR:
     commit id: "株式会社GENDA 入社" tag: "24.11" type: HIGHLIGHT
     commit id: "データエンジニア / MLOps エンジニア-2"
 
-    %% checkout main
-    %% branch b06 order: 6
-    %% commit id: "PIVOT株式会社 参画" tag: "25.05" type: HIGHLIGHT
-    %% commit id: "データエンジニア / MLOps エンジニア-3"
+    checkout main
+    branch b07 order: 7
+    commit id: "PIVOT株式会社 業務委託として参画" tag: "25.06" type: HIGHLIGHT
+    commit id: "データエンジニア / MLOps エンジニア-3"
 
     %% --- Current Activity ---
 
@@ -94,6 +94,6 @@ gitGraph LR:
     checkout b05
     commit id: "就業中" type: HIGHLIGHT
 
-    %% checkout b06
-    %% commit id: "参画中" type: HIGHLIGHT
+    checkout b07
+    commit id: "参画中" type: HIGHLIGHT
 ```
