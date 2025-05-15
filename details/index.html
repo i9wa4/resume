@@ -86,9 +86,6 @@ ul.task-list li input[type="checkbox"] {
     }
   })
   </script>
-<script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
-<script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
-<link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -293,7 +290,9 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../details/index.html">職務経歴 詳細</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
+      職務経歴書
+      </li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -315,7 +314,7 @@ window.Quarto = {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../details/index.html" class="sidebar-item-text sidebar-link active">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
  <span class="menu-text">職務経歴 詳細</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -585,83 +584,6 @@ Description
 </tbody>
 </table>
 <div class="listing-no-matching d-none">No matching items</div>
-</div>
-<div class="cell" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class="figure"><p></p>
-<div>
-<pre class="mermaid mermaid-js">%%{
-    init: {
-        'logLevel': 'debug',
-        'theme': 'base',
-        'gitGraph': {
-            'rotateCommitLabel': true,
-            'showBranches': false
-        },
-        'themeVariables': {
-            'commitLabelFontSize': '14px',
-            'tagLabelFontSize': '12px'
-        }
-    }
-}%%
-gitGraph LR:
-    checkout main
-    commit id: "北海道大学 理学部数学科 卒業" tag: "16.03"
-
-    checkout main
-    branch b01 order: 1
-    commit id: "オークマ株式会社 入社" tag: "16.04" type: HIGHLIGHT
-    commit id: "Windows アプリエンジニア"
-    checkout main
-    merge b01 id: "退職-1" tag: "18.07"
-
-    checkout main
-    branch b02 order: 2
-    commit id: "新光商事LSIデザインセンター株式会社 入社" tag: "18.08" type: HIGHLIGHT
-    commit id: "組込エンジニア"
-    checkout main
-    merge b02 id: "退職-2" tag: "22.03"
-
-    checkout main
-    branch b03 order: 3
-    commit id: "株式会社シイエヌエス北海道 入社" tag: "22.04" type: HIGHLIGHT
-    commit id: "データエンジニア / MLOps エンジニア-1"
-    checkout main
-    merge b03 id: "退職-3" tag: "24.03"
-
-    checkout main
-    branch b04 order: 4
-    commit id: "株式会社hacomono 入社" tag: "24.04" type: HIGHLIGHT
-    commit id: "データエンジニア"
-    checkout main
-    merge b04 id: "退職-4" tag: "24.10"
-
-    checkout main
-    branch b05 order: 5
-    commit id: "株式会社GENDA 入社" tag: "24.11" type: HIGHLIGHT
-    commit id: "データエンジニア / MLOps エンジニア-2"
-
-    checkout main
-    branch b07 order: 7
-    commit id: "PIVOT株式会社 業務委託として参画" tag: "25.06" type: HIGHLIGHT
-    commit id: "データエンジニア / MLOps エンジニア-3"
-
-    %% --- Current Activity ---
-
-    %% checkout main
-    %% commit id: "個人活動"
-
-    checkout b05
-    commit id: "就業中" type: HIGHLIGHT
-
-    checkout b07
-    commit id: "参画中" type: HIGHLIGHT
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
 </div>
 
 
