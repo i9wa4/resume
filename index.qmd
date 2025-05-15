@@ -92,6 +92,78 @@ listing:
 
 [[データ] カラオケ事業会社のデータ利活用推進 | 株式会社GENDA](/details/05-genda.qmd#データ-カラオケ事業会社のデータ利活用推進)
 
+### 3.4. 職務経歴 図解
+
+```{mermaid}
+%%{
+    init: {
+        'logLevel': 'debug',
+        'theme': 'base',
+        'gitGraph': {
+            'rotateCommitLabel': true,
+            'showBranches': false
+        },
+        'themeVariables': {
+            'commitLabelFontSize': '14px',
+            'tagLabelFontSize': '12px'
+        }
+    }
+}%%
+gitGraph LR:
+    checkout main
+    commit id: "北海道大学 理学部数学科 卒業" tag: "16.03"
+
+    checkout main
+    branch b01 order: 1
+    commit id: "オークマ株式会社 入社" tag: "16.04" type: HIGHLIGHT
+    commit id: "Windows アプリエンジニア"
+    checkout main
+    merge b01 id: "18.07"
+
+    checkout main
+    branch b02 order: 2
+    commit id: "新光商事LSIデザインセンター株式会社 入社" tag: "18.08" type: HIGHLIGHT
+    commit id: "組込エンジニア"
+    checkout main
+    merge b02 id: "22.03"
+
+    checkout main
+    branch b03 order: 3
+    commit id: "株式会社シイエヌエス北海道 入社" tag: "22.04" type: HIGHLIGHT
+    commit id: "データエンジニア / MLOps エンジニア-1"
+    checkout main
+    merge b03 id: "24.03"
+
+    checkout main
+    branch b04 order: 4
+    commit id: "株式会社hacomono 入社" tag: "24.04" type: HIGHLIGHT
+    commit id: "データエンジニア"
+    checkout main
+    merge b04 id: "24.10"
+
+    checkout main
+    branch b05 order: 5
+    commit id: "株式会社GENDA 入社" tag: "24.11" type: HIGHLIGHT
+    commit id: "データエンジニア / MLOps エンジニア-2"
+
+    checkout main
+    commit id: "25.05"
+    branch b07 order: 7
+    commit id: "PIVOT株式会社 業務委託として参画" tag: "25.06" type: HIGHLIGHT
+    commit id: "データエンジニア / MLOps エンジニア-3"
+
+    %% --- Current Activity ---
+
+    %% checkout main
+    %% commit id: "個人活動"
+
+    checkout b05
+    commit id: "就業中" type: HIGHLIGHT
+
+    checkout b07
+    commit id: "参画中" type: HIGHLIGHT
+```
+
 ## 4. 今後取り組みたいこと
 
 **◆役割面：**<br>

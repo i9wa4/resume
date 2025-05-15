@@ -17,7 +17,6 @@ website:
     style: floating
     contents:
       - section: "職務経歴 詳細"
-        href: "details/index.qmd"
         contents:
           - "details/07-pivot.qmd"
           - "details/05-genda.qmd"
