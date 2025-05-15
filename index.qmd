@@ -45,7 +45,7 @@ listing:
 - 現住所：北海道札幌市
 - 職務経歴書公開先：<https://i9wa4.github.io/resume>
 - GitHub：<https://github.com/i9wa4>
-- Ask DeepWiki about me：<https://deepwiki.com/i9wa4/resume> [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/i9wa4/resume)
+- Ask DeepWiki about me：<https://deepwiki.com/i9wa4/resume>
 
 ## 職務要約
 
